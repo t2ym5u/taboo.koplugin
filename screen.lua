@@ -344,7 +344,7 @@ end
 
 function TabouScreen:_buildIdleLayout()
     local sw     = DeviceScreen:getWidth()
-    local sh     = DeviceScreen:getHeight()
+    local sh = DeviceScreen:getHeight()
     local is_fr  = self.lang == "fr"
     local team   = self.teams[self.current_team]
 
@@ -414,7 +414,7 @@ end
 
 function TabouScreen:_buildPlayLayout()
     local sw    = DeviceScreen:getWidth()
-    local sh    = DeviceScreen:getHeight()
+    local sh = DeviceScreen:getHeight()
     local is_fr = self.lang == "fr"
     local card  = self:_currentCard()
 

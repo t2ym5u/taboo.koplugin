@@ -8,6 +8,14 @@ Teams take turns. The active player picks up the device and describes as many wo
 
 The plugin loads your card deck from a JSON file you place in KOReader's documents folder.
 
+## Rules
+
+- Teams take turns. The active player describes words without saying any of the forbidden words listed on the card.
+- **✓ +1** — teammates guessed correctly.
+- **✗ Buzzed** — an opponent called out a forbidden word → −1 for the active team.
+- **→ Skip** — pass the card, no penalty.
+- Play until the timer runs out or the agreed card count is reached; then teams swap.
+
 ## Features
 
 - **Card display** — main word large, forbidden words clearly listed below
