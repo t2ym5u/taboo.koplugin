@@ -12,7 +12,7 @@ local TextWidget      = require("ui/widget/textwidget")
 local UIManager       = require("ui/uimanager")
 local VerticalGroup   = require("ui/widget/verticalgroup")
 local VerticalSpan    = require("ui/widget/verticalspan")
-local _               = require("gettext")
+local _               = require("i18n")
 
 local MenuHelper  = require("menu_helper")
 local ScreenBase  = require("screen_base")
@@ -23,7 +23,7 @@ local DEFAULT_DURATION  = 60
 local DEFAULT_NB_TEAMS  = 2
 local DEFAULT_CARDS_PER_ROUND = 5
 
-local RULES_EN = _([[
+local GAME_RULES_EN = _([[
 Tabou Party — Rules
 
 Two (or more) teams take turns. Each round, one player from the active team describes as many words as possible in the time limit — without saying any of the forbidden words listed below the main word.
@@ -35,7 +35,7 @@ Two (or more) teams take turns. Each round, one player from the active team desc
 The round ends when the timer runs out or the agreed card count is reached. Teams swap roles each round.
 ]])
 
-local RULES_FR = [[
+local GAME_RULES_FR = [[
 Tabou Party — Règles
 
 Deux équipes (ou plus) jouent à tour de rôle. Chaque manche, un joueur de l'équipe active fait deviner le maximum de mots dans le temps imparti — sans prononcer les mots interdits listés sous le mot principal.
@@ -95,12 +95,14 @@ end
 -- ---------------------------------------------------------------------------
 
 function TabouScreen:_loadCards()
-    -- Try configured path first, then default locations
+    -- Try configured path first, then user data dir, then plugin-bundled default
     local paths = {}
     if self.cards_path ~= "" then paths[#paths + 1] = self.cards_path end
     local docs = DataStorage:getDataDir()
     paths[#paths + 1] = docs .. "/tabou_cards_" .. self.lang .. ".json"
     paths[#paths + 1] = docs .. "/tabou_cards.json"
+    paths[#paths + 1] = _dir .. "tabou_cards_" .. self.lang .. ".json"
+    paths[#paths + 1] = _dir .. "tabou_cards.json"
 
     for _, path in ipairs(paths) do
         local f = io.open(path, "r")
@@ -356,7 +358,7 @@ function TabouScreen:_buildIdleLayout()
             { text = is_fr and "Commencer la manche" or "Start round",
               callback = function() self:onStartRound() end },
             { text = "Options", callback = function() self:openOptionsMenu() end },
-            self:makeRulesButtonConfig(RULES_EN, RULES_FR),
+            self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
             self:makeCloseButtonConfig(),
         }},
     }
@@ -397,9 +399,8 @@ function TabouScreen:_buildIdleLayout()
     local vs2 = VerticalSpan:new{ width = Size.span.vertical_large * 4 }
 
     self.timer_widget = nil
-    self.layout = VerticalGroup:new{
+    local content = VerticalGroup:new{
         align = "center",
-        vs,
         score_w,
         vs2,
         team_w,
@@ -407,9 +408,8 @@ function TabouScreen:_buildIdleLayout()
         sub_w,
         vs2,
         cards_w,
-        vs2,
-        buttons,
     }
+    self:buildPortraitLayout(nil, content, buttons)
 end
 
 function TabouScreen:_buildPlayLayout()
@@ -513,17 +513,15 @@ function TabouScreen:_buildPlayLayout()
     local vs  = VerticalSpan:new{ width = Size.span.vertical_large }
     local vs2 = VerticalSpan:new{ width = Size.span.vertical_large * 2 }
 
-    self.layout = VerticalGroup:new{
+    local content = VerticalGroup:new{
         align = "center",
-        vs,
         self.timer_widget,
         vs,
         stats_w,
         vs2,
         card_frame,
-        vs2,
-        action_btns,
     }
+    self:buildPortraitLayout(nil, content, action_btns)
 end
 
 -- ---------------------------------------------------------------------------
