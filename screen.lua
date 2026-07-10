@@ -19,9 +19,35 @@ local ScreenBase  = require("screen_base")
 
 local DeviceScreen = Device.screen
 
-local DEFAULT_DURATION  = 60
-local DEFAULT_NB_TEAMS  = 2
-local DEFAULT_CARDS_PER_ROUND = 5
+local DEFAULT_DURATION = 60
+local DEFAULT_NB_TEAMS = 2
+
+-- Display labels for each theme id (used in the theme-picker menu)
+local THEME_LABELS = {
+    alimentation   = "Alimentation",
+    animaux        = "Animaux",
+    arts           = "Arts & Littérature",
+    fun            = "Fun & Décalé",
+    ["géographie"] = "Géographie",
+    histoire       = "Histoire",
+    maison         = "Maison & Objets",
+    ["médecine"]   = "Médecine",
+    ["métiers"]    = "Métiers",
+    mode           = "Mode & Beauté",
+    musique        = "Musique",
+    nature         = "Nature",
+    sciences       = "Sciences",
+    ["société"]    = "Société",
+    sports         = "Sports",
+    technologies   = "Technologies",
+}
+
+-- Preferred display order in the theme menu
+local THEME_ORDER = {
+    "fun", "alimentation", "animaux", "arts", "géographie",
+    "histoire", "maison", "médecine", "métiers", "mode",
+    "musique", "nature", "sciences", "société", "sports", "technologies",
+}
 
 local GAME_RULES_EN = _([[
 Tabou Party — Rules
@@ -48,11 +74,10 @@ La manche se termine quand le chrono sonne ou quand le nombre de cartes convenu 
 ]]
 
 -- ---------------------------------------------------------------------------
--- JSON loader (minimal, no external dependency)
+-- JSON loader (fallback path)
 -- ---------------------------------------------------------------------------
 
 local function jsonDecode(s)
-    -- Delegate to KOReader's bundled JSON library
     local ok, json = pcall(require, "json")
     if ok then
         local ok2, result = pcall(json.decode, s)
@@ -68,10 +93,16 @@ end
 local TabouScreen = ScreenBase:extend{}
 
 function TabouScreen:init()
-    self.lang          = self.plugin:getSetting("lang", "fr")
-    self.duration      = self.plugin:getSetting("duration", DEFAULT_DURATION)
-    local nb           = self.plugin:getSetting("nb_teams", DEFAULT_NB_TEAMS)
-    self.cards_path    = self.plugin:getSetting("cards_path", "")
+    self.lang     = self.plugin:getSetting("lang", "fr")
+    self.duration = self.plugin:getSetting("duration", DEFAULT_DURATION)
+    local nb      = self.plugin:getSetting("nb_teams", DEFAULT_NB_TEAMS)
+    self.cards_path = self.plugin:getSetting("cards_path", "")
+
+    -- selected_themes: nil = all; {theme_id = true, ...} = subset
+    self.selected_themes = self:_loadThemeSelection()
+    self.all_themes      = {}   -- theme_id → card count, filled by _loadCards
+    self._raw_data       = nil  -- cached raw data for re-filtering without I/O
+    self._data_is_lua    = false
 
     self.teams = {}
     for i = 1, nb do
@@ -79,7 +110,7 @@ function TabouScreen:init()
         self.teams[i] = { name = self.plugin:getSetting("team_name_" .. i, default), score = 0 }
     end
     self.current_team   = 1
-    self.phase          = "idle"   -- "idle" | "playing"
+    self.phase          = "idle"
     self.cards          = {}
     self.card_index     = 1
     self.time_remaining = self.duration
@@ -91,35 +122,162 @@ function TabouScreen:init()
 end
 
 -- ---------------------------------------------------------------------------
--- Card loading
+-- Theme-selection persistence (stored as "theme1,theme2,..." or "" = all)
+-- ---------------------------------------------------------------------------
+
+function TabouScreen:_loadThemeSelection()
+    local saved = self.plugin:getSetting("selected_themes_" .. self.lang, "")
+    if not saved or saved == "" then return nil end
+    local sel = {}
+    for theme in saved:gmatch("[^,]+") do
+        sel[theme] = true
+    end
+    return sel
+end
+
+function TabouScreen:_saveThemeSelection()
+    if self.selected_themes == nil then
+        self.plugin:saveSetting("selected_themes_" .. self.lang, "")
+        return
+    end
+    local parts = {}
+    for theme in pairs(self.selected_themes) do
+        parts[#parts + 1] = theme
+    end
+    table.sort(parts)
+    self.plugin:saveSetting("selected_themes_" .. self.lang, table.concat(parts, ","))
+end
+
+-- ---------------------------------------------------------------------------
+-- Lua-file loader (fast path: theme-keyed dict)
+-- ---------------------------------------------------------------------------
+
+function TabouScreen:_tryLoadLua(path)
+    local f = io.open(path, "r")
+    if not f then return nil end
+    f:close()
+    local chunk, err = loadfile(path)
+    if not chunk then return nil end
+    local ok, data = pcall(chunk)
+    if not ok or type(data) ~= "table" then return nil end
+    -- Verify it is a theme-keyed dict (not a flat array)
+    for k, v in pairs(data) do
+        if type(k) ~= "string" or type(v) ~= "table" then return nil end
+        break
+    end
+    return data
+end
+
+-- ---------------------------------------------------------------------------
+-- Theme filtering
+-- ---------------------------------------------------------------------------
+
+-- data is {theme_id = [{word,forbidden,difficulty}, ...], ...}
+function TabouScreen:_filterByTheme(data)
+    local sel   = self.selected_themes
+    local cards = {}
+    for theme, theme_cards in pairs(data) do
+        if sel == nil or sel[theme] then
+            for _, c in ipairs(theme_cards) do
+                cards[#cards + 1] = c
+            end
+        end
+    end
+    return cards
+end
+
+-- data is a flat array [{word,forbidden,theme,difficulty}, ...]
+function TabouScreen:_filterByThemeFlat(data)
+    local sel = self.selected_themes
+    if sel == nil then return data end
+    local cards = {}
+    for _, c in ipairs(data) do
+        if sel[c.theme or "autres"] then
+            cards[#cards + 1] = c
+        end
+    end
+    return cards
+end
+
+-- Re-filter from cached raw data (called after theme selection changes)
+function TabouScreen:_reloadCards()
+    if self._raw_data == nil then return end
+    if self._data_is_lua then
+        self.cards = self:_filterByTheme(self._raw_data)
+    else
+        self.cards = self:_filterByThemeFlat(self._raw_data)
+    end
+    self:_shuffleCards()
+end
+
+-- ---------------------------------------------------------------------------
+-- Card loading (Lua first, JSON fallback)
 -- ---------------------------------------------------------------------------
 
 function TabouScreen:_loadCards()
-    -- Try configured path first, then user data dir, then plugin-bundled default
-    local paths = {}
-    if self.cards_path ~= "" then paths[#paths + 1] = self.cards_path end
     local docs = DataStorage:getDataDir()
-    paths[#paths + 1] = docs .. "/tabou_cards_" .. self.lang .. ".json"
-    paths[#paths + 1] = docs .. "/tabou_cards.json"
-    paths[#paths + 1] = _dir .. "tabou_cards_" .. self.lang .. ".json"
-    paths[#paths + 1] = _dir .. "tabou_cards.json"
 
-    for _, path in ipairs(paths) do
+    local lua_paths = {
+        docs  .. "/tabou_cards_" .. self.lang .. ".lua",
+        _dir  .. "tabou_cards_" .. self.lang .. ".lua",
+    }
+    local json_paths = {
+        docs  .. "/tabou_cards_" .. self.lang .. ".json",
+        docs  .. "/tabou_cards.json",
+        _dir  .. "tabou_cards_" .. self.lang .. ".json",
+        _dir  .. "tabou_cards.json",
+    }
+    if self.cards_path ~= "" then
+        if self.cards_path:match("%.lua$") then
+            table.insert(lua_paths,  1, self.cards_path)
+        else
+            table.insert(json_paths, 1, self.cards_path)
+        end
+    end
+
+    -- Try Lua (theme-keyed dict)
+    for _, path in ipairs(lua_paths) do
+        local data = self:_tryLoadLua(path)
+        if data then
+            self._raw_data    = data
+            self._data_is_lua = true
+            self.cards_path   = path
+            self.all_themes   = {}
+            for theme, tc in pairs(data) do
+                self.all_themes[theme] = #tc
+            end
+            self.cards = self:_filterByTheme(data)
+            self:_shuffleCards()
+            return
+        end
+    end
+
+    -- Fallback: flat JSON array
+    for _, path in ipairs(json_paths) do
         local f = io.open(path, "r")
         if f then
             local content = f:read("*all")
             f:close()
             local data = jsonDecode(content)
             if type(data) == "table" and #data > 0 then
-                self.cards      = data
-                self.cards_path = path
+                self._raw_data    = data
+                self._data_is_lua = false
+                self.cards_path   = path
+                self.all_themes   = {}
+                for _, card in ipairs(data) do
+                    local t = card.theme or "autres"
+                    self.all_themes[t] = (self.all_themes[t] or 0) + 1
+                end
+                self.cards = self:_filterByThemeFlat(data)
                 self:_shuffleCards()
                 return
             end
         end
     end
-    -- No file found: show placeholder so the screen still renders
-    self.cards = {}
+
+    self.cards      = {}
+    self._raw_data  = nil
+    self.all_themes = {}
 end
 
 function TabouScreen:_shuffleCards()
@@ -134,7 +292,7 @@ end
 function TabouScreen:_currentCard()
     if #self.cards == 0 then return nil end
     if self.card_index > #self.cards then
-        self:_shuffleCards()  -- wrap around
+        self:_shuffleCards()
     end
     return self.cards[self.card_index]
 end
@@ -176,17 +334,15 @@ end
 function TabouScreen:_onTimerEnd()
     self:_stopCountdown()
     self.phase = "idle"
-    -- Apply round score
     local delta = self.round_correct - self.round_buzzed
     self.teams[self.current_team].score = self.teams[self.current_team].score + delta
-    -- Next team
     self.current_team = (self.current_team % #self.teams) + 1
     self:buildLayout()
     UIManager:setDirty(self, function() return "ui", self.dimen end)
     local is_fr = self.lang == "fr"
     local msg = is_fr
         and string.format("Temps écoulé ! +%d −%d = %+d points", self.round_correct, self.round_buzzed, delta)
-        or  string.format("Time's up! +%d −%d = %+d points", self.round_correct, self.round_buzzed, delta)
+        or  string.format("Time's up! +%d −%d = %+d points",     self.round_correct, self.round_buzzed, delta)
     UIManager:show(InfoMessage:new{ text = msg, timeout = 3 })
 end
 
@@ -199,8 +355,8 @@ function TabouScreen:onStartRound()
         local is_fr = self.lang == "fr"
         UIManager:show(InfoMessage:new{
             text = is_fr
-                and "Aucune carte chargée.\n\nCopiez votre fichier tabou_cards_fr.json\n(ou tabou_cards.json) dans le dossier\ndocuments de KOReader."
-                or  "No cards loaded.\n\nCopy your tabou_cards_en.json\n(or tabou_cards.json) to KOReader's\ndocuments folder.",
+                and "Aucune carte chargée.\n\nCopiez tabou_cards_fr.lua (ou .json)\ndans le dossier documents de KOReader."
+                or  "No cards loaded.\n\nCopy tabou_cards_en.lua (or .json)\nto KOReader's documents folder.",
             timeout = 6,
         })
         return
@@ -245,9 +401,10 @@ end
 function TabouScreen:openOptionsMenu()
     local is_fr = self.lang == "fr"
     local items = {
-        { id = "lang",     text = is_fr and "Langue…"          or "Language…" },
-        { id = "teams",    text = is_fr and "Nombre d'équipes…" or "Number of teams…" },
-        { id = "duration", text = is_fr and "Durée du chrono…"  or "Timer duration…" },
+        { id = "lang",     text = is_fr and "Langue…"                   or "Language…" },
+        { id = "themes",   text = is_fr and "Thèmes…"                   or "Themes…" },
+        { id = "teams",    text = is_fr and "Nombre d'équipes…"         or "Number of teams…" },
+        { id = "duration", text = is_fr and "Durée du chrono…"          or "Timer duration…" },
         { id = "reset",    text = is_fr and "Remettre les scores à zéro" or "Reset scores" },
     }
     MenuHelper.openPickerMenu{
@@ -256,6 +413,7 @@ function TabouScreen:openOptionsMenu()
         parent    = self,
         on_select = function(id)
             if     id == "lang"     then self:openLangMenu()
+            elseif id == "themes"   then self:openThemeMenu()
             elseif id == "teams"    then self:openTeamsMenu()
             elseif id == "duration" then self:openDurationMenu()
             elseif id == "reset"    then self:onResetScores()
@@ -273,9 +431,107 @@ function TabouScreen:openLangMenu()
         on_select  = function(lang)
             self.lang = lang
             self.plugin:saveSetting("lang", lang)
+            self.selected_themes = self:_loadThemeSelection()
             self:_loadCards()
             self:buildLayout()
             UIManager:setDirty(self, function() return "ui", self.dimen end)
+        end,
+    }
+end
+
+-- ---------------------------------------------------------------------------
+-- Theme-picker menu (multi-select, re-opens after each toggle)
+-- ---------------------------------------------------------------------------
+
+function TabouScreen:openThemeMenu()
+    local is_fr = self.lang == "fr"
+
+    -- Build sorted list of themes that actually exist in the loaded data
+    local available = {}
+    local in_order  = {}
+    for _, tid in ipairs(THEME_ORDER) do
+        if self.all_themes[tid] then
+            available[#available + 1] = tid
+            in_order[tid] = true
+        end
+    end
+    for tid in pairs(self.all_themes) do
+        if not in_order[tid] then
+            available[#available + 1] = tid
+        end
+    end
+
+    if #available == 0 then
+        UIManager:show(InfoMessage:new{
+            text    = is_fr
+                and "Aucun thème disponible.\nChargez d'abord un fichier de cartes."
+                or  "No themes available.\nLoad a card file first.",
+            timeout = 3,
+        })
+        return
+    end
+
+    local all_selected = (self.selected_themes == nil)
+
+    -- Build item list
+    local items = {}
+    items[#items + 1] = {
+        id   = "__all__",
+        text = (all_selected and "★ " or "  ")
+               .. (is_fr and "Tous les thèmes" or "All themes")
+               .. string.format("  (%d)", #self.cards),
+    }
+    for _, tid in ipairs(available) do
+        local label = THEME_LABELS[tid] or tid
+        local count = self.all_themes[tid] or 0
+        local sel   = all_selected or (self.selected_themes[tid] == true)
+        items[#items + 1] = {
+            id   = tid,
+            text = (sel and "✓ " or "○ ") .. label
+                   .. string.format("  (%d)", count),
+        }
+    end
+
+    MenuHelper.openPickerMenu{
+        title     = is_fr and "Thèmes" or "Themes",
+        items     = items,
+        parent    = self,
+        on_select = function(id)
+            if id == "__all__" then
+                self.selected_themes = nil
+            else
+                if self.selected_themes == nil then
+                    -- Was "all" → keep every theme except the one just tapped
+                    self.selected_themes = {}
+                    for _, tid in ipairs(available) do
+                        if tid ~= id then
+                            self.selected_themes[tid] = true
+                        end
+                    end
+                else
+                    -- Toggle the tapped theme
+                    if self.selected_themes[id] then
+                        self.selected_themes[id] = nil
+                    else
+                        self.selected_themes[id] = true
+                    end
+                    -- Collapse back to nil if every theme is now checked
+                    local all_on = true
+                    for _, tid in ipairs(available) do
+                        if not self.selected_themes[tid] then
+                            all_on = false
+                            break
+                        end
+                    end
+                    if all_on then self.selected_themes = nil end
+                end
+            end
+            self:_reloadCards()
+            self:_saveThemeSelection()
+            self:buildLayout()
+            UIManager:setDirty(self, function() return "ui", self.dimen end)
+            -- Re-open to reflect the new state
+            self:openThemeMenu()
         end,
     }
 end
@@ -345,10 +601,10 @@ function TabouScreen:buildLayout()
 end
 
 function TabouScreen:_buildIdleLayout()
-    local sw     = DeviceScreen:getWidth()
-    local sh = DeviceScreen:getHeight()
-    local is_fr  = self.lang == "fr"
-    local team   = self.teams[self.current_team]
+    local sw    = DeviceScreen:getWidth()
+    local sh    = DeviceScreen:getHeight()
+    local is_fr = self.lang == "fr"
+    local team  = self.teams[self.current_team]
 
     local btn_w = math.floor(sw * 0.92)
     local buttons = ButtonTable:new{
@@ -363,7 +619,7 @@ function TabouScreen:_buildIdleLayout()
         }},
     }
 
-    -- Score display
+    -- Scores
     local score_parts = {}
     for _, t in ipairs(self.teams) do
         score_parts[#score_parts + 1] = t.name .. " : " .. t.score
@@ -373,25 +629,37 @@ function TabouScreen:_buildIdleLayout()
         face = Font:getFace("smallinfofont"),
     }
 
-    -- Whose turn
+    -- Active team
     local team_fs = math.max(24, math.floor(math.min(sw, sh) * 0.08))
     local team_w  = TextWidget:new{
         text = team.name:upper(),
         face = Font:getFace("cfont", team_fs),
     }
 
-    local sub_text = is_fr and "C'est votre tour de faire deviner" or "It's your turn to describe"
     local sub_w = TextWidget:new{
-        text = sub_text,
+        text = is_fr and "C'est votre tour de faire deviner" or "It's your turn to describe",
         face = Font:getFace("smallinfofont"),
     }
 
-    -- Cards count
-    local cards_info = #self.cards > 0
-        and (is_fr and string.format("%d cartes chargées", #self.cards) or string.format("%d cards loaded", #self.cards))
-        or  (is_fr and "⚠ Aucune carte — voir Options" or "⚠ No cards — see Options")
-    local cards_w = TextWidget:new{
-        text = cards_info,
+    -- Card / theme info
+    local deck_line
+    if #self.cards == 0 then
+        deck_line = is_fr and "⚠ Aucune carte — voir Options" or "⚠ No cards — see Options"
+    elseif self.selected_themes == nil then
+        local nb_themes = 0
+        for _ in pairs(self.all_themes) do nb_themes = nb_themes + 1 end
+        deck_line = is_fr
+            and string.format("Tous les thèmes (%d) · %d cartes", nb_themes, #self.cards)
+            or  string.format("All themes (%d) · %d cards",       nb_themes, #self.cards)
+    else
+        local nb_sel = 0
+        for _ in pairs(self.selected_themes) do nb_sel = nb_sel + 1 end
+        deck_line = is_fr
+            and string.format("%d thème(s) sélectionné(s) · %d cartes", nb_sel, #self.cards)
+            or  string.format("%d theme(s) selected · %d cards",         nb_sel, #self.cards)
+    end
+    local deck_w = TextWidget:new{
+        text = deck_line,
         face = Font:getFace("smallinfofont"),
     }
 
@@ -407,53 +675,44 @@ function TabouScreen:_buildIdleLayout()
         vs,
         sub_w,
         vs2,
-        cards_w,
+        deck_w,
     }
     self:buildPortraitLayout(nil, content, buttons)
 end
 
 function TabouScreen:_buildPlayLayout()
     local sw    = DeviceScreen:getWidth()
-    local sh = DeviceScreen:getHeight()
+    local sh    = DeviceScreen:getHeight()
     local is_fr = self.lang == "fr"
     local card  = self:_currentCard()
 
     local btn_w = math.floor(sw * 0.92)
-
-    -- Action buttons
-    local correct_text = is_fr and "✓  +1 Trouvé" or "✓  +1 Got it"
-    local buzzed_text  = is_fr and "✗  −1 Grillé"  or "✗  −1 Buzzed"
-    local skip_text    = is_fr and "→  Passer"     or "→  Skip"
-    local stop_text    = is_fr and "■  Fin de manche" or "■  End round"
-
     local action_btns = ButtonTable:new{
         shrink_unneeded_width = true,
         width   = btn_w,
         buttons = {{
-            { text = correct_text, callback = function() self:onCorrect() end },
-            { text = buzzed_text,  callback = function() self:onBuzzed() end },
-            { text = skip_text,    callback = function() self:onSkip() end },
-            { text = stop_text,    callback = function() self:onStopRound() end },
+            { text = is_fr and "✓  +1 Trouvé" or "✓  +1 Got it",
+              callback = function() self:onCorrect() end },
+            { text = is_fr and "✗  −1 Grillé"  or "✗  −1 Buzzed",
+              callback = function() self:onBuzzed() end },
+            { text = is_fr and "→  Passer"     or "→  Skip",
+              callback = function() self:onSkip() end },
+            { text = is_fr and "■  Fin de manche" or "■  End round",
+              callback = function() self:onStopRound() end },
         }},
     }
 
-    -- Timer
     local timer_fs = math.max(20, math.floor(math.min(sw, sh) * 0.09))
     self.timer_widget = TextWidget:new{
         text = self:_timerText(),
         face = Font:getFace("cfont", timer_fs),
     }
 
-    -- Round stats
-    local stats_text = is_fr
-        and string.format("✓ %d   ✗ %d", self.round_correct, self.round_buzzed)
-        or  string.format("✓ %d   ✗ %d", self.round_correct, self.round_buzzed)
     local stats_w = TextWidget:new{
-        text = stats_text,
+        text = string.format("✓ %d   ✗ %d", self.round_correct, self.round_buzzed),
         face = Font:getFace("smallinfofont"),
     }
 
-    -- Card content
     local card_group
     if not card then
         card_group = TextWidget:new{
@@ -461,12 +720,11 @@ function TabouScreen:_buildPlayLayout()
             face = Font:getFace("cfont", 24),
         }
     else
-        -- Main word
-        local word     = card.word or card[1] or "?"
-        local word_len = #word
-        local word_fs  = word_len > 12 and math.floor(math.min(sw, sh) * 0.08)
-                      or word_len > 8  and math.floor(math.min(sw, sh) * 0.10)
-                      or                   math.floor(math.min(sw, sh) * 0.13)
+        local word    = card.word or card[1] or "?"
+        local wlen    = #word
+        local word_fs = wlen > 12 and math.floor(math.min(sw, sh) * 0.08)
+                     or wlen > 8  and math.floor(math.min(sw, sh) * 0.10)
+                     or               math.floor(math.min(sw, sh) * 0.13)
         word_fs = math.max(22, math.min(word_fs, 110))
 
         local word_w = TextWidget:new{
@@ -474,16 +732,13 @@ function TabouScreen:_buildPlayLayout()
             face = Font:getFace("cfont", word_fs),
         }
 
-        -- Forbidden words
         local forbidden = card.forbidden or card[2] or {}
         local forb_lines = {}
         for _, fw in ipairs(forbidden) do
             forb_lines[#forb_lines + 1] = "× " .. fw
         end
-        local forb_text = #forb_lines > 0 and table.concat(forb_lines, "\n") or ""
-
         local forb_w = TextBoxWidget:new{
-            text  = forb_text,
+            text  = table.concat(forb_lines, "\n"),
             face  = Font:getFace("cfont", math.max(16, math.floor(math.min(sw, sh) * 0.045))),
             width = math.floor(sw * 0.7),
         }
@@ -503,7 +758,6 @@ function TabouScreen:_buildPlayLayout()
         }
     end
 
-    -- Frame around card
     local card_frame = FrameContainer:new{
         padding = Size.padding.large,
         margin  = Size.margin.default,
@@ -525,7 +779,7 @@ function TabouScreen:_buildPlayLayout()
 end
 
 -- ---------------------------------------------------------------------------
--- Status
+-- Status bar
 -- ---------------------------------------------------------------------------
 
 function TabouScreen:updateStatus(msg)
