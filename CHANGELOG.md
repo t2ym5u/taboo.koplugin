@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0] - 2026-07-15
+
+### Added
+- `gen/CARD_FORMAT.md` — documents the card JSON schema and includes a
+  ready-to-use AI prompt template for generating new card batches.
+- `gen/themes.json` — canonical theme list (id + French label), extracted
+  from what was previously duplicated between `screen.lua` and
+  `gen/to_lua.py`. `to_lua.py` now reads theme order from this file.
+- 3 new theme ids: `transports`, `jeuxvideo`, `cinéma` (no cards tagged
+  with them yet — they were already anticipated as sub-themes in
+  `gen/themes.md` but never promoted to a top-level theme).
+
 ## [1.4.0] - 2026-07-15
 
 ### Changed
