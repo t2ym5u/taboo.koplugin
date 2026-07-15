@@ -618,6 +618,13 @@ function TabooScreen:_buildIdleLayout()
     local is_fr = self.lang == "fr"
     local team  = self.teams[self.current_team]
 
+    local title_bar = self:buildTitleBar(_("Taboo Party"), function()
+        return {
+            { text = is_fr and "Réglages" or "Settings", callback = function() self:openOptionsMenu() end },
+            self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
+        }
+    end)
+
     local btn_w = math.floor(sw * 0.92)
     local buttons = ButtonTable:new{
         shrink_unneeded_width = true,
@@ -625,9 +632,6 @@ function TabooScreen:_buildIdleLayout()
         buttons = {{
             { text = is_fr and "Commencer la manche" or "Start round",
               callback = function() self:onStartRound() end },
-            { text = "Options", callback = function() self:openOptionsMenu() end },
-            self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
-            self:makeCloseButtonConfig(),
         }},
     }
 
@@ -689,7 +693,7 @@ function TabooScreen:_buildIdleLayout()
         vs2,
         deck_w,
     }
-    self:buildPortraitLayout(nil, content, buttons)
+    self:buildPortraitLayout(title_bar, content, buttons)
 end
 
 function TabooScreen:_buildPlayLayout()
@@ -697,6 +701,13 @@ function TabooScreen:_buildPlayLayout()
     local sh    = DeviceScreen:getHeight()
     local is_fr = self.lang == "fr"
     local card  = self:_currentCard()
+
+    local title_bar = self:buildTitleBar(_("Taboo Party"), function()
+        return {
+            { text = is_fr and "Réglages" or "Settings", callback = function() self:openOptionsMenu() end },
+            self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
+        }
+    end)
 
     local btn_w = math.floor(sw * 0.92)
     local action_btns = ButtonTable:new{
@@ -787,7 +798,7 @@ function TabooScreen:_buildPlayLayout()
         vs2,
         card_frame,
     }
-    self:buildPortraitLayout(nil, content, action_btns)
+    self:buildPortraitLayout(title_bar, content, action_btns)
 end
 
 -- ---------------------------------------------------------------------------
