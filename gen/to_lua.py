@@ -7,12 +7,6 @@ The 'theme' field is dropped from each card (it becomes the dict key).
 """
 import json, os
 
-THEME_ORDER = [
-    "fun", "alimentation", "animaux", "arts", "géographie",
-    "histoire", "maison", "médecine", "métiers", "mode",
-    "musique", "nature", "sciences", "société", "sports", "technologies",
-]
-
 def lua_str(s):
     s = s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n")
     return '"' + s + '"'
@@ -20,6 +14,12 @@ def lua_str(s):
 script_dir = os.path.dirname(os.path.abspath(__file__))
 src = os.path.join(script_dir, "..", "taboo_cards_fr.json")
 dst = os.path.join(script_dir, "..", "taboo_cards_fr.lua")
+
+# Canonical theme list + display order — see themes.json and CARD_FORMAT.md.
+# screen.lua's THEME_LABELS/THEME_ORDER must be kept in sync with this file
+# by hand (the shipped plugin doesn't load gen/ at runtime).
+with open(os.path.join(script_dir, "themes.json"), encoding="utf-8") as f:
+    THEME_ORDER = [t["id"] for t in json.load(f)]
 
 with open(src, encoding="utf-8") as f:
     cards = json.load(f)

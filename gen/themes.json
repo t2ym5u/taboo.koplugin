@@ -1,0 +1,21 @@
+[
+  { "id": "fun",          "label_fr": "Fun & Décalé" },
+  { "id": "alimentation", "label_fr": "Alimentation" },
+  { "id": "animaux",      "label_fr": "Animaux" },
+  { "id": "arts",         "label_fr": "Arts & Littérature" },
+  { "id": "cinéma",       "label_fr": "Cinéma & Séries" },
+  { "id": "géographie",   "label_fr": "Géographie" },
+  { "id": "histoire",     "label_fr": "Histoire" },
+  { "id": "jeuxvideo",    "label_fr": "Jeux vidéo" },
+  { "id": "maison",       "label_fr": "Maison & Objets" },
+  { "id": "médecine",     "label_fr": "Médecine" },
+  { "id": "métiers",      "label_fr": "Métiers" },
+  { "id": "mode",         "label_fr": "Mode & Beauté" },
+  { "id": "musique",      "label_fr": "Musique" },
+  { "id": "nature",       "label_fr": "Nature" },
+  { "id": "sciences",     "label_fr": "Sciences" },
+  { "id": "société",      "label_fr": "Société" },
+  { "id": "sports",       "label_fr": "Sports" },
+  { "id": "technologies", "label_fr": "Technologies" },
+  { "id": "transports",   "label_fr": "Transports" }
+]

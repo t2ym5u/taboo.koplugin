@@ -22,14 +22,18 @@ local DeviceScreen = Device.screen
 local DEFAULT_DURATION = 60
 local DEFAULT_NB_TEAMS = 2
 
--- Display labels for each theme id (used in the theme-picker menu)
+-- Display labels for each theme id (used in the theme-picker menu).
+-- Canonical source: gen/themes.json — keep this table in sync by hand,
+-- the shipped plugin doesn't load gen/ at runtime.
 local THEME_LABELS = {
     alimentation   = "Alimentation",
     animaux        = "Animaux",
     arts           = "Arts & Littérature",
+    ["cinéma"]     = "Cinéma & Séries",
     fun            = "Fun & Décalé",
     ["géographie"] = "Géographie",
     histoire       = "Histoire",
+    jeuxvideo      = "Jeux vidéo",
     maison         = "Maison & Objets",
     ["médecine"]   = "Médecine",
     ["métiers"]    = "Métiers",
@@ -40,13 +44,15 @@ local THEME_LABELS = {
     ["société"]    = "Société",
     sports         = "Sports",
     technologies   = "Technologies",
+    transports     = "Transports",
 }
 
 -- Preferred display order in the theme menu
 local THEME_ORDER = {
-    "fun", "alimentation", "animaux", "arts", "géographie",
-    "histoire", "maison", "médecine", "métiers", "mode",
+    "fun", "alimentation", "animaux", "arts", "cinéma", "géographie",
+    "histoire", "jeuxvideo", "maison", "médecine", "métiers", "mode",
     "musique", "nature", "sciences", "société", "sports", "technologies",
+    "transports",
 }
 
 local GAME_RULES_EN = _([[
