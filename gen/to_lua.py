@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert tabou_cards_fr.json → tabou_cards_fr.lua (theme-keyed dict).
+"""Convert taboo_cards_fr.json → taboo_cards_fr.lua (theme-keyed dict).
 
 The Lua format is 5-10× faster to load on e-readers than JSON because
 loadfile() uses the native C Lua parser instead of a pure-Lua JSON decoder.
@@ -18,8 +18,8 @@ def lua_str(s):
     return '"' + s + '"'
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-src = os.path.join(script_dir, "..", "tabou_cards_fr.json")
-dst = os.path.join(script_dir, "..", "tabou_cards_fr.lua")
+src = os.path.join(script_dir, "..", "taboo_cards_fr.json")
+dst = os.path.join(script_dir, "..", "taboo_cards_fr.lua")
 
 with open(src, encoding="utf-8") as f:
     cards = json.load(f)

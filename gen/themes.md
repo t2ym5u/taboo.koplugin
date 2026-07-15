@@ -1,6 +1,6 @@
-# Thèmes Tabou — Plan de génération
+# Thèmes Taboo — Plan de génération
 # 100 fichiers × 100 cartes = 10 000 cartes
-# Format : cards_NNN.json → merge.py → ../tabou_cards_fr.json
+# Format : cards_NNN.json → merge.py → ../taboo_cards_fr.json
 
 ## Animaux
 - 001 Animaux domestiques (chien, chat, races...)

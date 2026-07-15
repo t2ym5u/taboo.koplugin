@@ -1,7 +1,7 @@
 local _ = require("gettext")
 return {
-    name        = "tabou",
-    fullname    = _("Tabou Party"),
+    name        = "taboo",
+    fullname    = _("Taboo Party"),
     description = _("Describe words without saying the forbidden ones — team buzzer party game."),
-    version     = "1.3.0",
+    version     = "1.4.0",
 }

@@ -1406,7 +1406,7 @@ print("TOTAL CARDS:", len(out))
 assert all(len(c["forbidden"]) == 5 for c in out), "some card lacks 5 forbidden"
 assert len({c["word"] for c in out}) == len(out), "duplicate words!"
 
-with open("/Users/tomar/Projets/github/koreader-plugins/tabou.koplugin/taboo_cards.json",
+with open("/Users/tomar/Projets/github/koreader-plugins/taboo.koplugin/taboo_cards.json",
           "w", encoding="utf-8") as fh:
     json.dump(out, fh, ensure_ascii=False, separators=(",", ":"))
 print("WROTE FILE")

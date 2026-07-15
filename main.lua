@@ -13,14 +13,14 @@ local PluginBase = require("plugin_base")
 local _          = require("gettext")
 local Screen     = lrequire("screen")
 
-local Tabou = PluginBase:extend{
-    name      = "tabou",
-    menu_text = _("Tabou Party"),
+local Taboo = PluginBase:extend{
+    name      = "taboo",
+    menu_text = _("Taboo Party"),
     menu_hint = "tools",
 }
 
-function Tabou:createScreen()
+function Taboo:createScreen()
     return Screen:new{ plugin = self }
 end
 
-return Tabou
+return Taboo

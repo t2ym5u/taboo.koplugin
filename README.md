@@ -1,6 +1,6 @@
-# tabou.koplugin
+# taboo.koplugin
 
-A **Tabou Party** display plugin for [KOReader](https://github.com/koreader/koreader) — play Taboo around the table with your own card deck.
+A **Taboo Party** display plugin for [KOReader](https://github.com/koreader/koreader) — play Taboo around the table with your own card deck.
 
 ## Concept
 
@@ -23,12 +23,12 @@ The plugin loads your card deck from a JSON file you place in KOReader's documen
 - **Live scoring** — ✓ +1 / ✗ −1 / → Skip, applied instantly; round delta shown at timer end
 - **Auto team rotation** — advances to the next team after each round
 - **2–6 teams** — configurable team count
-- **FR + EN UI** — interface language switchable; loads `tabou_cards_fr.json` or `tabou_cards_en.json` automatically
+- **FR + EN UI** — interface language switchable; loads `taboo_cards_fr.json` or `taboo_cards_en.json` automatically
 - **E-ink friendly** — only the timer digit refreshes in fast/A2 mode
 
 ## Card JSON format
 
-Create a file named `tabou_cards_fr.json` (or `tabou_cards_en.json`, or `tabou_cards.json`) and copy it to KOReader's **documents** folder (`/sdcard/koreader/` on most devices).
+Create a file named `taboo_cards_fr.json` (or `taboo_cards_en.json`, or `taboo_cards.json`) and copy it to KOReader's **documents** folder (`/sdcard/koreader/` on most devices).
 
 ```json
 [
@@ -67,20 +67,20 @@ Cards are shuffled on load and wrap around automatically.
 ### Via KOReader Plugin Manager
 
 ```
-tabou.koplugin/ → KOReader plugins/ folder
+taboo.koplugin/ → KOReader plugins/ folder
 game-common/     → alongside plugins/ (shared library)
 ```
 
 ### Manual
 
-1. Download `tabou.zip` from [Releases](../../releases).
+1. Download `taboo.zip` from [Releases](../../releases).
 2. Extract to your KOReader `plugins/` directory.
-3. Copy your `tabou_cards_fr.json` (or `tabou_cards_en.json`) to KOReader's documents folder.
-4. Restart KOReader — **Tabou Party** appears in the Tools menu.
+3. Copy your `taboo_cards_fr.json` (or `taboo_cards_en.json`) to KOReader's documents folder.
+4. Restart KOReader — **Taboo Party** appears in the Tools menu.
 
 ## Development
 
-`tabou.koplugin/` lives inside the
+`taboo.koplugin/` lives inside the
 [koreader-plugins](https://github.com/t2ym5u/koreader-plugins) monorepo.
 No bundled word list — you supply the cards.
 
