@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0] - 2026-07-15
+
+### Changed
+- Plugin renamed `tabou.koplugin` → `taboo.koplugin` (repo, id, class names, card
+  file naming: `tabou_cards*` → `taboo_cards*`). The game still reads
+  `tabou_cards*` files from KOReader's documents folder as a fallback, so decks
+  placed there before this rename keep working.
+
 ## [1.3.0] - 2026-07-10
 
 ### Fixed

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Fusionne tous les fichiers cards_NNN.json en un seul tabou_cards_fr.json.
+Fusionne tous les fichiers cards_NNN.json en un seul taboo_cards_fr.json.
 Usage : python3 merge.py
-Produit : ../tabou_cards_fr.json
+Produit : ../taboo_cards_fr.json
 """
 import json, os, sys, glob
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-output     = os.path.join(script_dir, "..", "tabou_cards_fr.json")
+output     = os.path.join(script_dir, "..", "taboo_cards_fr.json")
 
 files = sorted(glob.glob(os.path.join(script_dir, "cards_*.json")))
 if not files:

@@ -1,4 +1,4 @@
-# Plan — nouvelles cartes Tabou
+# Plan — nouvelles cartes Taboo
 
 ## Fichiers générés (104–121) ✓
 
