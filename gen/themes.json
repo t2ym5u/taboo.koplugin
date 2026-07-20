@@ -1,5 +1,6 @@
 [
   { "id": "fun",          "label_fr": "Fun & Décalé" },
+  { "id": "action",       "label_fr": "Action & Verbes" },
   { "id": "alimentation", "label_fr": "Alimentation" },
   { "id": "animaux",      "label_fr": "Animaux" },
   { "id": "arts",         "label_fr": "Arts & Littérature" },

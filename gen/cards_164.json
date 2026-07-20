@@ -1,0 +1,710 @@
+[
+  {
+    "word": "Pousser (une plante)",
+    "forbidden": [
+      "Graine",
+      "Tige",
+      "Racine",
+      "Croissance",
+      "Terre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fleurir",
+    "forbidden": [
+      "Pétales",
+      "Printemps",
+      "Bourgeon",
+      "Couleur",
+      "Parfum"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Neiger",
+    "forbidden": [
+      "Flocon",
+      "Froid",
+      "Hiver",
+      "Blanc",
+      "Ciel"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Télécharger",
+    "forbidden": [
+      "Fichier",
+      "Internet",
+      "Barre",
+      "Vitesse",
+      "Ordinateur"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cliquer",
+    "forbidden": [
+      "Souris",
+      "Écran",
+      "Bouton",
+      "Curseur",
+      "Ordinateur"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Filmer",
+    "forbidden": [
+      "Caméra",
+      "Vidéo",
+      "Objectif",
+      "Scène",
+      "Réalisateur"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Photographier",
+    "forbidden": [
+      "Appareil",
+      "Objectif",
+      "Cliché",
+      "Sourire",
+      "Flash"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Programmer",
+    "forbidden": [
+      "Code",
+      "Ordinateur",
+      "Ligne",
+      "Développeur",
+      "Logiciel"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Imprimer",
+    "forbidden": [
+      "Papier",
+      "Encre",
+      "Bureau",
+      "Feuille",
+      "Machine"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Envoyer un message",
+    "forbidden": [
+      "Téléphone",
+      "Texte",
+      "Application",
+      "Écran",
+      "Notification"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Recharger un téléphone",
+    "forbidden": [
+      "Câble",
+      "Batterie",
+      "Prise",
+      "Écran",
+      "Pourcentage"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Scanner un document",
+    "forbidden": [
+      "Machine",
+      "Papier",
+      "Bureau",
+      "Copie",
+      "Écran"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Filmer en direct",
+    "forbidden": [
+      "Caméra",
+      "Public",
+      "Réseau",
+      "Écran",
+      "Streaming"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Jouer à un jeu vidéo",
+    "forbidden": [
+      "Manette",
+      "Écran",
+      "Console",
+      "Niveau",
+      "Personnage"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Éteindre l'ordinateur",
+    "forbidden": [
+      "Bouton",
+      "Écran",
+      "Veille",
+      "Arrêt",
+      "Bureau"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jouer du piano",
+    "forbidden": [
+      "Touches",
+      "Notes",
+      "Musique",
+      "Pianiste",
+      "Partition"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jouer de la guitare",
+    "forbidden": [
+      "Cordes",
+      "Médiator",
+      "Musique",
+      "Accords",
+      "Concert"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sculpter",
+    "forbidden": [
+      "Pierre",
+      "Ciseau",
+      "Statue",
+      "Artiste",
+      "Marbre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Photographier un paysage",
+    "forbidden": [
+      "Appareil",
+      "Objectif",
+      "Nature",
+      "Cadrage",
+      "Lumière"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Réciter un poème",
+    "forbidden": [
+      "Vers",
+      "Mémoire",
+      "Rime",
+      "Voix",
+      "Scène"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Composer une chanson",
+    "forbidden": [
+      "Notes",
+      "Paroles",
+      "Musicien",
+      "Mélodie",
+      "Studio"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Diriger un orchestre",
+    "forbidden": [
+      "Baguette",
+      "Musiciens",
+      "Chef",
+      "Partition",
+      "Concert"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Faire de la poterie",
+    "forbidden": [
+      "Argile",
+      "Tour",
+      "Mains",
+      "Four",
+      "Vase"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Graver",
+    "forbidden": [
+      "Métal",
+      "Outil",
+      "Trait",
+      "Signature",
+      "Bijou"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Tricoter",
+    "forbidden": [
+      "Laine",
+      "Aiguilles",
+      "Pull",
+      "Mailles",
+      "Grand-mère"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Broder",
+    "forbidden": [
+      "Fil",
+      "Aiguille",
+      "Tissu",
+      "Motif",
+      "Point"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Tisser",
+    "forbidden": [
+      "Fils",
+      "Métier",
+      "Tissu",
+      "Motif",
+      "Laine"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Jouer de la batterie",
+    "forbidden": [
+      "Baguettes",
+      "Rythme",
+      "Cymbales",
+      "Groupe",
+      "Concert"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chorégraphier",
+    "forbidden": [
+      "Danse",
+      "Mouvements",
+      "Scène",
+      "Ballet",
+      "Rythme"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Réviser un examen",
+    "forbidden": [
+      "Livre",
+      "Cahier",
+      "Stress",
+      "Notes",
+      "Étudiant"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Réciter une leçon",
+    "forbidden": [
+      "Mémoire",
+      "Classe",
+      "Professeur",
+      "Cahier",
+      "Élève"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lever la main",
+    "forbidden": [
+      "Classe",
+      "Question",
+      "Élève",
+      "Professeur",
+      "Doigt"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Effacer le tableau",
+    "forbidden": [
+      "Craie",
+      "Éponge",
+      "Classe",
+      "Professeur",
+      "Blanc"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Souligner un mot",
+    "forbidden": [
+      "Stylo",
+      "Règle",
+      "Trait",
+      "Cahier",
+      "Important"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Corriger une copie",
+    "forbidden": [
+      "Stylo rouge",
+      "Professeur",
+      "Erreur",
+      "Note",
+      "Devoir"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Apprendre par cœur",
+    "forbidden": [
+      "Mémoire",
+      "Répéter",
+      "Leçon",
+      "Cahier",
+      "Effort"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Résoudre un problème",
+    "forbidden": [
+      "Maths",
+      "Calcul",
+      "Réflexion",
+      "Solution",
+      "Exercice"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire ses valises",
+    "forbidden": [
+      "Vêtements",
+      "Voyage",
+      "Aéroport",
+      "Bagage",
+      "Départ"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Embarquer dans un avion",
+    "forbidden": [
+      "Aéroport",
+      "Billet",
+      "Passeport",
+      "Hôtesse",
+      "Décollage"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire du stop",
+    "forbidden": [
+      "Route",
+      "Pouce",
+      "Voiture",
+      "Voyageur",
+      "Bord de route"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Camper",
+    "forbidden": [
+      "Tente",
+      "Nature",
+      "Feu de camp",
+      "Sac de couchage",
+      "Forêt"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire de la randonnée",
+    "forbidden": [
+      "Sentier",
+      "Sac à dos",
+      "Montagne",
+      "Chaussures",
+      "Nature"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Prendre le train",
+    "forbidden": [
+      "Gare",
+      "Billet",
+      "Quai",
+      "Wagon",
+      "Voyageur"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire de l'auto-stop",
+    "forbidden": [
+      "Route",
+      "Pouce",
+      "Conducteur",
+      "Bord de route",
+      "Voyage"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Garer une voiture",
+    "forbidden": [
+      "Parking",
+      "Créneau",
+      "Volant",
+      "Marche arrière",
+      "Place"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Naviguer avec un GPS",
+    "forbidden": [
+      "Écran",
+      "Itinéraire",
+      "Voiture",
+      "Voix",
+      "Trajet"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire du camping-car",
+    "forbidden": [
+      "Route",
+      "Vacances",
+      "Van",
+      "Nature",
+      "Itinérance"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Faire la sieste",
+    "forbidden": [
+      "Canapé",
+      "Après-midi",
+      "Repos",
+      "Fatigue",
+      "Couverture"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire du shopping",
+    "forbidden": [
+      "Boutique",
+      "Argent",
+      "Vêtements",
+      "Vitrine",
+      "Caisse"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire la queue",
+    "forbidden": [
+      "File",
+      "Attente",
+      "Caisse",
+      "Patience",
+      "Guichet"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Souffler des bougies",
+    "forbidden": [
+      "Anniversaire",
+      "Gâteau",
+      "Vœu",
+      "Bougies",
+      "Fête"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Déballer un cadeau",
+    "forbidden": [
+      "Papier",
+      "Ruban",
+      "Surprise",
+      "Fête",
+      "Boîte"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire un puzzle",
+    "forbidden": [
+      "Pièces",
+      "Table",
+      "Image",
+      "Patience",
+      "Carton"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jouer aux cartes",
+    "forbidden": [
+      "Jeu",
+      "Table",
+      "Mains",
+      "Atout",
+      "Partie"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire du bricolage",
+    "forbidden": [
+      "Outils",
+      "Atelier",
+      "Réparer",
+      "Perceuse",
+      "Bois"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Prendre un selfie",
+    "forbidden": [
+      "Téléphone",
+      "Sourire",
+      "Photo",
+      "Bras tendu",
+      "Écran"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire du yoga",
+    "forbidden": [
+      "Tapis",
+      "Souplesse",
+      "Posture",
+      "Respiration",
+      "Calme"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Méditer",
+    "forbidden": [
+      "Silence",
+      "Calme",
+      "Respiration",
+      "Yeux fermés",
+      "Détente"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Compter les étoiles",
+    "forbidden": [
+      "Nuit",
+      "Ciel",
+      "Rêverie",
+      "Constellation",
+      "Toit"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  }
+]

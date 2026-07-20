@@ -1,0 +1,746 @@
+[
+  {
+    "word": "Courir",
+    "forbidden": [
+      "Vite",
+      "Jambes",
+      "Marathon",
+      "Essoufflé",
+      "Sprint"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Marcher",
+    "forbidden": [
+      "Pieds",
+      "Pas",
+      "Promenade",
+      "Rue",
+      "Lentement"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sauter",
+    "forbidden": [
+      "Hauteur",
+      "Élan",
+      "Corde",
+      "Trampoline",
+      "Rebond"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ramper",
+    "forbidden": [
+      "Sol",
+      "Ventre",
+      "Serpent",
+      "Lentement",
+      "Discret"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Grimper",
+    "forbidden": [
+      "Arbre",
+      "Montagne",
+      "Échelle",
+      "Corde",
+      "Sommet"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nager",
+    "forbidden": [
+      "Piscine",
+      "Brasse",
+      "Eau",
+      "Maillot",
+      "Crawl"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Voler",
+    "forbidden": [
+      "Ailes",
+      "Avion",
+      "Ciel",
+      "Oiseau",
+      "Plumes"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Glisser",
+    "forbidden": [
+      "Patinoire",
+      "Ski",
+      "Neige",
+      "Chute",
+      "Toboggan"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Danser",
+    "forbidden": [
+      "Musique",
+      "Rythme",
+      "Piste",
+      "Salsa",
+      "Ballet"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trébucher",
+    "forbidden": [
+      "Chute",
+      "Pied",
+      "Obstacle",
+      "Déséquilibre",
+      "Trottoir"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tomber",
+    "forbidden": [
+      "Chute",
+      "Sol",
+      "Gravité",
+      "Blessure",
+      "Vertige"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Escalader",
+    "forbidden": [
+      "Falaise",
+      "Corde",
+      "Prise",
+      "Sommet",
+      "Alpiniste"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trotter",
+    "forbidden": [
+      "Cheval",
+      "Sabots",
+      "Allure",
+      "Poney",
+      "Cavalier"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Galoper",
+    "forbidden": [
+      "Cheval",
+      "Vitesse",
+      "Course",
+      "Crinière",
+      "Hippodrome"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Naviguer",
+    "forbidden": [
+      "Boussole",
+      "Carte",
+      "Bateau",
+      "Cap",
+      "Océan"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Reculer",
+    "forbidden": [
+      "Arrière",
+      "Marche",
+      "Pas",
+      "Retraite",
+      "Frein"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Avancer",
+    "forbidden": [
+      "Devant",
+      "Pas",
+      "Progresser",
+      "Direction",
+      "Chemin"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se faufiler",
+    "forbidden": [
+      "Foule",
+      "Discret",
+      "Passage",
+      "Étroit",
+      "Rapide"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Se traîner",
+    "forbidden": [
+      "Lent",
+      "Fatigue",
+      "Sol",
+      "Difficile",
+      "Épuisé"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chevaucher",
+    "forbidden": [
+      "Cheval",
+      "Selle",
+      "Cavalier",
+      "Rênes",
+      "Galop"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sautiller",
+    "forbidden": [
+      "Léger",
+      "Petit",
+      "Bond",
+      "Joyeux",
+      "Rebond"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Se dandiner",
+    "forbidden": [
+      "Canard",
+      "Balancer",
+      "Hanches",
+      "Démarche",
+      "Drôle"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Pédaler",
+    "forbidden": [
+      "Vélo",
+      "Roues",
+      "Chaîne",
+      "Effort",
+      "Guidon"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire du vélo",
+    "forbidden": [
+      "Casque",
+      "Roues",
+      "Chaîne",
+      "Pédales",
+      "Guidon"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zigzaguer",
+    "forbidden": [
+      "Slalom",
+      "Virages",
+      "Éviter",
+      "Trajectoire",
+      "Serpentin"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Manger",
+    "forbidden": [
+      "Bouche",
+      "Assiette",
+      "Faim",
+      "Repas",
+      "Fourchette"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Boire",
+    "forbidden": [
+      "Verre",
+      "Soif",
+      "Gorgée",
+      "Liquide",
+      "Bouteille"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dormir",
+    "forbidden": [
+      "Lit",
+      "Sommeil",
+      "Nuit",
+      "Rêve",
+      "Oreiller"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cuisiner",
+    "forbidden": [
+      "Casserole",
+      "Recette",
+      "Fourneau",
+      "Repas",
+      "Tablier"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nettoyer",
+    "forbidden": [
+      "Éponge",
+      "Saleté",
+      "Propre",
+      "Ménage",
+      "Produit"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ranger",
+    "forbidden": [
+      "Ordre",
+      "Armoire",
+      "Tiroir",
+      "Bazar",
+      "Placer"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Balayer",
+    "forbidden": [
+      "Balai",
+      "Poussière",
+      "Sol",
+      "Ménage",
+      "Pelle"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Repasser",
+    "forbidden": [
+      "Fer",
+      "Vêtement",
+      "Chaud",
+      "Pli",
+      "Planche"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Aspirer",
+    "forbidden": [
+      "Aspirateur",
+      "Poussière",
+      "Bruit",
+      "Tapis",
+      "Fil"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Laver",
+    "forbidden": [
+      "Eau",
+      "Savon",
+      "Linge",
+      "Machine",
+      "Propre"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Étendre le linge",
+    "forbidden": [
+      "Corde",
+      "Pince",
+      "Sécher",
+      "Vêtement",
+      "Balcon"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Plier",
+    "forbidden": [
+      "Vêtement",
+      "Angle",
+      "Papier",
+      "Coin",
+      "Ranger"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire la vaisselle",
+    "forbidden": [
+      "Éponge",
+      "Évier",
+      "Assiette",
+      "Mousse",
+      "Torchon"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire le lit",
+    "forbidden": [
+      "Draps",
+      "Oreiller",
+      "Couette",
+      "Border",
+      "Matin"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Débarrasser",
+    "forbidden": [
+      "Table",
+      "Assiette",
+      "Repas",
+      "Vider",
+      "Ranger"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Décorer",
+    "forbidden": [
+      "Guirlande",
+      "Fête",
+      "Sapin",
+      "Couleurs",
+      "Ambiance"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bricoler",
+    "forbidden": [
+      "Marteau",
+      "Outils",
+      "Réparer",
+      "Perceuse",
+      "Atelier"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Jardiner",
+    "forbidden": [
+      "Terre",
+      "Plantes",
+      "Arrosoir",
+      "Fleurs",
+      "Potager"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tondre la pelouse",
+    "forbidden": [
+      "Herbe",
+      "Jardin",
+      "Tondeuse",
+      "Bruit",
+      "Été"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Arroser",
+    "forbidden": [
+      "Eau",
+      "Plante",
+      "Jardin",
+      "Arrosoir",
+      "Pluie"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Planter",
+    "forbidden": [
+      "Graine",
+      "Terre",
+      "Pot",
+      "Racine",
+      "Jardin"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Semer",
+    "forbidden": [
+      "Graine",
+      "Champ",
+      "Printemps",
+      "Agriculteur",
+      "Terre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bêcher",
+    "forbidden": [
+      "Terre",
+      "Jardin",
+      "Bêche",
+      "Potager",
+      "Sol"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Recycler",
+    "forbidden": [
+      "Poubelle",
+      "Tri",
+      "Déchets",
+      "Bac",
+      "Environnement"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Se brosser les dents",
+    "forbidden": [
+      "Brosse",
+      "Dentifrice",
+      "Bouche",
+      "Salle de bain",
+      "Matin"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se laver",
+    "forbidden": [
+      "Savon",
+      "Eau",
+      "Douche",
+      "Propre",
+      "Corps"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se maquiller",
+    "forbidden": [
+      "Rouge à lèvres",
+      "Miroir",
+      "Fard",
+      "Pinceau",
+      "Beauté"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se raser",
+    "forbidden": [
+      "Rasoir",
+      "Barbe",
+      "Mousse",
+      "Miroir",
+      "Menton"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se coiffer",
+    "forbidden": [
+      "Cheveux",
+      "Peigne",
+      "Brosse",
+      "Miroir",
+      "Coiffure"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se peigner",
+    "forbidden": [
+      "Cheveux",
+      "Peigne",
+      "Nœud",
+      "Miroir",
+      "Coiffure"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se doucher",
+    "forbidden": [
+      "Eau",
+      "Savon",
+      "Serviette",
+      "Salle de bain",
+      "Chaud"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se sécher les cheveux",
+    "forbidden": [
+      "Serviette",
+      "Sèche-cheveux",
+      "Salon",
+      "Chaud",
+      "Miroir"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cligner des yeux",
+    "forbidden": [
+      "Paupières",
+      "Réflexe",
+      "Rapide",
+      "Œil",
+      "Lumière"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hocher la tête",
+    "forbidden": [
+      "Approuver",
+      "Signe",
+      "Cou",
+      "Oui",
+      "Geste"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Se moucher",
+    "forbidden": [
+      "Nez",
+      "Mouchoir",
+      "Rhume",
+      "Souffler",
+      "Papier"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Frissonner",
+    "forbidden": [
+      "Froid",
+      "Peur",
+      "Corps",
+      "Vent",
+      "Fièvre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Transpirer",
+    "forbidden": [
+      "Sueur",
+      "Chaleur",
+      "Effort",
+      "Peau",
+      "Sport"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,746 @@
+[
+  {
+    "word": "Rougir",
+    "forbidden": [
+      "Joues",
+      "Gêne",
+      "Timidité",
+      "Chaleur",
+      "Émotion"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Parler",
+    "forbidden": [
+      "Bouche",
+      "Voix",
+      "Discussion",
+      "Mots",
+      "Langue"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chuchoter",
+    "forbidden": [
+      "Bas",
+      "Secret",
+      "Oreille",
+      "Discret",
+      "Silence"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Crier",
+    "forbidden": [
+      "Fort",
+      "Voix",
+      "Colère",
+      "Alerte",
+      "Bruyant"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chanter",
+    "forbidden": [
+      "Voix",
+      "Musique",
+      "Chanson",
+      "Micro",
+      "Mélodie"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rire",
+    "forbidden": [
+      "Bouche",
+      "Joie",
+      "Blague",
+      "Sourire",
+      "Fou rire"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pleurer",
+    "forbidden": [
+      "Larmes",
+      "Tristesse",
+      "Yeux",
+      "Chagrin",
+      "Mouchoir"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Saluer",
+    "forbidden": [
+      "Bonjour",
+      "Main",
+      "Rencontre",
+      "Politesse",
+      "Signe"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Discuter",
+    "forbidden": [
+      "Conversation",
+      "Échange",
+      "Avis",
+      "Débat",
+      "Sujet"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mentir",
+    "forbidden": [
+      "Vérité",
+      "Fausseté",
+      "Tricher",
+      "Cacher",
+      "Excuse"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Négocier",
+    "forbidden": [
+      "Accord",
+      "Prix",
+      "Compromis",
+      "Discussion",
+      "Marché"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Convaincre",
+    "forbidden": [
+      "Argument",
+      "Discours",
+      "Preuve",
+      "Confiance",
+      "Débat"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Se disputer",
+    "forbidden": [
+      "Colère",
+      "Conflit",
+      "Cri",
+      "Désaccord",
+      "Tension"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Se réconcilier",
+    "forbidden": [
+      "Paix",
+      "Excuses",
+      "Amitié",
+      "Pardon",
+      "Câlin"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Confier un secret",
+    "forbidden": [
+      "Chuchoter",
+      "Oreille",
+      "Discret",
+      "Confidence",
+      "Silence"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Interviewer",
+    "forbidden": [
+      "Micro",
+      "Questions",
+      "Journaliste",
+      "Réponses",
+      "Enregistrement"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Débattre",
+    "forbidden": [
+      "Arguments",
+      "Opinions",
+      "Discussion",
+      "Sujet",
+      "Contradicteur"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Applaudir",
+    "forbidden": [
+      "Mains",
+      "Bravo",
+      "Spectacle",
+      "Ovation",
+      "Public"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Siffler",
+    "forbidden": [
+      "Bouche",
+      "Son",
+      "Musique",
+      "Match",
+      "Signal"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fredonner",
+    "forbidden": [
+      "Chanson",
+      "Bouche fermée",
+      "Air",
+      "Mélodie",
+      "Doucement"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Raconter une histoire",
+    "forbidden": [
+      "Conte",
+      "Enfants",
+      "Livre",
+      "Imagination",
+      "Soir"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Présenter un exposé",
+    "forbidden": [
+      "Public",
+      "Micro",
+      "Diapositive",
+      "Audience",
+      "Classe"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Traduire",
+    "forbidden": [
+      "Langue",
+      "Mots",
+      "Dictionnaire",
+      "Interprète",
+      "Sens"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Complimenter",
+    "forbidden": [
+      "Éloge",
+      "Gentillesse",
+      "Sourire",
+      "Plaisir",
+      "Charme"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bégayer",
+    "forbidden": [
+      "Parole",
+      "Syllabe",
+      "Répéter",
+      "Nervosité",
+      "Difficulté"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Marmonner",
+    "forbidden": [
+      "Voix",
+      "Basse",
+      "Incompréhensible",
+      "Grommeler",
+      "Discret"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sourire",
+    "forbidden": [
+      "Bouche",
+      "Joie",
+      "Dents",
+      "Bonheur",
+      "Lèvres"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Froncer les sourcils",
+    "forbidden": [
+      "Colère",
+      "Front",
+      "Mécontent",
+      "Visage",
+      "Fâché"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Embrasser",
+    "forbidden": [
+      "Bisou",
+      "Lèvres",
+      "Amour",
+      "Joue",
+      "Tendresse"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Serrer la main",
+    "forbidden": [
+      "Bonjour",
+      "Doigts",
+      "Politesse",
+      "Rencontre",
+      "Accord"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire un câlin",
+    "forbidden": [
+      "Bras",
+      "Tendresse",
+      "Chaleur",
+      "Étreinte",
+      "Amour"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bouder",
+    "forbidden": [
+      "Fâché",
+      "Silence",
+      "Lèvres",
+      "Enfant",
+      "Vexé"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trembler",
+    "forbidden": [
+      "Froid",
+      "Peur",
+      "Corps",
+      "Vibrer",
+      "Frisson"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Soupirer",
+    "forbidden": [
+      "Souffle",
+      "Fatigue",
+      "Lassitude",
+      "Ennui",
+      "Poitrine"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Baîller aux corneilles",
+    "forbidden": [
+      "Distrait",
+      "Rêveur",
+      "Ailleurs",
+      "Nuages",
+      "Inattention"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Faire la moue",
+    "forbidden": [
+      "Lèvres",
+      "Boude",
+      "Enfant",
+      "Mécontent",
+      "Visage"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Cligner de l'œil",
+    "forbidden": [
+      "Clin d'œil",
+      "Complicité",
+      "Paupière",
+      "Malicieux",
+      "Sourire"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Couper",
+    "forbidden": [
+      "Couteau",
+      "Tranche",
+      "Planche",
+      "Lame",
+      "Découper"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Éplucher",
+    "forbidden": [
+      "Peau",
+      "Légume",
+      "Fruit",
+      "Économe",
+      "Épluchure"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mélanger",
+    "forbidden": [
+      "Cuillère",
+      "Saladier",
+      "Ingrédients",
+      "Remuer",
+      "Pâte"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cuire",
+    "forbidden": [
+      "Four",
+      "Chaleur",
+      "Casserole",
+      "Aliment",
+      "Feu"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Griller",
+    "forbidden": [
+      "Barbecue",
+      "Toast",
+      "Feu",
+      "Braise",
+      "Viande"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Faire bouillir",
+    "forbidden": [
+      "Eau",
+      "Casserole",
+      "Bulles",
+      "Vapeur",
+      "Feu"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fouetter",
+    "forbidden": [
+      "Œufs",
+      "Crème",
+      "Batteur",
+      "Mousse",
+      "Fouet"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pétrir",
+    "forbidden": [
+      "Pâte",
+      "Pain",
+      "Mains",
+      "Farine",
+      "Boulanger"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mijoter",
+    "forbidden": [
+      "Casserole",
+      "Feu doux",
+      "Ragoût",
+      "Sauce",
+      "Longtemps"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rôtir",
+    "forbidden": [
+      "Four",
+      "Poulet",
+      "Broche",
+      "Doré",
+      "Viande"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Frire",
+    "forbidden": [
+      "Huile",
+      "Poêle",
+      "Friture",
+      "Chaleur",
+      "Croustillant"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Congeler",
+    "forbidden": [
+      "Froid",
+      "Congélateur",
+      "Glace",
+      "Conserver",
+      "Givre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Assaisonner",
+    "forbidden": [
+      "Sel",
+      "Poivre",
+      "Épices",
+      "Goût",
+      "Saveur"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Déguster",
+    "forbidden": [
+      "Saveur",
+      "Palais",
+      "Plaisir",
+      "Bouchée",
+      "Gastronomie"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mâcher",
+    "forbidden": [
+      "Dents",
+      "Bouche",
+      "Chewing-gum",
+      "Aliment",
+      "Mastication"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Avaler",
+    "forbidden": [
+      "Gorge",
+      "Bouchée",
+      "Gorgée",
+      "Estomac",
+      "Gober"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Émincer",
+    "forbidden": [
+      "Oignon",
+      "Fin",
+      "Couteau",
+      "Lamelle",
+      "Cuisine"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Râper",
+    "forbidden": [
+      "Fromage",
+      "Carotte",
+      "Râpe",
+      "Fin",
+      "Cuisine"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Peser des ingrédients",
+    "forbidden": [
+      "Balance",
+      "Grammes",
+      "Recette",
+      "Cuisine",
+      "Précision"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dresser une assiette",
+    "forbidden": [
+      "Chef",
+      "Présentation",
+      "Restaurant",
+      "Décoration",
+      "Plat"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Décongeler",
+    "forbidden": [
+      "Froid",
+      "Frigo",
+      "Réchauffer",
+      "Glace",
+      "Attente"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire mariner",
+    "forbidden": [
+      "Sauce",
+      "Viande",
+      "Attente",
+      "Saveur",
+      "Bocal"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Lancer",
+    "forbidden": [
+      "Ballon",
+      "Bras",
+      "Cible",
+      "Distance",
+      "Élan"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Attraper",
+    "forbidden": [
+      "Ballon",
+      "Mains",
+      "Réflexe",
+      "Rattraper",
+      "Gant"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Frapper",
+    "forbidden": [
+      "Ballon",
+      "Pied",
+      "Poing",
+      "Force",
+      "Coup"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  }
+]

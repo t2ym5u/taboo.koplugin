@@ -26,6 +26,7 @@ local DEFAULT_NB_TEAMS = 2
 -- Canonical source: gen/themes.json — keep this table in sync by hand,
 -- the shipped plugin doesn't load gen/ at runtime.
 local THEME_LABELS = {
+    action         = "Action & Verbes",
     alimentation   = "Alimentation",
     animaux        = "Animaux",
     arts           = "Arts & Littérature",
@@ -49,7 +50,7 @@ local THEME_LABELS = {
 
 -- Preferred display order in the theme menu
 local THEME_ORDER = {
-    "fun", "alimentation", "animaux", "arts", "cinéma", "géographie",
+    "fun", "action", "alimentation", "animaux", "arts", "cinéma", "géographie",
     "histoire", "jeuxvideo", "maison", "médecine", "métiers", "mode",
     "musique", "nature", "sciences", "société", "sports", "technologies",
     "transports",

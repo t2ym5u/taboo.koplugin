@@ -1,0 +1,746 @@
+[
+  {
+    "word": "Viser",
+    "forbidden": [
+      "Cible",
+      "Précision",
+      "Flèche",
+      "Œil",
+      "Tir"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Plonger",
+    "forbidden": [
+      "Piscine",
+      "Eau",
+      "Tête",
+      "Plongeoir",
+      "Saut"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ramer",
+    "forbidden": [
+      "Bateau",
+      "Aviron",
+      "Bras",
+      "Rivière",
+      "Équipe"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lutter",
+    "forbidden": [
+      "Combat",
+      "Adversaire",
+      "Force",
+      "Tapis",
+      "Prise"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Jongler",
+    "forbidden": [
+      "Balles",
+      "Mains",
+      "Équilibre",
+      "Cirque",
+      "Adresse"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Boxer avec un adversaire",
+    "forbidden": [
+      "Ring",
+      "Gants",
+      "Poing",
+      "Combat",
+      "Match"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Faire du roller",
+    "forbidden": [
+      "Roues",
+      "Casque",
+      "Vitesse",
+      "Rue",
+      "Équilibre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Skier",
+    "forbidden": [
+      "Neige",
+      "Piste",
+      "Bâtons",
+      "Montagne",
+      "Descente"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Patiner",
+    "forbidden": [
+      "Glace",
+      "Lames",
+      "Patinoire",
+      "Équilibre",
+      "Vitesse"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire de la gymnastique",
+    "forbidden": [
+      "Souplesse",
+      "Tapis",
+      "Équilibre",
+      "Salto",
+      "Poutre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marquer un but",
+    "forbidden": [
+      "Ballon",
+      "Cage",
+      "Filet",
+      "Stade",
+      "Supporter"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dribbler",
+    "forbidden": [
+      "Ballon",
+      "Adversaire",
+      "Basket",
+      "Foot",
+      "Vitesse"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire une passe",
+    "forbidden": [
+      "Ballon",
+      "Coéquipier",
+      "Terrain",
+      "Précision",
+      "Foot"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Grimper à la corde",
+    "forbidden": [
+      "Bras",
+      "Gymnase",
+      "Effort",
+      "Hauteur",
+      "Sport"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire du surf",
+    "forbidden": [
+      "Vague",
+      "Planche",
+      "Océan",
+      "Équilibre",
+      "Combinaison"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Faire de l'escalade",
+    "forbidden": [
+      "Prise",
+      "Corde",
+      "Mur",
+      "Harnais",
+      "Grimpeur"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sauter à la corde",
+    "forbidden": [
+      "Corde",
+      "Bonds",
+      "Récréation",
+      "Rythme",
+      "Pieds"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jouer aux billes",
+    "forbidden": [
+      "Cercle",
+      "Cour",
+      "Enfance",
+      "Viser",
+      "Récréation"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Marquer un panier",
+    "forbidden": [
+      "Ballon",
+      "Panier",
+      "Basket",
+      "Filet",
+      "Adresse"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Écrire",
+    "forbidden": [
+      "Stylo",
+      "Papier",
+      "Lettre",
+      "Main",
+      "Mots"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lire",
+    "forbidden": [
+      "Livre",
+      "Yeux",
+      "Page",
+      "Histoire",
+      "Silence"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dessiner",
+    "forbidden": [
+      "Crayon",
+      "Feuille",
+      "Trait",
+      "Art",
+      "Croquis"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Peindre",
+    "forbidden": [
+      "Pinceau",
+      "Toile",
+      "Couleur",
+      "Palette",
+      "Artiste"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Construire",
+    "forbidden": [
+      "Bâtiment",
+      "Chantier",
+      "Ouvrier",
+      "Brique",
+      "Grue"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Réparer",
+    "forbidden": [
+      "Outil",
+      "Panne",
+      "Mécanicien",
+      "Casse",
+      "Solution"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mesurer",
+    "forbidden": [
+      "Règle",
+      "Mètre",
+      "Longueur",
+      "Précision",
+      "Chiffre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Calculer",
+    "forbidden": [
+      "Chiffres",
+      "Addition",
+      "Calculatrice",
+      "Résultat",
+      "Maths"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Enseigner",
+    "forbidden": [
+      "Tableau",
+      "Élèves",
+      "Classe",
+      "Professeur",
+      "Leçon"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Soigner",
+    "forbidden": [
+      "Médecin",
+      "Patient",
+      "Blessure",
+      "Hôpital",
+      "Médicament"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Opérer",
+    "forbidden": [
+      "Chirurgien",
+      "Bloc",
+      "Bistouri",
+      "Hôpital",
+      "Patient"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Conduire",
+    "forbidden": [
+      "Volant",
+      "Voiture",
+      "Route",
+      "Permis",
+      "Vitesse"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Piloter un avion",
+    "forbidden": [
+      "Cockpit",
+      "Ciel",
+      "Commandant",
+      "Aéroport",
+      "Manche"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vendre",
+    "forbidden": [
+      "Client",
+      "Prix",
+      "Boutique",
+      "Argent",
+      "Marchandise"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Livrer un colis",
+    "forbidden": [
+      "Facteur",
+      "Adresse",
+      "Camion",
+      "Paquet",
+      "Sonnette"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Coudre",
+    "forbidden": [
+      "Aiguille",
+      "Fil",
+      "Tissu",
+      "Couturier",
+      "Machine"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Souder",
+    "forbidden": [
+      "Métal",
+      "Chaleur",
+      "Étincelle",
+      "Fer",
+      "Atelier"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Visser",
+    "forbidden": [
+      "Vis",
+      "Tournevis",
+      "Bois",
+      "Fixer",
+      "Écrou"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Clouer",
+    "forbidden": [
+      "Marteau",
+      "Clou",
+      "Bois",
+      "Planche",
+      "Fixer"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Percer",
+    "forbidden": [
+      "Perceuse",
+      "Mur",
+      "Trou",
+      "Mèche",
+      "Bruit"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Poncer",
+    "forbidden": [
+      "Papier de verre",
+      "Bois",
+      "Lisse",
+      "Poussière",
+      "Atelier"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Peser un colis",
+    "forbidden": [
+      "Balance",
+      "Poste",
+      "Grammes",
+      "Guichet",
+      "Paquet"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Arbitrer un match",
+    "forbidden": [
+      "Sifflet",
+      "Terrain",
+      "Carton",
+      "Règles",
+      "Équipes"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Facturer un client",
+    "forbidden": [
+      "Montant",
+      "Papier",
+      "Comptable",
+      "Argent",
+      "Reçu"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Photocopier",
+    "forbidden": [
+      "Bureau",
+      "Papier",
+      "Machine",
+      "Duplicata",
+      "Encre"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Classer des dossiers",
+    "forbidden": [
+      "Bureau",
+      "Archive",
+      "Ordre",
+      "Chemise",
+      "Étagère"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hiberner",
+    "forbidden": [
+      "Ours",
+      "Hiver",
+      "Sommeil",
+      "Tanière",
+      "Froid"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Migrer",
+    "forbidden": [
+      "Oiseaux",
+      "Saison",
+      "Vol",
+      "Distance",
+      "Sud"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Aboyer",
+    "forbidden": [
+      "Chien",
+      "Bruit",
+      "Gueule",
+      "Jappement",
+      "Garde"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Miauler",
+    "forbidden": [
+      "Chat",
+      "Bruit",
+      "Gueule",
+      "Nourriture",
+      "Ronron"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Beugler",
+    "forbidden": [
+      "Vache",
+      "Ferme",
+      "Cri",
+      "Pré",
+      "Fort"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hennir",
+    "forbidden": [
+      "Cheval",
+      "Écurie",
+      "Cri",
+      "Sabots",
+      "Crinière"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Meugler",
+    "forbidden": [
+      "Vache",
+      "Ferme",
+      "Cri",
+      "Pré",
+      "Étable"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Coasser",
+    "forbidden": [
+      "Grenouille",
+      "Mare",
+      "Cri",
+      "Nuit",
+      "Étang"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Rugir",
+    "forbidden": [
+      "Lion",
+      "Savane",
+      "Cri",
+      "Puissant",
+      "Roi"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Barrir",
+    "forbidden": [
+      "Éléphant",
+      "Trompe",
+      "Cri",
+      "Savane",
+      "Fort"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Piquer",
+    "forbidden": [
+      "Abeille",
+      "Dard",
+      "Douleur",
+      "Aiguille",
+      "Insecte"
+    ],
+    "theme": "action",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Butiner",
+    "forbidden": [
+      "Abeille",
+      "Fleur",
+      "Pollen",
+      "Nectar",
+      "Ruche"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chasser une proie",
+    "forbidden": [
+      "Prédateur",
+      "Traque",
+      "Instinct",
+      "Savane",
+      "Fuite"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Muer",
+    "forbidden": [
+      "Serpent",
+      "Peau",
+      "Croissance",
+      "Insecte",
+      "Changement"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Faire son nid",
+    "forbidden": [
+      "Oiseau",
+      "Branches",
+      "Arbre",
+      "Œufs",
+      "Construction"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pondre un œuf",
+    "forbidden": [
+      "Poule",
+      "Nid",
+      "Coquille",
+      "Ferme",
+      "Couver"
+    ],
+    "theme": "action",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Souffler le vent",
+    "forbidden": [
+      "Air",
+      "Tempête",
+      "Feuilles",
+      "Nuages",
+      "Bourrasque"
+    ],
+    "theme": "action",
+    "difficulty": "hard"
+  }
+]
