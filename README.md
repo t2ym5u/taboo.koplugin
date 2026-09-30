@@ -2,6 +2,10 @@
 
 A **Taboo Party** display plugin for [KOReader](https://github.com/koreader/koreader) — play Taboo around the table with your own card deck.
 
+## Screenshot
+
+![Screenshot](images/taboo.png)
+
 ## Concept
 
 Teams take turns. The active player picks up the device and describes as many words as possible before the timer runs out — without saying any of the forbidden words listed below the main word. Opponents watch for slip-ups and can buzz. Correct guesses score +1, buzzes score −1.
