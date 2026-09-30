@@ -63,6 +63,6 @@
 {"word":"Tir à l'Arc","forbidden":["Flèche","Arc","Cible","Viser","Précision"],"theme":"sports","difficulty":"medium"},
 {"word":"Tir Sportif","forbidden":["Cible","Précision","Arme","Viser","Compétition"],"theme":"sports","difficulty":"medium"},
 {"word":"Biathlon d'Été","forbidden":["Roller","Tir","Deux","Épreuves","Été"],"theme":"sports","difficulty":"hard"},
-{"word":"Duathlon","forbidden":["Courir","Vélo","Courir","Deux","Disciplines"],"theme":"sports","difficulty":"hard"},
+{"word":"Duathlon","forbidden": ["Courir", "Vélo", "Enchaîner", "Deux", "Disciplines"],"theme":"sports","difficulty":"hard"},
 {"word":"Cyclisme sur Piste","forbidden":["Vélodrome","Piste","Vélo","Vitesse","Ovale"],"theme":"sports","difficulty":"medium"}
 ]

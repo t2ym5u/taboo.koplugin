@@ -14,7 +14,7 @@
 {"word":"Légende","forbidden":["Histoire","Mythique","Héros","Peuple","Oral"],"theme":"arts","difficulty":"medium"},
 {"word":"Mythe","forbidden":["Déus","Héros","Expliquer","Origines","Récit"],"theme":"arts","difficulty":"medium"},
 {"word":"Épopée","forbidden":["Héros","Long","Odyssée","Iliade","Récit"],"theme":"arts","difficulty":"hard"},
-{"word":"Saga","forbidden":["Long","Famille","Nordique","Saga","Série"],"theme":"arts","difficulty":"medium"},
+{"word":"Saga","forbidden": ["Long", "Famille", "Nordique", "Épopée", "Série"],"theme":"arts","difficulty":"medium"},
 {"word":"Dystopie","forbidden":["Futur","Sombre","Autoritaire","1984","Imaginaire"],"theme":"arts","difficulty":"hard"},
 {"word":"Utopie","forbidden":["Idéal","Société","Parfaite","Impossible","Imaginaire"],"theme":"arts","difficulty":"hard"},
 {"word":"Autobiographie","forbidden":["Vie","Soi-Même","Écrire","Mémoires","Personnel"],"theme":"arts","difficulty":"hard"},

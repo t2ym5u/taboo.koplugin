@@ -59,7 +59,7 @@
 {"word":"Swimrun","forbidden":["Nager","Courir","Alternés","Suède","Nature"],"theme":"sports","difficulty":"hard"},
 {"word":"OCR","forbidden":["Obstacles","Courir","Boue","Spartan","Race"],"theme":"sports","difficulty":"medium"},
 {"word":"CrossFit","forbidden":["Fonctionnel","WOD","Haltères","Rapide","Circuit"],"theme":"sports","difficulty":"medium"},
-{"word":"Callisthénie","forbidden":["Corps","Poids","Corps","Traction","Dips"],"theme":"sports","difficulty":"hard"},
+{"word":"Callisthénie","forbidden": ["Corps", "Poids", "Barre", "Traction", "Dips"],"theme":"sports","difficulty":"hard"},
 {"word":"Parkour","forbidden":["Urbain","Saut","Obstacles","Ville","Fluidité"],"theme":"sports","difficulty":"medium"},
 {"word":"Freerunning","forbidden":["Parkour","Acrobatique","Ville","Figures","Urban"],"theme":"sports","difficulty":"medium"},
 {"word":"Freefly","forbidden":["Chute","Libre","Corps","Acrobatique","Parachute"],"theme":"sports","difficulty":"hard"},

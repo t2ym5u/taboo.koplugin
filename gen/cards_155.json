@@ -13,7 +13,7 @@
 {"word":"Bichon Frisé","forbidden":["Race","Chien","Blanc","Petit","Bouclé"],"theme":"animaux","difficulty":"easy"},
 {"word":"Berger Australien","forbidden":["Race","Chien","Troupeau","Actif","Multicolore"],"theme":"animaux","difficulty":"easy"},
 {"word":"Spitz Nain","forbidden":["Race","Chien","Petit","Pointu","Moelleux"],"theme":"animaux","difficulty":"medium"},
-{"word":"Persan (chat)","forbidden":["Race","Chat","Flat","Face","Long","Poils"],"theme":"animaux","difficulty":"easy"},
+{"word":"Persan (chat)","forbidden": ["Race", "Chat", "Face", "Long", "Poils"],"theme":"animaux","difficulty":"easy"},
 {"word":"Siamois (chat)","forbidden":["Race","Chat","Yeux","Bleus","Bavard"],"theme":"animaux","difficulty":"easy"},
 {"word":"Maine Coon","forbidden":["Race","Chat","Grand","Amérique","Poils Longs"],"theme":"animaux","difficulty":"easy"},
 {"word":"Angora (chat)","forbidden":["Race","Chat","Blanc","Soie","Turquie"],"theme":"animaux","difficulty":"easy"},

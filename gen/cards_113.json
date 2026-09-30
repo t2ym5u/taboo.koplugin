@@ -3,7 +3,7 @@
 {"word":"Ouragan","forbidden":["Vent","Tropical","Océan","Catégorie","Pluie"],"theme":"nature","difficulty":"easy"},
 {"word":"Typhon","forbidden":["Asie","Cyclone","Vent","Pacifique","Violent"],"theme":"nature","difficulty":"medium"},
 {"word":"Cyclone Tropical","forbidden":["Tourbillon","Mer","Chaude","Vent","Œil"],"theme":"nature","difficulty":"medium"},
-{"word":"Œil du Cyclone","forbidden":["Calme","Centre","Autour","Tourner","Calme"],"theme":"nature","difficulty":"medium"},
+{"word":"Œil du Cyclone","forbidden": ["Calme", "Centre", "Autour", "Tourner", "Tempête"],"theme":"nature","difficulty":"medium"},
 {"word":"Tempête de Neige","forbidden":["Blizzard","Visibilité","Froid","Flocons","Bloqué"],"theme":"nature","difficulty":"easy"},
 {"word":"Blizzard","forbidden":["Neige","Vent","Fort","Froid","Blanc"],"theme":"nature","difficulty":"easy"},
 {"word":"Verglas","forbidden":["Glace","Route","Glisser","Invisible","Dangereux"],"theme":"nature","difficulty":"easy"},

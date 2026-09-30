@@ -32,7 +32,7 @@
 {"word":"Déficit","forbidden":["Dépenses","Recettes","Manque","Budget","Négative"],"theme":"société","difficulty":"medium"},
 {"word":"Excédent","forbidden":["Plus","Recettes","Budget","Positif","Balance"],"theme":"société","difficulty":"medium"},
 {"word":"Dette Publique","forbidden":["État","Emprunt","Rembourser","PIB","Crise"],"theme":"société","difficulty":"medium"},
-{"word":"Austerité","forbidden":["Couper","Dépenses","Crise","Rigueur","Budget"],"theme":"société","difficulty":"medium"},
+{"word":"Solidarité Nationale","forbidden": ["Entraide", "Impôt", "Redistribuer", "Collectif", "Aider"],"theme":"société","difficulty":"medium"},
 {"word":"Plan de Relance","forbidden":["Investir","Stimuler","Économie","État","Covid"],"theme":"société","difficulty":"medium"},
 {"word":"Subvention","forbidden":["Aide","État","Entreprise","Argent","Soutien"],"theme":"société","difficulty":"medium"},
 {"word":"Nationalisation","forbidden":["État","Privatiser","Inverse","Posséder","Entreprise"],"theme":"société","difficulty":"hard"},

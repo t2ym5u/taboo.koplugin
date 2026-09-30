@@ -1,5 +1,5 @@
 [
-{"word":"Boeuf Bourguignon","forbidden":["Bourgogne","Vin","Rouge","Mijoter","Bœuf"],"theme":"alimentation","difficulty":"easy"},
+{"word":"Sauce Gribiche","forbidden": ["Œuf", "Dur", "Câpres", "Froide", "Moutarde"],"theme":"alimentation","difficulty":"easy"},
 {"word":"Cassoulet","forbidden":["Languedoc","Haricots","Blancs","Confit","Canard"],"theme":"alimentation","difficulty":"easy"},
 {"word":"Pot-au-Feu","forbidden":["Bouilli","Légumes","Viande","Bouillon","Hivernal"],"theme":"alimentation","difficulty":"easy"},
 {"word":"Bouillabaisse","forbidden":["Marseille","Poissons","Safran","Rouille","Soupe"],"theme":"alimentation","difficulty":"easy"},

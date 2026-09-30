@@ -27,10 +27,14 @@ The plugin loads your card deck from a JSON file you place in KOReader's documen
 - **Live scoring** — ✓ +1 / ✗ −1 / → Skip, applied instantly; round delta shown at timer end
 - **Auto team rotation** — advances to the next team after each round
 - **2–6 teams** — configurable team count
+- **8419 bundled FR cards** across 12 themes — nothing to set up
 - **FR + EN UI** — interface language switchable; loads `taboo_cards_fr.json` or `taboo_cards_en.json` automatically
 - **E-ink friendly** — only the timer digit refreshes in fast/A2 mode
 
 ## Card JSON format
+
+The French deck is built in, so this is only needed to add your own cards, to
+replace the deck, or to play in English.
 
 Create a file named `taboo_cards_fr.json` (or `taboo_cards_en.json`, or `taboo_cards.json`) and copy it to KOReader's **documents** folder (`/sdcard/koreader/` on most devices).
 
@@ -86,7 +90,18 @@ game-common/     → alongside plugins/ (shared library)
 
 `taboo.koplugin/` lives inside the
 [koreader-plugins](https://github.com/t2ym5u/koreader-plugins) monorepo.
-No bundled word list — you supply the cards.
+
+`taboo_cards_fr.lua` is the bundled deck. It is **generated** — do not edit it
+by hand, the next build would overwrite the change. The sources are
+`gen/cards_*.json`; `gen/merge.py` concatenates them into `taboo_cards_fr.json`
+(dropping cards whose word is already taken), and `gen/to_lua.py` converts that
+into the Lua file the plugin loads:
+
+```
+python3 gen/merge.py && python3 gen/to_lua.py
+```
+
+`test_cards_spec.lua` reads the generated deck and checks every card.
 
 ## License
 

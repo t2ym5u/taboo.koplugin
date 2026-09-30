@@ -1,7 +1,7 @@
 [
 {"word":"Anesthésie Locale","forbidden":["Douleur","Bloquer","Injection","Dentiste","Pincer"],"theme":"médecine","difficulty":"easy"},
 {"word":"Anesthésie Générale","forbidden":["Endormir","Complètement","Gaz","Opération","Tube"],"theme":"médecine","difficulty":"medium"},
-{"word":"Péridurale","forbidden":["Dos","Dos","Douleur","Accouchement","Injection"],"theme":"médecine","difficulty":"medium"},
+{"word":"Péridurale","forbidden": ["Dos", "Anesthésie", "Douleur", "Accouchement", "Injection"],"theme":"médecine","difficulty":"medium"},
 {"word":"Rachianesthésie","forbidden":["Moelle","Injection","Bas","Corps","Opération"],"theme":"médecine","difficulty":"hard"},
 {"word":"Kétamine","forbidden":["Anesthésique","Dissociatif","Urgence","Douleur","Vétérinaire"],"theme":"médecine","difficulty":"hard"},
 {"word":"Propofol","forbidden":["Blanc","Endormir","Michael Jackson","Intraveineuse","Anesthésie"],"theme":"médecine","difficulty":"hard"},

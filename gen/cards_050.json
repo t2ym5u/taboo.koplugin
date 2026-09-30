@@ -51,7 +51,7 @@
 {"word":"Autoportrait","forbidden":["Soi","Peindre","Van Gogh","Miroir","Artiste"],"theme":"arts","difficulty":"medium"},
 {"word":"Nature Morte","forbidden":["Peindre","Objets","Fruits","Fleurs","Composition"],"theme":"arts","difficulty":"medium"},
 {"word":"Paysage","forbidden":["Peindre","Nature","Vue","Campagne","Art"],"theme":"arts","difficulty":"easy"},
-{"word":"Nu","forbidden":["Corps","Nu","Peinture","Scandaleux","Art"],"theme":"arts","difficulty":"medium"},
+{"word":"Nu","forbidden": ["Corps", "Modèle", "Peinture", "Scandaleux", "Art"],"theme":"arts","difficulty":"medium"},
 {"word":"Allégorie","forbidden":["Symboliser","Figure","Idée","Abstraite","Peinture"],"theme":"arts","difficulty":"hard"},
 {"word":"Trompe-l'Œil","forbidden":["Illusion","Peindre","3D","Réaliste","Tromper"],"theme":"arts","difficulty":"hard"},
 {"word":"Cadre","forbidden":["Tableau","Bois","Doré","Accrocher","Mur"],"theme":"arts","difficulty":"easy"},

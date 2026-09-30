@@ -52,7 +52,7 @@
 {"word":"Hagia Sophia","forbidden":["Istanbul","Mosquée","Cathédrale","Byzantine","Dôme"],"theme":"géographie","difficulty":"medium"},
 {"word":"Château de Neuschwanstein","forbidden":["Allemagne","Conte","Louis","Bavière","Forêt"],"theme":"géographie","difficulty":"medium"},
 {"word":"Palais de Potala","forbidden":["Lhassa","Tibet","Dalaï-Lama","Blanc","Rouge"],"theme":"géographie","difficulty":"hard"},
-{"word":"Temple d'Artemis","forbidden":["Éphèse","Merveille","Monde","Incendié","Antique"],"theme":"géographie","difficulty":"hard"},
+{"word":"Isthme de Panama","forbidden": ["Bande", "Terre", "Canal", "Amériques", "Relier"],"theme":"géographie","difficulty":"hard"},
 {"word":"Jardins de Babylone","forbidden":["Mésopotamie","Suspendus","Merveille","Légendaires","Babylone"],"theme":"géographie","difficulty":"medium"},
 {"word":"Phare d'Alexandrie","forbidden":["Égypte","Mer","Disparu","Merveille","Lumière"],"theme":"géographie","difficulty":"medium"},
 {"word":"Statue de Zeus","forbidden":["Olympie","Merveille","Or","Ivoire","Antique"],"theme":"géographie","difficulty":"hard"},

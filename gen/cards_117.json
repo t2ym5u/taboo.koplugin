@@ -20,7 +20,7 @@
 {"word":"Winter Soldier","forbidden":["Bucky","Bras","Métal","Soldat","Barnes"],"theme":"fun","difficulty":"medium"},
 {"word":"War Machine","forbidden":["Rhodey","Armure","James","Rhodes","Militaire"],"theme":"fun","difficulty":"medium"},
 {"word":"Guardians of the Galaxy","forbidden":["Espace","Équipe","Raccoon","Groot","Galaxie"],"theme":"fun","difficulty":"medium"},
-{"word":"Groot","forbidden":["Je","Suis","Groot","Arbre","Gardiensde"],"theme":"fun","difficulty":"easy"},
+{"word":"Groot","forbidden": ["Je", "Suis", "Racines", "Arbre", "Gardiens"],"theme":"fun","difficulty":"easy"},
 {"word":"Rocket Raccoon","forbidden":["Raton","Laveur","Arme","Gadget","Gardiens"],"theme":"fun","difficulty":"easy"},
 {"word":"Star-Lord","forbidden":["Peter","Quill","Mixtape","Espace","Chef"],"theme":"fun","difficulty":"easy"},
 {"word":"Gamora","forbidden":["Verte","Thanos","Fille","Adoptive","Gardiens"],"theme":"fun","difficulty":"medium"},

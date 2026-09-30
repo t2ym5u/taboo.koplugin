@@ -48,7 +48,7 @@
 {"word":"Bioart","forbidden":["Vivant","Biologie","Bactéries","Art","Science"],"theme":"arts","difficulty":"hard"},
 {"word":"Art Génératif","forbidden":["Algorithme","Ordinateur","Aléatoire","Générer","Code"],"theme":"arts","difficulty":"hard"},
 {"word":"Art Interactif","forbidden":["Spectateur","Participer","Réagir","Numérique","Toucher"],"theme":"arts","difficulty":"medium"},
-{"word":"Video Art","forbidden":["Vidéo","Installation","Nam June Paik","Moniteurs","Boucle"],"theme":"arts","difficulty":"hard"},
+{"word":"Anamorphose","forbidden": ["Déformé", "Angle", "Regarder", "Perspective", "Redresser"],"theme":"arts","difficulty":"hard"},
 {"word":"Net Art","forbidden":["Internet","Oeuvre","Navigateur","Digital","En Ligne"],"theme":"arts","difficulty":"hard"},
 {"word":"Pixel Art","forbidden":["Pixels","Rétro","Jeu","Vidéo","8-Bit"],"theme":"arts","difficulty":"easy"},
 {"word":"Glitch Art","forbidden":["Bugs","Esthétique","Erreurs","Numérique","Pixelisé"],"theme":"arts","difficulty":"hard"},

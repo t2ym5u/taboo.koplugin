@@ -58,7 +58,7 @@
 {"word":"Guacamole","forbidden":["Avocat","Mexique","Lime","Tomate","Coriandre"],"theme":"alimentation","difficulty":"easy"},
 {"word":"Salsa Verde","forbidden":["Mexicaine","Tomatilles","Verte","Herbes","Piment"],"theme":"alimentation","difficulty":"medium"},
 {"word":"Chutney","forbidden":["Indien","Condiment","Fruits","Épicé","Sucré"],"theme":"alimentation","difficulty":"medium"},
-{"word":"Raita","forbidden":["Indien","Yaourt","Concombre","Frais","Curry"],"theme":"alimentation","difficulty":"medium"},
+{"word":"Tzatziki","forbidden": ["Grec", "Yaourt", "Concombre", "Ail", "Sauce"],"theme":"alimentation","difficulty":"medium"},
 {"word":"Nuoc Mam","forbidden":["Vietnam","Poisson","Fermenté","Sauce","Aigre"],"theme":"alimentation","difficulty":"hard"},
 {"word":"Sambal","forbidden":["Indonésie","Piment","Épicé","Condiment","Différentes"],"theme":"alimentation","difficulty":"hard"},
 {"word":"Teriyaki","forbidden":["Japonais","Sauce","Sucré-Salé","Grillé","Poulet"],"theme":"alimentation","difficulty":"medium"},

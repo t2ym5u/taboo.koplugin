@@ -1,5 +1,5 @@
 [
-{"word":"Aigle","forbidden":["Oiseau","Rapace","Aigle","Serres","Souverain"],"theme":"animaux","difficulty":"easy"},
+{"word":"Aigle","forbidden": ["Oiseau", "Rapace", "Bec", "Serres", "Souverain"],"theme":"animaux","difficulty":"easy"},
 {"word":"Faucon","forbidden":["Rapace","Rapide","Chasse","Oiseau","Gant"],"theme":"animaux","difficulty":"easy"},
 {"word":"Hibou","forbidden":["Nuit","Tourner","Tête","Oiseau","Sage"],"theme":"animaux","difficulty":"easy"},
 {"word":"Chouette","forbidden":["Nuit","Oiseau","Femelle","Hibou","Hululer"],"theme":"animaux","difficulty":"easy"},
