@@ -53,7 +53,7 @@
 {"word":"Soufisme","forbidden":["Islam","Mystique","Rumi","Danse","Amour"],"theme":"sciences","difficulty":"hard"},
 {"word":"Kabbale","forbidden":["Juive","Mystique","Arbre","Vie","Nombres"],"theme":"sciences","difficulty":"hard"},
 {"word":"Gnosticisme","forbidden":["Connaissance","Secrète","Dualisme","Lumière","Ténèbres"],"theme":"sciences","difficulty":"hard"},
-{"word":"Néoplatonisme","forbidden":["Plotin","Un","Émanation","Âme","Plotin"],"theme":"sciences","difficulty":"hard"},
+{"word":"Néoplatonisme","forbidden": ["Plotin", "Un", "Émanation", "Âme", "Antiquité"],"theme":"sciences","difficulty":"hard"},
 {"word":"Spinozisme","forbidden":["Dieu","Nature","Même","Spinoza","Substance"],"theme":"sciences","difficulty":"hard"},
 {"word":"Leibnizisme","forbidden":["Monades","Harmonie","Préétablie","Meilleur","Monde"],"theme":"sciences","difficulty":"hard"},
 {"word":"Hégélianisme","forbidden":["Hegel","Esprit","Absolu","Histoire","Dialectique"],"theme":"sciences","difficulty":"hard"},

@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.5.12] - 2026-09-30
+
+### Fixed
+- Repair 35 broken cards: 10 listed their own word among the taboos, which
+  makes them impossible to describe; 12 listed the same taboo twice, so they
+  were quietly easier than the rest; 1 carried six taboos where every other
+  card has five; and 11 words appeared twice under two spellings.
+
+### Added
+- A spec over the whole 8,419-card deck. The five French pairs that differ
+  only by an accent -- Poire/Poiré, Traite/Traité, Granite/Granité,
+  Paris/Pâris, Gaia/Gaïa -- are deliberate cards and are listed in the spec
+  rather than loosening the check.
+
+### Changed
+- README: the plugin ships 8,419 French cards. The old text said there was no
+  bundled deck and that you had to supply your own.
+
 ## [1.5.0] - 2026-07-15
 
 ### Added

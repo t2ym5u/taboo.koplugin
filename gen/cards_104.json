@@ -42,7 +42,7 @@
 {"word":"Satyre","forbidden":["Mi-Chèvre","Flûte","Pan","Forêt","Dionysé"],"theme":"fun","difficulty":"medium"},
 {"word":"Harpie","forbidden":["Femme","Ailes","Rapide","Enlever","Vent"],"theme":"fun","difficulty":"medium"},
 {"word":"Gorgone","forbidden":["Méduse","Sœurs","Pierre","Regard","Serpents"],"theme":"fun","difficulty":"hard"},
-{"word":"Oracle de Delphes","forbidden":["Prophétie","Pythie","Apollon","Fumées","Pythie"],"theme":"fun","difficulty":"medium"},
+{"word":"Oracle de Delphes","forbidden": ["Prophétie", "Pythie", "Apollon", "Fumées", "Grèce"],"theme":"fun","difficulty":"medium"},
 {"word":"Troie","forbidden":["Cheval","Ville","Guerre","Brûler","Iliade"],"theme":"fun","difficulty":"easy"},
 {"word":"Cheval de Troie","forbidden":["Bois","Soldats","Cachés","Cadeau","Guerre"],"theme":"fun","difficulty":"easy"},
 {"word":"Argonautes","forbidden":["Jason","Toison","Bateau","Argo","Quête"],"theme":"fun","difficulty":"medium"},

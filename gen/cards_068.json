@@ -49,7 +49,7 @@
 {"word":"Attila","forbidden":["Hun","Barbares","Envahir","Rome","Destruction"],"theme":"histoire","difficulty":"medium"},
 {"word":"Charlemagne","forbidden":["Roi","Francs","Couronné","Noël","Empire"],"theme":"histoire","difficulty":"medium"},
 {"word":"Guillaume le Conquérant","forbidden":["Normandie","Angleterre","Envahir","Conquête","1066"],"theme":"histoire","difficulty":"medium"},
-{"word":"Richard Coeur de Lion","forbidden":["Roi","Angleterre","Croisade","Brave","Prison"],"theme":"histoire","difficulty":"medium"},
+{"word":"Aliénor d'Aquitaine","forbidden": ["Reine", "France", "Angleterre", "Duchesse", "Croisade"],"theme":"histoire","difficulty":"medium"},
 {"word":"Jeanne d'Arc","forbidden":["Pucelle","France","Bûcher","Orléans","Délivrer"],"theme":"histoire","difficulty":"easy"},
 {"word":"François Ier","forbidden":["Roi","France","Renaissance","Léonard","Chambord"],"theme":"histoire","difficulty":"medium"},
 {"word":"Louis XIV","forbidden":["Roi","Soleil","Versailles","Absolu","France"],"theme":"histoire","difficulty":"easy"},

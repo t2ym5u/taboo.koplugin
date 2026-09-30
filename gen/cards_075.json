@@ -61,7 +61,7 @@
 {"word":"Empanada","forbidden":["Amérique Latine","Chausson","Farci","Four","Frit"],"theme":"alimentation","difficulty":"medium"},
 {"word":"Tamale","forbidden":["Mexique","Maïs","Vapeur","Feuille","Farci"],"theme":"alimentation","difficulty":"medium"},
 {"word":"Pozole","forbidden":["Mexique","Maïs","Soupe","Poulet","Tradition"],"theme":"alimentation","difficulty":"hard"},
-{"word":"Pho","forbidden":["Vietnam","Bouillon","Nouilles","Bœuf","Herbes"],"theme":"alimentation","difficulty":"medium"},
+{"word":"Bibimbap","forbidden": ["Corée", "Riz", "Bol", "Légumes", "Œuf"],"theme":"alimentation","difficulty":"medium"},
 {"word":"Pad Thaï","forbidden":["Thaïlande","Nouilles","Crevettes","Sauté","Cacahuètes"],"theme":"alimentation","difficulty":"easy"},
 {"word":"Nasi Goreng","forbidden":["Indonésie","Riz","Sauté","Épicé","Oeuf"],"theme":"alimentation","difficulty":"medium"},
 {"word":"Laksa","forbidden":["Singapour","Bouillon","Lait de Coco","Épicé","Nouilles"],"theme":"alimentation","difficulty":"hard"}

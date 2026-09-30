@@ -18,7 +18,7 @@
 {"word":"Conjecture de Goldbach","forbidden":["Pair","Deux","Premiers","Somme","Non Prouvé"],"theme":"sciences","difficulty":"hard"},
 {"word":"Hypothèse de Riemann","forbidden":["Zeta","Zéros","Complexe","Million","Non Prouvé"],"theme":"sciences","difficulty":"hard"},
 {"word":"Théorème de Gödel","forbidden":["Incomplétude","Système","Vrai","Indécidable","Formel"],"theme":"sciences","difficulty":"hard"},
-{"word":"Paradoxe de Russell","forbidden":["Ensemble","Contient","Lui-Même","Ensemble","Contradiction"],"theme":"sciences","difficulty":"hard"},
+{"word":"Paradoxe de Russell","forbidden": ["Ensemble", "Contient", "Lui-Même", "Logique", "Contradiction"],"theme":"sciences","difficulty":"hard"},
 {"word":"Logique Booléenne","forbidden":["Vrai","Faux","Opérateurs","Boolean","Ordinateurs"],"theme":"sciences","difficulty":"medium"},
 {"word":"Mathématiques Discrètes","forbidden":["Entiers","Graphes","Combinatoire","Informatique","Fini"],"theme":"sciences","difficulty":"hard"},
 {"word":"Théorie des Graphes","forbidden":["Nœuds","Arêtes","Réseau","Chemins","Euler"],"theme":"sciences","difficulty":"hard"},

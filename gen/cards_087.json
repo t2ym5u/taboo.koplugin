@@ -50,7 +50,7 @@
 {"word":"Couture","forbidden":["Main","Coudre","Tissu","Aiguille","Fil"],"theme":"mode","difficulty":"easy"},
 {"word":"Broderie","forbidden":["Tissu","Fil","Décorer","Motifs","Aiguille"],"theme":"mode","difficulty":"easy"},
 {"word":"Tricot","forbidden":["Laine","Aiguilles","Deux","Mailles","Chandail"],"theme":"mode","difficulty":"easy"},
-{"word":"Crochet","forbidden":["Laine","Crochet","Mailles","Unique","Artisan"],"theme":"mode","difficulty":"easy"},
+{"word":"Crochet","forbidden": ["Laine", "Aiguille", "Mailles", "Unique", "Artisan"],"theme":"mode","difficulty":"easy"},
 {"word":"Macramé","forbidden":["Nœuds","Corde","Tentures","Décoration","Suspension"],"theme":"mode","difficulty":"medium"},
 {"word":"Sérigraphie sur Tissu","forbidden":["Imprimer","T-shirt","Motifs","Encre","Tampon"],"theme":"mode","difficulty":"medium"},
 {"word":"Batik","forbidden":["Cire","Tissu","Resist","Coloré","Indonésie"],"theme":"mode","difficulty":"hard"},

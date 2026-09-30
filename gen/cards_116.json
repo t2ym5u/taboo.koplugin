@@ -59,7 +59,7 @@
 {"word":"Super-Héros Féminine","forbidden":["Femme","Pouvoirs","Héroïne","Force","Costume"],"theme":"fun","difficulty":"easy"},
 {"word":"Super-Héros Adolescent","forbidden":["Jeune","École","Double","Vie","Pouvoirs"],"theme":"fun","difficulty":"easy"},
 {"word":"Équipe de Super-Héros","forbidden":["Groupe","Ensemble","Vaincre","Alliance","Puissant"],"theme":"fun","difficulty":"easy"},
-{"word":"Anti-Héros","forbidden":["Ni","Bon","Ni","Mauvais","Méthodes"],"theme":"fun","difficulty":"medium"},
+{"word":"Anti-Héros","forbidden": ["Ni", "Bon", "Ambigu", "Mauvais", "Méthodes"],"theme":"fun","difficulty":"medium"},
 {"word":"Nemesis","forbidden":["Ennemi","Juré","Héros","Opposé","Rival"],"theme":"fun","difficulty":"medium"},
 {"word":"Alter Ego","forbidden":["Deuxième","Personnalité","Transformer","Différent","Soi"],"theme":"fun","difficulty":"medium"},
 {"word":"Origine Tragique","forbidden":["Passé","Douloureux","Motiver","Héros","Expliquer"],"theme":"fun","difficulty":"medium"}
