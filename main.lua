@@ -10,8 +10,10 @@ local function lrequire(name)
 end
 
 local PluginBase = require("plugin_base")
-local _          = require("gettext")
+local _          = require("i18n")
 local Screen     = lrequire("screen")
+
+require("i18n").extend(lrequire("i18n_fr"))
 
 local Taboo = PluginBase:extend{
     name      = "taboo",
