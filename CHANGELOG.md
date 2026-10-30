@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.6.0] - 2026-10-30
+
+### Changed
+- Redesigned play screen. The card and the team name are sized to the room
+  the controls leave, in portrait and landscape. The round buttons sit in a
+  full-width action bar on two rows ("+1 Got it", "−1 Buzzed" / "Skip", "End
+  round"), since four labels on one row did not fit a small screen.
+- The "Settings" submenu is gone. The title-bar menu lists the settings
+  directly, with their current value: New game, Language, Teams, Timer,
+  Themes (e.g. "Themes: 3/20"), then Rules. It is the same menu during a
+  round, which used to offer only Rules.
+- "New game" replaces "Reset scores": it sets every score back to zero and
+  hands the first turn back to the first team.
+- Interface text now follows KOReader's language (with French, Spanish and
+  German translations). Only the cards keep their own Language setting.
+
+### Fixed
+- The card's word, the forbidden words and the timer came out about twice
+  too big on high-DPI readers and ran off the screen edges. They are now
+  sized to the screen, and a long word shrinks to fit the card.
+
 ## [1.5.14] - 2026-10-07
 
 ### Fixed
