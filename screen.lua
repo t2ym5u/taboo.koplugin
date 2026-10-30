@@ -1,11 +1,17 @@
 local _dir = debug.getinfo(1, "S").source:sub(2):match("(.*[/\\])") or "./"
 
-local ButtonTable     = require("ui/widget/buttontable")
+local Blitbuffer      = require("ffi/blitbuffer")
+local CenterContainer = require("ui/widget/container/centercontainer")
 local DataStorage     = require("datastorage")
 local Device          = require("device")
 local Font            = require("ui/font")
 local FrameContainer  = require("ui/widget/container/framecontainer")
+local Geom            = require("ui/geometry")
+local HorizontalGroup = require("ui/widget/horizontalgroup")
+local HorizontalSpan  = require("ui/widget/horizontalspan")
 local InfoMessage     = require("ui/widget/infomessage")
+local LineWidget      = require("ui/widget/linewidget")
+local RenderText      = require("ui/rendertext")
 local Size            = require("ui/size")
 local TextBoxWidget   = require("ui/widget/textboxwidget")
 local TextWidget      = require("ui/widget/textwidget")
@@ -13,11 +19,43 @@ local UIManager       = require("ui/uimanager")
 local VerticalGroup   = require("ui/widget/verticalgroup")
 local VerticalSpan    = require("ui/widget/verticalspan")
 local _               = require("i18n")
+local T               = require("ffi/util").template
 
 local MenuHelper  = require("menu_helper")
 local ScreenBase  = require("screen_base")
 
 local DeviceScreen = Device.screen
+
+-- ---------------------------------------------------------------------------
+-- Text sizing helpers
+--
+-- Font:getFace() scales its size by the screen DPI, so a size worked out from
+-- pixel dimensions has to be divided back first, or every line comes out
+-- about twice too big on a 300 dpi reader and runs off the screen edges.
+-- ---------------------------------------------------------------------------
+
+local DPI_SCALE = DeviceScreen:scaleBySize(1000) / 1000
+
+local function pxFace(px)
+    return Font:getFace("cfont", math.max(8, math.floor(px / DPI_SCALE)))
+end
+
+-- One line of text at up to `px` pixels, shrunk until it fits `max_w`.
+local function fitLine(text, px, max_w)
+    local face = pxFace(px)
+    while px > 12 do
+        local m = RenderText:sizeUtf8Text(0, max_w * 10, face, text, true, false)
+        if m.x <= max_w then break end
+        px   = math.floor(px * 0.9)
+        face = pxFace(px)
+    end
+    return TextWidget:new{ text = text, face = face, max_width = max_w }
+end
+
+-- A paragraph wrapped to `width`, centred.
+local function wrapText(text, face, width)
+    return TextBoxWidget:new{ text = text, face = face, width = width, alignment = "center" }
+end
 
 local DEFAULT_DURATION = 60
 local DEFAULT_NB_TEAMS = 2
@@ -113,8 +151,7 @@ function TabooScreen:init()
 
     self.teams = {}
     for i = 1, nb do
-        local default = self.lang == "fr" and ("Équipe " .. i) or ("Team " .. i)
-        self.teams[i] = { name = self.plugin:getSetting("team_name_" .. i, default), score = 0 }
+        self.teams[i] = { name = self.plugin:getSetting("team_name_" .. i, T(_("Team %1"), i)), score = 0 }
     end
     self.current_team   = 1
     self.phase          = "idle"
@@ -352,10 +389,8 @@ function TabooScreen:_onTimerEnd()
     self.current_team = (self.current_team % #self.teams) + 1
     self:buildLayout()
     UIManager:setDirty(self, function() return "ui", self.dimen end)
-    local is_fr = self.lang == "fr"
-    local msg = is_fr
-        and string.format("Temps écoulé ! +%d −%d = %+d points", self.round_correct, self.round_buzzed, delta)
-        or  string.format("Time's up! +%d −%d = %+d points",     self.round_correct, self.round_buzzed, delta)
+    local msg = T(_("Time's up! +%1 −%2 = %3 points"), self.round_correct, self.round_buzzed,
+        string.format("%+d", delta))
     UIManager:show(InfoMessage:new{ text = msg, timeout = 3 })
 end
 
@@ -365,11 +400,9 @@ end
 
 function TabooScreen:onStartRound()
     if #self.cards == 0 then
-        local is_fr = self.lang == "fr"
         UIManager:show(InfoMessage:new{
-            text = is_fr
-                and "Aucune carte chargée.\n\nCopiez taboo_cards_fr.lua (ou .json)\ndans le dossier documents de KOReader."
-                or  "No cards loaded.\n\nCopy taboo_cards_en.lua (or .json)\nto KOReader's documents folder.",
+            text = T(_("No cards loaded.\n\nCopy %1\nto KOReader's documents folder."),
+                "taboo_cards_" .. self.lang .. ".lua (.json)"),
             timeout = 6,
         })
         return
@@ -411,33 +444,24 @@ end
 -- Settings
 -- ---------------------------------------------------------------------------
 
-function TabooScreen:openOptionsMenu()
-    local is_fr = self.lang == "fr"
-    local items = {
-        { id = "lang",     text = is_fr and "Langue…"                   or "Language…" },
-        { id = "themes",   text = is_fr and "Thèmes…"                   or "Themes…" },
-        { id = "teams",    text = is_fr and "Nombre d'équipes…"         or "Number of teams…" },
-        { id = "duration", text = is_fr and "Durée du chrono…"          or "Timer duration…" },
-        { id = "reset",    text = is_fr and "Remettre les scores à zéro" or "Reset scores" },
-    }
-    MenuHelper.openPickerMenu{
-        title     = "Options",
-        items     = items,
-        parent    = self,
-        on_select = function(id)
-            if     id == "lang"     then self:openLangMenu()
-            elseif id == "themes"   then self:openThemeMenu()
-            elseif id == "teams"    then self:openTeamsMenu()
-            elseif id == "duration" then self:openDurationMenu()
-            elseif id == "reset"    then self:onResetScores()
-            end
-        end,
-    }
+function TabooScreen:_durationLabel(dur)
+    return string.format("%d:%02d", math.floor(dur / 60), dur % 60)
+end
+
+-- "Themes: All" or "Themes: 3/20" for the title-bar menu.
+function TabooScreen:_themesMenuText()
+    if self.selected_themes == nil then return _("Themes: All") end
+    local total, sel = 0, 0
+    for tid in pairs(self.all_themes) do
+        total = total + 1
+        if self.selected_themes[tid] then sel = sel + 1 end
+    end
+    return T(_("Themes: %1"), sel .. "/" .. total)
 end
 
 function TabooScreen:openLangMenu()
     MenuHelper.openPickerMenu{
-        title      = "Language / Langue",
+        title      = _("Language"),
         items      = { { id = "fr", text = "Français" }, { id = "en", text = "English" } },
         current_id = self.lang,
         parent     = self,
@@ -457,8 +481,6 @@ end
 -- ---------------------------------------------------------------------------
 
 function TabooScreen:openThemeMenu()
-    local is_fr = self.lang == "fr"
-
     -- Build sorted list of themes that actually exist in the loaded data
     local available = {}
     local in_order  = {}
@@ -476,9 +498,7 @@ function TabooScreen:openThemeMenu()
 
     if #available == 0 then
         UIManager:show(InfoMessage:new{
-            text    = is_fr
-                and "Aucun thème disponible.\nChargez d'abord un fichier de cartes."
-                or  "No themes available.\nLoad a card file first.",
+            text    = _("No themes available.\nLoad a card file first."),
             timeout = 3,
         })
         return
@@ -491,7 +511,7 @@ function TabooScreen:openThemeMenu()
     items[#items + 1] = {
         id   = "__all__",
         text = (all_selected and "★ " or "  ")
-               .. (is_fr and "Tous les thèmes" or "All themes")
+               .. _("All themes")
                .. string.format("  (%d)", #self.cards),
     }
     for _, tid in ipairs(available) do
@@ -506,7 +526,7 @@ function TabooScreen:openThemeMenu()
     end
 
     MenuHelper.openPickerMenu{
-        title     = is_fr and "Thèmes" or "Themes",
+        title     = _("Themes"),
         items     = items,
         parent    = self,
         on_select = function(id)
@@ -550,13 +570,12 @@ function TabooScreen:openThemeMenu()
 end
 
 function TabooScreen:openTeamsMenu()
-    local is_fr = self.lang == "fr"
     local items = {}
     for n = 2, 6 do
-        items[#items + 1] = { id = n, text = n .. " " .. (is_fr and "équipes" or "teams") }
+        items[#items + 1] = { id = n, text = T(_("%1 teams"), n) }
     end
     MenuHelper.openPickerMenu{
-        title      = is_fr and "Équipes" or "Teams",
+        title      = _("Teams"),
         items      = items,
         current_id = #self.teams,
         parent     = self,
@@ -564,7 +583,7 @@ function TabooScreen:openTeamsMenu()
             self.plugin:saveSetting("nb_teams", n)
             while #self.teams < n do
                 local i = #self.teams + 1
-                self.teams[i] = { name = (self.lang == "fr" and "Équipe " or "Team ") .. i, score = 0 }
+                self.teams[i] = { name = T(_("Team %1"), i), score = 0 }
             end
             while #self.teams > n do table.remove(self.teams) end
             if self.current_team > #self.teams then self.current_team = 1 end
@@ -575,13 +594,12 @@ function TabooScreen:openTeamsMenu()
 end
 
 function TabooScreen:openDurationMenu()
-    local items = {
-        { id = 30,  text = "0:30" }, { id = 45,  text = "0:45" },
-        { id = 60,  text = "1:00" }, { id = 90,  text = "1:30" },
-        { id = 120, text = "2:00" },
-    }
+    local items = {}
+    for _i, d in ipairs({ 30, 45, 60, 90, 120 }) do
+        items[#items + 1] = { id = d, text = self:_durationLabel(d) }
+    end
     MenuHelper.openPickerMenu{
-        title      = self.lang == "fr" and "Durée" or "Duration",
+        title      = _("Timer"),
         items      = items,
         current_id = self.duration,
         parent     = self,
@@ -592,9 +610,12 @@ function TabooScreen:openDurationMenu()
     }
 end
 
-function TabooScreen:onResetScores()
-    for _, t in ipairs(self.teams) do t.score = 0 end
+-- New game: scores back to zero, first team to play.
+function TabooScreen:onNewGame()
+    self:_stopCountdown()
+    for _i, t in ipairs(self.teams) do t.score = 0 end
     self.current_team = 1
+    self.phase        = "idle"
     self:buildLayout()
     UIManager:setDirty(self, function() return "ui", self.dimen end)
 end
@@ -613,193 +634,172 @@ function TabooScreen:buildLayout()
     self:updateStatus()
 end
 
-function TabooScreen:_buildIdleLayout()
-    local sw    = DeviceScreen:getWidth()
-    local sh    = DeviceScreen:getHeight()
-    local is_fr = self.lang == "fr"
-    local team  = self.teams[self.current_team]
-
-    local title_bar = self:buildTitleBar(_("Taboo Party"), function()
+function TabooScreen:_titleBar()
+    return self:buildTitleBar(_("Taboo Party"), function()
         return {
-            { text = is_fr and "Réglages" or "Settings", callback = function() self:openOptionsMenu() end },
+            { text = _("New game"), callback = function() self:onNewGame() end },
+            { text = T(_("Language: %1"), self.lang:upper()), callback = function() self:openLangMenu() end },
+            { text = T(_("Teams: %1"), #self.teams),          callback = function() self:openTeamsMenu() end },
+            { text = T(_("Timer: %1"), self:_durationLabel(self.duration)),
+              callback = function() self:openDurationMenu() end },
+            { text = self:_themesMenuText(), callback = function() self:openThemeMenu() end },
             self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
         }
     end)
+end
 
-    local btn_w = math.floor(sw * 0.92)
-    local buttons = ButtonTable:new{
-        shrink_unneeded_width = true,
-        width   = btn_w,
-        buttons = {{
-            { text = is_fr and "Commencer la manche" or "Start round",
-              callback = function() self:onStartRound() end },
-        }},
-    }
+function TabooScreen:_buildIdleLayout()
+    local team  = self.teams[self.current_team]
 
-    -- Scores
-    local score_parts = {}
-    for _, t in ipairs(self.teams) do
-        score_parts[#score_parts + 1] = t.name .. " : " .. t.score
-    end
-    local score_w = TextWidget:new{
-        text = table.concat(score_parts, "   "),
-        face = Font:getFace("smallinfofont"),
-    }
-
-    -- Active team
-    local team_fs = math.max(24, math.floor(math.min(sw, sh) * 0.08))
-    local team_w  = TextWidget:new{
-        text = team.name:upper(),
-        face = Font:getFace("cfont", team_fs),
-    }
-
-    local sub_w = TextWidget:new{
-        text = is_fr and "C'est votre tour de faire deviner" or "It's your turn to describe",
-        face = Font:getFace("smallinfofont"),
-    }
+    local title_bar = self:_titleBar()
+    local controls  = self:_buildControls({
+        { text = _("Start round"),
+          callback = function() self:onStartRound() end },
+    })
+    local bw, bh = self:getBoardBudget(title_bar, controls)
+    local short  = math.min(bw, bh)
+    local vs     = Size.span.vertical_large
 
     -- Card / theme info
     local deck_line
     if #self.cards == 0 then
-        deck_line = is_fr and "⚠ Aucune carte — voir Options" or "⚠ No cards — see Options"
+        deck_line = "⚠ " .. T(_("No cards loaded.\n\nCopy %1\nto KOReader's documents folder."),
+            "taboo_cards_" .. self.lang .. ".lua (.json)")
     elseif self.selected_themes == nil then
         local nb_themes = 0
         for _ in pairs(self.all_themes) do nb_themes = nb_themes + 1 end
-        deck_line = is_fr
-            and string.format("Tous les thèmes (%d) · %d cartes", nb_themes, #self.cards)
-            or  string.format("All themes (%d) · %d cards",       nb_themes, #self.cards)
+        deck_line = T(_("All themes (%1) · %2 cards"), nb_themes, #self.cards)
     else
         local nb_sel = 0
         for _ in pairs(self.selected_themes) do nb_sel = nb_sel + 1 end
-        deck_line = is_fr
-            and string.format("%d thème(s) sélectionné(s) · %d cartes", nb_sel, #self.cards)
-            or  string.format("%d theme(s) selected · %d cards",         nb_sel, #self.cards)
+        deck_line = T(_("%1 theme(s) selected · %2 cards"), nb_sel, #self.cards)
     end
-    local deck_w = TextWidget:new{
-        text = deck_line,
-        face = Font:getFace("smallinfofont"),
-    }
-
-    local vs  = VerticalSpan:new{ width = Size.span.vertical_large }
-    local vs2 = VerticalSpan:new{ width = Size.span.vertical_large * 4 }
 
     self.timer_widget = nil
     local content = VerticalGroup:new{
         align = "center",
-        score_w,
-        vs2,
-        team_w,
-        vs,
-        sub_w,
-        vs2,
-        deck_w,
+        -- Active team
+        fitLine(team.name:upper(), short * 0.14, bw),
+        VerticalSpan:new{ width = vs },
+        wrapText(_("It's your turn to describe"),
+            Font:getFace("infofont"), bw),
+        VerticalSpan:new{ width = vs * 4 },
+        wrapText(deck_line, Font:getFace("smallinfofont"), bw),
     }
-    self:buildPortraitLayout(title_bar, content, buttons)
+    self:_placeLayout(title_bar, content, controls)
 end
 
 function TabooScreen:_buildPlayLayout()
-    local sw    = DeviceScreen:getWidth()
-    local sh    = DeviceScreen:getHeight()
-    local is_fr = self.lang == "fr"
     local card  = self:_currentCard()
 
-    local title_bar = self:buildTitleBar(_("Taboo Party"), function()
-        return {
-            { text = is_fr and "Réglages" or "Settings", callback = function() self:openOptionsMenu() end },
-            self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
-        }
-    end)
-
-    local btn_w = math.floor(sw * 0.92)
-    local action_btns = ButtonTable:new{
-        shrink_unneeded_width = true,
-        width   = btn_w,
-        buttons = {{
-            { text = is_fr and "✓  +1 Trouvé" or "✓  +1 Got it",
+    -- Two rows: four labels on one row do not fit a small screen.
+    local title_bar = self:_titleBar()
+    local controls  = self:_buildControls({
+        {
+            { text = "✓  " .. _("+1 Got it"),
               callback = function() self:onCorrect() end },
-            { text = is_fr and "✗  −1 Grillé"  or "✗  −1 Buzzed",
+            { text = "✗  " .. _("−1 Buzzed"),
               callback = function() self:onBuzzed() end },
-            { text = is_fr and "→  Passer"     or "→  Skip",
+        },
+        {
+            { text = "→  " .. _("Skip"),
               callback = function() self:onSkip() end },
-            { text = is_fr and "■  Fin de manche" or "■  End round",
+            { text = "■  " .. _("End round"),
               callback = function() self:onStopRound() end },
-        }},
-    }
+        },
+    })
+    local bw, bh = self:getBoardBudget(title_bar, controls)
+    local short  = math.min(bw, bh)
+    local vs     = Size.span.vertical_large
 
-    local timer_fs = math.max(20, math.floor(math.min(sw, sh) * 0.09))
     self.timer_widget = TextWidget:new{
         text = self:_timerText(),
-        face = Font:getFace("cfont", timer_fs),
+        face = pxFace(short * 0.12),
     }
 
-    local stats_w = TextWidget:new{
-        text = string.format("✓ %d   ✗ %d", self.round_correct, self.round_buzzed),
-        face = Font:getFace("smallinfofont"),
-    }
-
+    local frame_pad = Size.padding.large
+    local inner_w   = bw - 2 * (frame_pad + Size.border.window)
     local card_group
     if not card then
-        card_group = TextWidget:new{
-            text = is_fr and "Aucune carte." or "No cards.",
-            face = Font:getFace("cfont", 24),
-        }
+        card_group = wrapText(_("No cards."), Font:getFace("infofont"), inner_w)
     else
-        local word    = card.word or card[1] or "?"
-        local wlen    = #word
-        local word_fs = wlen > 12 and math.floor(math.min(sw, sh) * 0.08)
-                     or wlen > 8  and math.floor(math.min(sw, sh) * 0.10)
-                     or               math.floor(math.min(sw, sh) * 0.13)
-        word_fs = math.max(22, math.min(word_fs, 110))
-
-        local word_w = TextWidget:new{
-            text = word,
-            face = Font:getFace("cfont", word_fs),
-        }
-
+        local word = card.word or card[1] or "?"
         local forbidden = card.forbidden or card[2] or {}
         local forb_lines = {}
         for _, fw in ipairs(forbidden) do
             forb_lines[#forb_lines + 1] = "× " .. fw
         end
-        local forb_w = TextBoxWidget:new{
-            text  = table.concat(forb_lines, "\n"),
-            face  = Font:getFace("cfont", math.max(16, math.floor(math.min(sw, sh) * 0.045))),
-            width = math.floor(sw * 0.7),
-        }
-
-        local sep_w = TextWidget:new{
-            text = string.rep("─", 24),
-            face = Font:getFace("smallinfofont"),
-        }
 
         card_group = VerticalGroup:new{
             align = "center",
-            word_w,
-            VerticalSpan:new{ width = Size.span.vertical_large },
-            sep_w,
-            VerticalSpan:new{ width = Size.span.vertical_large },
-            forb_w,
+            -- Word: as big as the width allows
+            fitLine(word, short * 0.13, inner_w),
+            VerticalSpan:new{ width = vs },
+            LineWidget:new{
+                background = Blitbuffer.COLOR_DARK_GRAY,
+                dimen      = Geom:new{ w = math.floor(inner_w * 0.6), h = Size.line.medium },
+            },
+            VerticalSpan:new{ width = vs },
+            wrapText(table.concat(forb_lines, "\n"), pxFace(short * 0.06), inner_w),
         }
     end
 
     local card_frame = FrameContainer:new{
-        padding = Size.padding.large,
-        margin  = Size.margin.default,
-        card_group,
+        padding = frame_pad,
+        margin  = 0,
+        CenterContainer:new{
+            dimen = Geom:new{ w = inner_w, h = card_group:getSize().h },
+            card_group,
+        },
     }
-
-    local vs  = VerticalSpan:new{ width = Size.span.vertical_large }
-    local vs2 = VerticalSpan:new{ width = Size.span.vertical_large * 2 }
 
     local content = VerticalGroup:new{
         align = "center",
         self.timer_widget,
-        vs,
-        stats_w,
-        vs2,
+        VerticalSpan:new{ width = vs },
+        TextWidget:new{
+            text = string.format("✓ %d   ✗ %d", self.round_correct, self.round_buzzed),
+            face = Font:getFace("smallinfofont"),
+        },
+        VerticalSpan:new{ width = vs * 2 },
         card_frame,
     }
-    self:buildPortraitLayout(title_bar, content, action_btns)
+    self:_placeLayout(title_bar, content, controls)
+end
+
+-- Status line + action bar, built before the content so the content can be
+-- sized from what they leave over (getBoardBudget).
+function TabooScreen:_buildControls(rows)
+    self.status_text:setMaxWidth(self:getControlsWidth())
+    return VerticalGroup:new{
+        align = "center",
+        self.status_text,
+        VerticalSpan:new{ width = Size.span.vertical_large },
+        self:buildActionBar(rows),
+    }
+end
+
+function TabooScreen:_placeLayout(title_bar, content, controls)
+    if self:isLandscape() then
+        self:buildLandscapeLayout(title_bar, HorizontalGroup:new{
+            align = "center",
+            content,
+            HorizontalSpan:new{ width = self:getGutter() },
+            controls,
+        })
+    else
+        self:buildPortraitLayout(title_bar, content,
+            VerticalGroup:new{ align = "center", controls, VerticalSpan:new{ width = self:getGutter() } })
+    end
+end
+
+-- "Team 1: 3 · Team 2: 1"
+function TabooScreen:_scoreStatus(list)
+    local parts = {}
+    for _i, t in ipairs(list) do
+        parts[#parts + 1] = T(_("%1: %2"), t.name, t.score)
+    end
+    return self:joinStatus((table.unpack or unpack)(parts))
 end
 
 -- ---------------------------------------------------------------------------
@@ -808,11 +808,7 @@ end
 
 function TabooScreen:updateStatus(msg)
     if msg then ScreenBase.updateStatus(self, msg); return end
-    local parts = {}
-    for _, t in ipairs(self.teams) do
-        parts[#parts + 1] = t.name .. " " .. t.score
-    end
-    ScreenBase.updateStatus(self, table.concat(parts, "  |  "))
+    ScreenBase.updateStatus(self, self:_scoreStatus(self.teams))
 end
 
 function TabooScreen:onClose()
