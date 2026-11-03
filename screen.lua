@@ -22,6 +22,7 @@ local _               = require("i18n")
 local T               = require("ffi/util").template
 
 local MenuHelper  = require("menu_helper")
+local TabooHistory = require("taboo_history")
 local ScreenBase  = require("screen_base")
 
 local DeviceScreen = Device.screen
@@ -191,6 +192,7 @@ function TabooScreen:init()
     self.round_correct  = 0
     self.round_buzzed   = 0
 
+    self.seen = TabooHistory.open(self.plugin, self.lang)
     self:_loadCards()
     ScreenBase.init(self)
 end
@@ -360,21 +362,27 @@ function TabooScreen:_loadCards()
     self.all_themes = {}
 end
 
+-- Cards not seen in earlier sessions come first (see taboo_history.lua).
 function TabooScreen:_shuffleCards()
-    local c = self.cards
-    for i = #c, 2, -1 do
-        local j = math.random(i)
-        c[i], c[j] = c[j], c[i]
-    end
+    TabooHistory.order(self.seen, self.cards)
     self.card_index = 1
+    self._shown_at  = nil
 end
 
+-- The card in play. It counts as seen once a round shows it: the idle
+-- screen between rounds does not show the card, so a card drawn there and
+-- never played is not remembered.
 function TabooScreen:_currentCard()
     if #self.cards == 0 then return nil end
     if self.card_index > #self.cards then
         self:_shuffleCards()
     end
-    return self.cards[self.card_index]
+    local card = self.cards[self.card_index]
+    if self.phase == "playing" and self._shown_at ~= self.card_index then
+        self._shown_at = self.card_index
+        if self.seen then self.seen:mark(card) end
+    end
+    return card
 end
 
 -- ---------------------------------------------------------------------------
@@ -499,6 +507,7 @@ function TabooScreen:openLangMenu()
             self.lang = lang
             self.plugin:saveSetting("lang", lang)
             self.selected_themes = self:_loadThemeSelection()
+            self.seen = TabooHistory.open(self.plugin, lang)
             self:_loadCards()
             self:buildLayout()
             UIManager:setDirty(self, function() return "ui", self.dimen end)

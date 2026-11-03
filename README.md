@@ -10,7 +10,7 @@ A **Forbidden Words** (FR « Mots interdits ») display plugin for [KOReader](ht
 
 Teams take turns. The active player picks up the device and describes as many words as possible before the timer runs out — without saying any of the forbidden words listed below the main word. Opponents watch for slip-ups and can buzz. Correct guesses score +1, buzzes score −1.
 
-Two decks are built in — 8,402 French cards and 2,445 English ones — and you can add your own from a JSON file in KOReader's documents folder.
+Two decks are built in — 8,402 French cards and 2,545 English ones — and you can add your own from a JSON file in KOReader's documents folder.
 
 ## Rules
 
@@ -27,7 +27,7 @@ Two decks are built in — 8,402 French cards and 2,445 English ones — and you
 - **Live scoring** — ✓ +1 / ✗ −1 / → Skip, applied instantly; round delta shown at timer end
 - **Auto team rotation** — advances to the next team after each round
 - **2–6 teams** — configurable team count
-- **Two bundled decks** — 8,402 French cards across 17 themes, and 2,445 English cards across 20 themes (written for English speakers, not translated: Sherlock Holmes, Big Ben, Fish and chips, Muhammad Ali…) — nothing to set up
+- **Two bundled decks** — 8,402 French cards across 17 themes, and 2,545 English cards across 20 themes (written for English speakers, not translated: Sherlock Holmes, Big Ben, Fish and chips, Muhammad Ali…) — nothing to set up
 - **Deck language** — Options → Language picks the French or the English deck; until you choose, it follows KOReader's language (French → French deck, anything else → English). The theme filter shows the deck's own theme names
 - **E-ink friendly** — only the timer digit refreshes in fast/A2 mode
 
@@ -55,7 +55,7 @@ Each card object must have:
 - `"word"` — the word to describe
 - `"forbidden"` — array of words that cannot be said
 
-Cards are shuffled on load and wrap around automatically.
+Cards are shuffled, and the ones played in earlier sessions (the last 3,000, remembered per deck language, also for your own deck) go last; once every card of the chosen themes has been played, a new cycle starts.
 
 ## Controls
 

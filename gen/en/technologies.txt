@@ -75,3 +75,26 @@ Captcha|Robot|Prove|Letters|Images|Website|hard
 Podcast|Listen|Episode|Audio|Show|Subscribe|medium
 Streaming|Netflix|Watch|Online|Video|Music|medium
 Loading Bar|Wait|Progress|Percent|Slow|Download|medium
+Cable|Wire|Plug|Connect|Charger|Tangled|easy
+Antenna|Aerial|Signal|Roof|Television|Radio|medium
+Router|Wi-Fi|Internet|Box|Lights|Broadband|medium
+Hard Drive|Storage|Computer|Files|Disk|Memory|medium
+Ringtone|Phone|Call|Tune|Sound|Silent|easy
+Voicemail|Message|Phone|Answer|Beep|Leave|medium
+Fax Machine|Paper|Office|Send|Phone|Old|medium
+Photocopier|Copy|Office|Paper|Jam|Print|medium
+Cassette|Tape|Music|Rewind|Old|Mixtape|medium
+Projector|Screen|Light|Slides|Cinema|Wall|medium
+Escalator|Stairs|Moving|Shopping|Up|Steps|easy
+Loudspeaker|Sound|Loud|Music|Volume|Announcement|medium
+Power Cut|Electricity|Dark|Candles|Lights|Outage|medium
+Extension Lead|Plug|Socket|Cable|Power|Long|hard
+Username|Login|Password|Account|Name|Profile|medium
+Software Update|Install|New|Version|Restart|Download|medium
+Spam|Email|Junk|Inbox|Unwanted|Advert|medium
+Cursor|Mouse|Arrow|Screen|Blink|Pointer|medium
+Scanner|Copy|Paper|Image|Light|Document|medium
+Transistor|Radio|Electronics|Chip|Small|Switch|hard
+Keyboard Shortcut|Keys|Copy|Paste|Quick|Control|hard
+Search Bar|Type|Find|Box|Internet|Browser|medium
+Inbox|Email|Messages|New|Unread|Folder|easy

@@ -86,3 +86,26 @@ Penny-farthing|Bicycle|Big Wheel|Small Wheel|Victorian|Old|hard
 Model T|Ford|Car|First|Black|Henry|hard
 Henry Ford|Car|Model T|Assembly Line|Inventor|American|medium
 Yuri Gagarin|First|Space|Russian|Cosmonaut|Vostok|hard
+Van|Delivery|Vehicle|Back|Doors|Removal|easy
+Double-decker Bus|London|Red|Upstairs|Two|Floors|easy
+Skateboard|Wheels|Ramp|Trick|Board|Park|easy
+Kayak|Paddle|River|Canoe|Single|Water|medium
+Raft|Logs|River|Float|Rapids|Shipwrecked|medium
+Speedboat|Fast|Engine|Water|Waves|Motor|easy
+Sailing Boat|Wind|Mast|Sea|Yacht|Sails|easy
+Barge|Canal|Flat|Cargo|River|Slow|medium
+Container Ship|Cargo|Port|Huge|Boxes|Crane|medium
+Seaplane|Water|Fly|Floats|Lake|Land|hard
+Runway|Airport|Take Off|Land|Plane|Lights|medium
+Platform|Station|Train|Wait|Edge|Number|easy
+Timetable|Times|Bus|Train|Departure|Schedule|medium
+Bus Stop|Wait|Shelter|Queue|Sign|Route|easy
+Driving Licence|Card|Test|Photo|Car|Learner|medium
+Number Plate|Car|Letters|Registration|Front|Back|medium
+Flat Tyre|Puncture|Wheel|Spare|Pump|Air|easy
+Windscreen Wiper|Rain|Glass|Car|Swish|Clean|medium
+Luggage|Bags|Suitcase|Travel|Carousel|Heavy|easy
+Sidecar|Motorbike|Passenger|Side|Attached|Three|hard
+Tow Truck|Breakdown|Pull|Hook|Broken|Car|medium
+Go-kart|Race|Small|Track|Engine|Fun|medium
+Snowmobile|Snow|Ice|Skis|Engine|Arctic|medium

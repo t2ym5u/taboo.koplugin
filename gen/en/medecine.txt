@@ -82,3 +82,24 @@ Nightmare|Dream|Scary|Sleep|Wake|Monster|easy
 Eye Test|Optician|Letters|Chart|Glasses|See|medium
 Hearing Aid|Ear|Deaf|Listen|Sound|Device|medium
 Braces|Teeth|Metal|Straight|Orthodontist|Smile|medium
+Sprain|Ankle|Twist|Swollen|Wrist|Ice|medium
+Splinter|Wood|Finger|Tweezers|Prick|Skin|easy
+Stitches|Wound|Needle|Thread|Cut|Doctor|medium
+Nosebleed|Blood|Tissue|Head|Red|Drip|easy
+Earache|Pain|Hurt|Drops|Infection|Children|medium
+Sore Throat|Swallow|Cold|Lozenge|Voice|Scratchy|easy
+Blood Test|Needle|Arm|Sample|Results|Nurse|medium
+Antiseptic|Germs|Cream|Cut|Clean|Sting|medium
+Sling|Arm|Broken|Shoulder|Triangle|Support|medium
+Ice Pack|Cold|Swelling|Freezer|Bruise|Bump|easy
+Heartbeat|Pulse|Thump|Chest|Rhythm|Stethoscope|easy
+Cast|Broken|Plaster|Arm|Sign|Weeks|medium
+Medicine|Pill|Doctor|Ill|Spoon|Better|easy
+Vitamins|Healthy|Fruit|Tablets|Orange|Daily|medium
+Mumps|Swollen|Cheeks|Vaccine|Children|Illness|hard
+Wart|Skin|Hand|Bump|Frog|Witch|medium
+Dentures|False|Teeth|Glass|Grandparents|Mouth|medium
+Eye Drops|Bottle|Squeeze|Red|Tears|Sting|medium
+Bone|Skeleton|Calcium|Dog|Broken|X-ray|easy
+Freckles|Face|Sun|Spots|Cheeks|Brown|medium
+Lab Coat|White|Scientist|Doctor|Laboratory|Wear|medium
