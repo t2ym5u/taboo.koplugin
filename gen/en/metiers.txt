@@ -1,0 +1,101 @@
+Teacher|School|Pupils|Class|Lessons|Blackboard|easy
+Firefighter|Siren|Hose|Engine|Ladder|Rescue|easy
+Police officer|Crime|Arrest|Uniform|Badge|Siren|easy
+Chef|Kitchen|Cook|Restaurant|Hat|Recipe|easy
+Baker|Bread|Oven|Cakes|Flour|Early|easy
+Butcher|Meat|Knife|Shop|Sausages|Apron|easy
+Farmer|Tractor|Fields|Cows|Crops|Barn|easy
+Pilot|Plane|Fly|Cockpit|Airport|Captain|easy
+Flight attendant|Plane|Passengers|Air hostess|Steward|Trolley|medium
+Astronaut|Space|Rocket|Moon|NASA|Helmet|easy
+Postman|Letters|Mail|Deliver|Van|Stamps|medium
+Hairdresser|Haircut|Scissors|Cut|Salon|Style|easy
+Barber|Hair|Beard|Shave|Men|Pole|medium
+Plumber|Pipes|Leak|Water|Toilet|Wrench|easy
+Electrician|Wires|Electricity|Power|Fuse|Shock|easy
+Carpenter|Wood|Saw|Hammer|Furniture|Nails|medium
+Builder|House|Bricks|Construction|Site|Hard hat|medium
+Mechanic|Car|Repair|Garage|Engine|Oil|medium
+Lawyer|Court|Judge|Client|Case|Defend|easy
+Judge|Court|Gavel|Wig|Sentence|Trial|easy
+Waiter|Restaurant|Order|Tip|Tray|Serve|medium
+Cashier|Till|Supermarket|Pay|Money|Checkout|medium
+Shopkeeper|Till|Counter|Customers|Sell|Owner|medium
+Librarian|Books|Library|Quiet|Borrow|Shelves|easy
+Zookeeper|Enclosure|Animals|Feed|Cage|Lions|medium
+Lifeguard|Beach|Pool|Rescue|Swim|Whistle|medium
+Soldier|Army|War|Uniform|Gun|Fight|easy
+Sailor|Ship|Sea|Navy|Boat|Captain|easy
+Fisherman|Hook|Boat|Net|Rod|Sea|medium
+Gardener|Plants|Flowers|Lawn|Weeds|Spade|medium
+Cleaner|Vacuum|Mop|Office|Dust|Hoover|medium
+Taxi driver|Cab|Car|Fare|Passenger|Meter|easy
+Bus driver|Passengers|Route|Ticket|Stop|Wheel|medium
+Truck driver|Lorry|Road|Deliver|Long distance|Motorway|medium
+Train driver|Railway|Locomotive|Station|Tracks|Engine|medium
+Architect|Buildings|Design|Plans|Draw|House|medium
+Engineer|Build|Design|Bridges|Machines|Technical|medium
+Scientist|Laboratory|Experiment|Research|White coat|Test|easy
+Journalist|News|Newspaper|Report|Write|Story|medium
+Photographer|Camera|Pictures|Photos|Shoot|Lens|medium
+Actor|Film|Stage|Role|Hollywood|Play|easy
+Singer|Voice|Song|Microphone|Stage|Music|medium
+Dancer|Twirl|Ballet|Stage|Music|Move|medium
+Painter|Brush|Canvas|Easel|Art|Picture|medium
+Writer|Book|Author|Novel|Pen|Words|medium
+Poet|Poems|Rhyme|Verse|Write|Shakespeare|medium
+Musician|Instrument|Song|Band|Play|Concert|medium
+Magician|Tricks|Rabbit|Hat|Wand|Abracadabra|easy
+Acrobat|Circus|Flips|Trapeze|Balance|Gymnastics|medium
+Ringmaster|Circus|Top hat|Announce|Whip|Lions|hard
+Comedian|Jokes|Funny|Stand-up|Laugh|Stage|easy
+Accountant|Numbers|Money|Tax|Books|Calculator|hard
+Banker|Account|Money|Loans|Finance|Suit|medium
+Secretary|Office|Type|Boss|Phone|Assistant|medium
+Receptionist|Desk|Front|Welcome|Phone|Hotel|medium
+Manager|Boss|Team|Office|In charge|Staff|medium
+Estate agent|House|Sell|Property|Rent|Viewing|hard
+Programmer|Computer|Code|Software|Developer|Bugs|medium
+Web designer|HTML|Internet|Layout|Computer|Pages|medium
+Pharmacist|Medicine|Prescription|Chemist|Pills|Drugs|medium
+Midwife|Baby|Birth|Mother|Deliver|Pregnant|hard
+Psychologist|Mind|Therapy|Talk|Feelings|Couch|hard
+Optician|Glasses|Eyes|Lenses|Test|Sight|hard
+Priest|Church|Mass|God|Religion|Collar|medium
+Nun|Convent|Habit|Sister|Church|Pray|medium
+Monk|Monastery|Robe|Pray|Religion|Bald|medium
+Detective|Clue|Mystery|Crime|Investigate|Sherlock|easy
+Spy|Secret|Agent|Bond|Undercover|Mission|easy
+Bodyguard|Protect|Celebrity|Security|Sunglasses|Bulletproof|medium
+Security guard|Night|Patrol|Uniform|Building|Protect|medium
+Bouncer|Club|Door|Big|Security|Entry|medium
+Lumberjack|Trees|Axe|Forest|Wood|Chop|medium
+Miner|Coal|Underground|Pit|Dig|Helmet|medium
+Blacksmith|Iron|Anvil|Hammer|Horseshoe|Forge|hard
+Shepherd|Sheep|Flock|Field|Crook|Dog|hard
+Beekeeper|Bees|Honey|Hive|Veil|Smoke|hard
+Florist|Flowers|Shop|Bouquet|Roses|Arrange|medium
+Tailor|Suit|Sew|Measure|Clothes|Fit|hard
+Jeweller|Rings|Gold|Diamonds|Necklace|Shop|medium
+Watchmaker|Clocks|Repair|Tiny|Gears|Time|hard
+Locksmith|Keys|Burglar|Door|Locked out|Pick|hard
+Chimney sweep|Soot|Brush|Roof|Mary Poppins|Black|hard
+Window cleaner|Glass|Ladder|Squeegee|Bucket|Wash|medium
+Pizza delivery|Scooter|Door|Hot|Order|Box|medium
+Courier|Package|Deliver|Parcel|Van|Fast|hard
+Translator|Language|Words|Interpret|Foreign|Translate|hard
+Tour guide|Sightseeing|Show|Museum|Group|Explain|medium
+Referee|Whistle|Match|Rules|Card|Football|easy
+Coach|Team|Train|Sport|Manager|Whistle|easy
+Personal trainer|Gym|Fitness|Exercise|Coach|Muscles|medium
+Model|Catwalk|Fashion|Photos|Pose|Tall|easy
+Fashion designer|Clothes|Fabric|Catwalk|Collection|Sew|medium
+Makeup artist|Face|Brushes|Lipstick|Film|Beauty|medium
+DJ|Music|Party|Turntables|Club|Records|easy
+Archaeologist|Dig|Ancient|Bones|Ruins|Indiana Jones|hard
+Astronomer|Stars|Telescope|Planets|Space|Night|medium
+Air traffic controller|Planes|Tower|Runway|Radar|Landing|hard
+Undertaker|Funeral|Coffin|Dead|Burial|Cemetery|hard
+Puppeteer|Strings|Puppets|Show|Hands|Muppets|hard
+Ventriloquist|Dummy|Voice|Lips|Puppet|Talk|hard
+Town crier|Bell|Shout|Announce|Hear ye|Medieval|hard

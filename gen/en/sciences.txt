@@ -1,0 +1,100 @@
+Albert Einstein|Relativity|E=mc2|Physicist|Genius|Hair|easy
+Marie Curie|Radium|Radioactivity|Nobel|Polish|Woman|medium
+Isaac Newton|Gravity|Apple|Laws|Physics|Tree|easy
+Charles Darwin|Evolution|Galápagos|Species|Finches|Natural Selection|medium
+Galileo|Telescope|Astronomer|Italian|Church|Earth|medium
+Stephen Hawking|Black Holes|Wheelchair|Physicist|Cambridge|Universe|medium
+Nikola Tesla|Electricity|Inventor|Edison|Coil|Car|medium
+Ada Lovelace|Programmer|First|Babbage|Countess|Byron|hard
+Copernicus|Sun|Centre|Earth|Astronomer|Polish|hard
+Archimedes|Eureka|Bath|Greek|Lever|Water|medium
+Pythagoras|Theorem|Triangle|Greek|Hypotenuse|Square|medium
+Euclid|Geometry|Greek|Elements|Mathematician|Ancient|hard
+Gregor Mendel|Peas|Genetics|Monk|Heredity|Father|hard
+Dmitri Mendeleev|Periodic Table|Elements|Russian|Chemist|Inventor|hard
+Carl Sagan|Cosmos|Astronomer|Pale Blue Dot|TV|Universe|hard
+Rosalind Franklin|DNA|X-ray|Helix|Crick|Watson|hard
+Gravity|Fall|Newton|Apple|Pull|Weight|easy
+Atom|Small|Nucleus|Electron|Proton|Matter|easy
+Molecule|Atoms|Bond|Chemistry|Water|Small|medium
+Electron|Negative|Charge|Atom|Orbit|Particle|medium
+Proton|Positive|Nucleus|Atom|Charge|Particle|medium
+Neutron|Nucleus|Atom|Neutral|Particle|Charge|medium
+DNA|Genes|Helix|Double|Cells|Genetic|medium
+Cell|Biology|Microscope|Nucleus|Membrane|Living|medium
+Evolution|Darwin|Species|Change|Apes|Adapt|easy
+Photosynthesis|Plants|Sunlight|Leaves|Green|Oxygen|medium
+Magnet|North|South|Attract|Metal|Fridge|easy
+Electricity|Power|Current|Lightning|Plug|Volt|easy
+Oxygen|Breathe|Air|Gas|O2|Element|easy
+Hydrogen|Gas|Element|Lightest|H|Water|medium
+Carbon|Element|Diamond|Coal|Life|Dioxide|medium
+Gold|Metal|Precious|Yellow|Jewellery|Au|easy
+Periodic Table|Elements|Chemistry|Mendeleev|Chart|Symbols|medium
+Microscope|Small|Lens|Look|Lab|Cells|easy
+Telescope|Stars|Look|Far|Astronomy|Lens|easy
+Laboratory|Scientist|Experiment|Test Tubes|White Coat|Chemicals|easy
+Experiment|Test|Science|Lab|Hypothesis|Result|easy
+Hypothesis|Theory|Guess|Test|Science|Experiment|medium
+Big Bang|Universe|Beginning|Explosion|Expansion|Theory|medium
+Black Hole|Space|Gravity|Light|Hawking|Star|medium
+Galaxy|Stars|Milky Way|Spiral|Universe|Space|easy
+Milky Way|Galaxy|Stars|Chocolate|Bar|Spiral|medium
+Solar System|Sun|Planets|Orbit|Earth|Space|easy
+Sun|Star|Hot|Light|Day|Yellow|easy
+Mercury|Planet|Closest|Sun|Thermometer|Metal|medium
+Venus|Planet|Hot|Goddess|Love|Second|medium
+Mars|Red|Planet|Rover|Fourth|War|easy
+Jupiter|Planet|Largest|Gas|Red Spot|Fifth|easy
+Saturn|Rings|Planet|Gas|Sixth|Titan|easy
+Uranus|Planet|Seventh|Sideways|Ice|Blue|medium
+Neptune|Planet|Blue|Farthest|Sea|God|medium
+Pluto|Dwarf|Planet|Small|Far|Disney|medium
+Comet|Tail|Ice|Space|Halley|Orbit|medium
+Meteor|Shooting Star|Space|Rock|Fall|Wish|medium
+Asteroid|Rock|Space|Belt|Dinosaurs|Collision|medium
+Constellation|Stars|Pattern|Orion|Zodiac|Sky|medium
+Light Year|Distance|Space|Travel|Stars|Speed|hard
+Speed of Light|Fast|Constant|Physics|Einstein|Vacuum|hard
+Relativity|Einstein|Time|Space|Theory|Speed|hard
+Quantum|Physics|Small|Particles|Mechanics|Leap|hard
+Dinosaur|Extinct|Jurassic|T-Rex|Fossil|Reptile|easy
+Tectonic Plates|Earth|Crust|Move|Earthquake|Continents|hard
+Thermometer|Temperature|Hot|Cold|Degrees|Measure|easy
+Celsius|Degrees|Temperature|Fahrenheit|Zero|Freezing|medium
+Volt|Electricity|Unit|Battery|Current|Power|medium
+Battery|Power|Charge|Energy|Positive|AA|easy
+Static Electricity|Shock|Balloon|Hair|Rub|Spark|medium
+Friction|Rub|Heat|Slow|Surface|Force|medium
+Inertia|Newton|Motion|Rest|Force|Physics|hard
+Magnetism|Attract|Poles|Field|Iron|Compass|medium
+Prism|Rainbow|Light|Glass|Colours|Triangle|medium
+Sound Wave|Vibration|Hear|Travel|Echo|Frequency|medium
+Echo|Repeat|Sound|Cave|Bounce|Voice|easy
+Boiling Point|Water|Hundred|Degrees|Steam|Temperature|medium
+Freezing|Ice|Cold|Zero|Water|Solid|easy
+Evaporation|Water|Heat|Steam|Gas|Disappear|medium
+Gas|Air|Liquid|Solid|State|Invisible|easy
+Acid|Lemon|Burn|pH|Sour|Base|medium
+Chemical Reaction|Mix|Change|Bubbles|Lab|Experiment|medium
+Algebra|Maths|Equation|Unknown|X|Letters|medium
+Geometry|Shapes|Angles|Triangle|Maths|Euclid|medium
+Fraction|Half|Divide|Numerator|Denominator|Part|easy
+Pi|Circle|3.14|Number|Infinite|Diameter|medium
+Prime Number|Divisible|One|Itself|Seven|Maths|medium
+Zero|Nothing|Number|Nil|Empty|Circle|easy
+Infinity|Endless|Forever|Number|Eight|Sideways|medium
+Equation|Equals|Maths|Solve|Algebra|Formula|medium
+Calculator|Numbers|Add|Maths|Buttons|Sum|easy
+Statistics|Data|Average|Numbers|Graph|Probability|hard
+Percentage|Hundred|Per|Cent|Fraction|Sign|easy
+Circle|Round|Pi|Radius|Shape|Ring|easy
+Ecosystem|Nature|Environment|Living|Balance|Food Chain|hard
+Food Chain|Eat|Predator|Prey|Animals|Plants|medium
+Genetics|DNA|Genes|Heredity|Mendel|Inherit|hard
+Clone|Copy|Dolly|Sheep|Identical|Genetic|medium
+Bacteria|Germs|Small|Microscope|Infection|Cells|medium
+Virus|Infection|Sick|Germ|Spread|Computer|easy
+Mammal|Milk|Warm-blooded|Hair|Animal|Babies|medium
+Robert Oppenheimer|Atomic Bomb|Manhattan Project|Physicist|Los Alamos|Film|hard
+Alexander Fleming|Penicillin|Mould|Antibiotic|Scottish|Discovery|hard

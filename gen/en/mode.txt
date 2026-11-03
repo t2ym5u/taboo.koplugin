@@ -1,0 +1,99 @@
+T-shirt|Cotton|Short sleeves|Top|Print|Casual|easy
+Jeans|Denim|Blue|Trousers|Levi's|Pockets|easy
+Dress|Skirt|Woman|Wear|Party|Gown|easy
+Skirt|Legs|Short|Girl|Mini|Waist|easy
+Suit|Jacket|Trousers|Tie|Office|Wedding|easy
+Tie|Neck|Knot|Shirt|Suit|Bow|easy
+Bow tie|Neck|Tuxedo|Butterfly|Formal|Knot|medium
+Tuxedo|Black tie|Formal|James Bond|Jacket|Wedding|medium
+Wedding dress|Bride|White|Veil|Train|Marry|easy
+Pyjamas|Bed|Night|Sleep|Wear|Slippers|easy
+Dressing gown|Bathrobe|Morning|Belt|Fluffy|Bath|medium
+Slippers|Feet|Warm|House|Fluffy|Bed|easy
+Socks|Feet|Pair|Shoes|Wool|Odd|medium
+Shoes|Feet|Laces|Walk|Heels|Pair|easy
+High heels|Shoes|Tall|Woman|Stiletto|Walk|easy
+Trainers|Shoes|Sport|Running|Nike|Laces|easy
+Sandals|Summer|Feet|Toes|Beach|Straps|medium
+Flip-flops|Beach|Toes|Summer|Rubber|Sandals|medium
+Boots|Feet|Winter|Leather|Knee|Rain|easy
+Wellington boots|Rain|Mud|Rubber|Green|Puddles|medium
+Hat|Head|Wear|Cap|Sun|Top|easy
+Baseball cap|Head|Peak|Sport|Backwards|Visor|easy
+Top hat|Tall|Black|Magician|Gentleman|Rabbit|medium
+Beanie|Wool|Winter|Head|Warm|Knitted|medium
+Cowboy hat|Wild West|Texas|Stetson|Wide|Ranch|medium
+Crown|King|Queen|Gold|Jewels|Head|easy
+Scarf|Neck|Winter|Wool|Warm|Knit|easy
+Gloves|Hands|Fingers|Winter|Warm|Pair|easy
+Mittens|Hands|Thumb|Winter|Wool|Children|medium
+Coat|Winter|Warm|Jacket|Buttons|Rain|easy
+Raincoat|Wet|Waterproof|Hood|Yellow|Mac|easy
+Hoodie|Teenager|Sweatshirt|Cotton|Pocket|Zip|medium
+Jumper|Sweater|Wool|Knit|Warm|Christmas|easy
+Cardigan|Buttons|Wool|Knit|Grandma|Open|hard
+Waistcoat|Vest|Suit|Buttons|Sleeveless|Gentleman|hard
+Shorts|Summer|Legs|Knees|Trousers|Hot|medium
+Leggings|Tight|Legs|Stretchy|Yoga|Women|medium
+Swimsuit|Beach|Pool|Trunks|Bikini|Costume|medium
+Bikini|Two-piece|Beach|Swimsuit|Summer|Woman|medium
+Uniform|School|Police|Same|Army|Work|medium
+Kilt|Scotland|Skirt|Tartan|Bagpipes|Men|hard
+Kimono|Japan|Robe|Silk|Sash|Traditional|hard
+Sari|India|Wrap|Silk|Woman|Colourful|hard
+Poncho|Mexico|Cape|Rain|Head|Blanket|hard
+Belt|Trousers|Waist|Buckle|Leather|Hold|medium
+Handbag|Woman|Purse|Carry|Leather|Shoulder|easy
+Backpack|School|Shoulders|Bag|Carry|Hiking|easy
+Wallet|Money|Cards|Pocket|Leather|Cash|medium
+Umbrella|Rain|Open|Wet|Handle|Shelter|easy
+Sunglasses|Shades|Eyes|Dark|Summer|UV|easy
+Glasses|Eyes|See|Lenses|Frames|Optician|easy
+Watch|Time|Wrist|Clock|Hands|Strap|medium
+Necklace|Diamonds|Jewellery|Chain|Pearls|Pendant|easy
+Earrings|Ears|Jewellery|Pierced|Pair|Hoops|easy
+Ring|Finger|Wedding|Gold|Diamond|Engagement|easy
+Bracelet|Wrist|Jewellery|Charm|Arm|Bangle|medium
+Brooch|Pin|Jewellery|Coat|Lapel|Grandmother|hard
+Cufflinks|Shirt|Sleeves|Wrists|Suit|Formal|hard
+Tiara|Princess|Head|Diamonds|Crown|Wedding|hard
+Veil|Bride|Face|Wedding|Lace|Cover|hard
+Zip|Fasten|Jacket|Teeth|Up|Close|medium
+Button|Shirt|Hole|Fasten|Coat|Sew|medium
+Pocket|Trousers|Jacket|Hands|Keep|Coins|medium
+Collar|Neck|Shirt|Dog|Fold|Polo|medium
+Sleeve|Arm|Shirt|Long|Short|Roll up|medium
+Lipstick|Mouth|Red|Makeup|Kiss|Tube|easy
+Mascara|Eyelashes|Black|Makeup|Brush|Eyes|medium
+Nail polish|Varnish|Toes|Colour|Paint|Manicure|easy
+Perfume|Smell|Bottle|Spray|Scent|Chanel|easy
+Makeup|Face|Lipstick|Foundation|Beauty|Mascara|easy
+Hair dryer|Blow|Hot air|Wet|Bathroom|Plug|easy
+Hairspray|Can|Hold|Style|Aerosol|Hairdo|hard
+Ponytail|Hair|Tied|Back|Bobble|Girl|easy
+Plait|Braid|Hair|Three|Weave|Pigtails|hard
+Beard|Chin|Hair|Men|Shave|Face|easy
+Moustache|Upper lip|Hair|Men|Shave|Twirl|easy
+Tattoo|Ink|Skin|Needle|Arm|Permanent|easy
+Manicure|Nails|Hands|Polish|File|Salon|medium
+Catwalk|Models|Fashion show|Runway|Strut|Designer|medium
+Fashion week|Paris|Milan|Models|Designers|Shows|medium
+Coco Chanel|Fashion|Perfume|Paris|Little black dress|No. 5|medium
+Christian Dior|Fashion|Paris|New Look|Designer|Perfume|hard
+Gianni Versace|Italian|Fashion|Medusa|Designer|Milan|hard
+Silk|Fabric|Smooth|Worm|China|Shiny|medium
+Wool|Sheep|Knit|Warm|Jumper|Yarn|medium
+Cotton|Fabric|Plant|White|T-shirt|Soft|medium
+Leather|Cow|Jacket|Shoes|Skin|Belt|medium
+Velvet|Soft|Fabric|Plush|Curtains|Red|hard
+Denim|Jeans|Blue|Fabric|Jacket|Cotton|medium
+Lace|Wedding|Delicate|Holes|Pattern|White|hard
+Polka dots|Spots|Pattern|Circles|Dress|Minnie Mouse|medium
+Tartan|Scotland|Pattern|Kilt|Checked|Clan|hard
+Sequins|Sparkle|Shiny|Dress|Disco|Sew|hard
+Corset|Tight|Waist|Laces|Victorian|Bodice|hard
+Monocle|One eye|Lens|Gentleman|Glass|Rich|hard
+Bowler hat|Round|Black|English|Charlie Chaplin|Gentleman|hard
+Beret|French|Flat|Cap|Wool|Artist|hard
+Sombrero|Mexico|Wide|Hat|Brim|Straw|hard
+Fancy dress|Costume|Party|Pretend|Disguise|Theme|medium

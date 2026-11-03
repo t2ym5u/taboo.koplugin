@@ -1,0 +1,88 @@
+Car|Drive|Wheels|Road|Engine|Vehicle|easy
+Bus|Stop|Passengers|Driver|Double-decker|Route|easy
+Train|Rails|Station|Track|Carriage|Platform|easy
+Plane|Fly|Airport|Wings|Pilot|Sky|easy
+Helicopter|Blades|Fly|Rotor|Hover|Chopper|easy
+Bicycle|Pedal|Wheels|Ride|Bike|Chain|easy
+Motorbike|Two Wheels|Helmet|Ride|Engine|Fast|easy
+Scooter|Kick|Two Wheels|Ride|Vespa|Small|easy
+Taxi|Cab|Fare|Yellow|Driver|Meter|easy
+Truck|Lorry|Big|Deliver|Driver|Goods|easy
+Tractor|Farm|Field|Plough|Farmer|Green|easy
+Fire Engine|Red|Ladder|Siren|Emergency|Hose|easy
+Police Car|Siren|Officer|Chase|Blue Lights|Patrol|easy
+Boat|Water|Sail|Float|Sea|Row|easy
+Ship|Sea|Captain|Ocean|Deck|Cargo|easy
+Submarine|Underwater|Navy|Periscope|Yellow|Dive|easy
+Canoe|Paddle|River|Kayak|Row|Boat|easy
+Ferry|Boat|Cross|Cars|Passengers|Channel|medium
+Cruise Ship|Holiday|Ocean|Deck|Buffet|Big|medium
+Yacht|Boat|Rich|Sail|Luxury|Marina|medium
+Gondola|Venice|Boat|Canal|Gondolier|Italy|medium
+Hot Air Balloon|Basket|Float|Sky|Flame|Fly|easy
+Rocket|Space|Launch|Blast Off|NASA|Fuel|easy
+Space Shuttle|NASA|Orbit|Launch|Astronauts|Wings|medium
+Titanic|Ship|Iceberg|Sank|1912|Leonardo DiCaprio|easy
+Concorde|Supersonic|Plane|Fast|British|French|medium
+Apollo 11|Moon|Armstrong|Landing|NASA|1969|medium
+Orient Express|Train|Luxury|Paris|Istanbul|Agatha Christie|hard
+Bullet Train|Japan|Fast|Shinkansen|High-speed|Rail|medium
+Steam Train|Smoke|Coal|Choo-choo|Locomotive|Old|easy
+Tram|Rails|City|Electric|Street|Trolley|medium
+Underground|Tube|Subway|Train|Tunnel|Metro|easy
+Cable Car|Mountain|San Francisco|Ski|Wire|Hill|medium
+Monorail|Track|Single|Train|Elevated|Disney|hard
+Limousine|Long|Stretch|Chauffeur|Luxury|Wedding|medium
+Caravan|Holiday|Tow|Camping|Car|Trailer|medium
+Camper Van|Holiday|Bed|Road Trip|Camping|Drive|medium
+Rickshaw|Pull|Asia|Cart|Bicycle|Passenger|hard
+Tandem|Bicycle|Two|Seats|Pedal|Together|medium
+Unicycle|One|Wheel|Circus|Balance|Pedal|medium
+Roller Skates|Wheels|Feet|Rink|Disco|Boots|easy
+Sledge|Snow|Hill|Slide|Winter|Santa|easy
+Horse and Carriage|Cart|Pull|Royal|Wheels|Old|medium
+Airport|Planes|Terminal|Check-in|Gate|Flight|easy
+Suitcase|Pack|Luggage|Holiday|Travel|Wheels|easy
+Boarding Pass|Plane|Gate|Seat|Flight|Ticket|medium
+Jet Lag|Tired|Time Zone|Flight|Sleep|Travel|medium
+Parachute|Jump|Plane|Sky|Fall|Skydiving|easy
+Seatbelt|Car|Safety|Buckle|Strap|Click|easy
+Steering Wheel|Car|Turn|Drive|Hands|Round|easy
+Traffic Lights|Red|Green|Amber|Stop|Junction|easy
+Traffic Jam|Cars|Stuck|Rush Hour|Slow|Queue|easy
+Roundabout|Circle|Cars|Junction|Give way|Road|medium
+Motorway|Fast|Lanes|Road|Highway|Junction|medium
+Petrol Station|Fuel|Car|Pump|Fill Up|Gas|easy
+Parking Ticket|Fine|Car|Warden|Windscreen|Pay|medium
+Driving Test|Licence|Examiner|Pass|Learner|Car|medium
+Speed Bump|Slow|Road|Hump|Car|Sleeping Policeman|medium
+Zebra Crossing|Stripes|Road|Walk|Pedestrian|Black|medium
+Tunnel|Underground|Dark|Mountain|Through|Road|easy
+Bridge|River|Cross|Over|Water|Span|easy
+Channel Tunnel|England|France|Train|Under|Sea|medium
+Lighthouse|Beam|Coast|Ships|Tower|Rocks|easy
+Harbour|Boats|Port|Dock|Sea|Ships|medium
+Anchor|Ship|Heavy|Drop|Chain|Sailor|easy
+Life Jacket|Float|Water|Safety|Boat|Orange|easy
+Lifeboat|Rescue|Sea|Ship|Sinking|Titanic|medium
+Ticket Inspector|Train|Check|Fare|Conductor|Punch|medium
+Railway Station|Trains|Platform|Tickets|Departures|Track|easy
+Level Crossing|Train|Barrier|Road|Rails|Stop|hard
+Satnav|GPS|Directions|Car|Map|Voice|medium
+Map|Directions|Roads|Paper|Find|Atlas|easy
+Road Trip|Car|Drive|Holiday|Friends|Journey|easy
+Hitchhiking|Thumb|Ride|Road|Free|Stranger|medium
+Spaceship|Astronaut|Alien|Fly|Rocket|Star Trek|easy
+Lunar Rover|Moon|Buggy|Drive|Apollo|NASA|hard
+Mars Rover|Red Planet|Robot|NASA|Explore|Curiosity|hard
+International Space Station|Orbit|Astronauts|ISS|NASA|Earth|medium
+Airship|Zeppelin|Blimp|Float|Hindenburg|Gas|hard
+Glider|No Engine|Fly|Wings|Silent|Air|hard
+Jet Ski|Water|Fast|Waves|Ride|Engine|medium
+Pedalo|Seaside|Boat|Lake|Holiday|Paddle|hard
+Hovercraft|Air|Cushion|Water|Land|Float|hard
+Dog Sled|Snow|Huskies|Alaska|Mush|Pull|medium
+Penny-farthing|Bicycle|Big Wheel|Small Wheel|Victorian|Old|hard
+Model T|Ford|Car|First|Black|Henry|hard
+Henry Ford|Car|Model T|Assembly Line|Inventor|American|medium
+Yuri Gagarin|First|Space|Russian|Cosmonaut|Vostok|hard

@@ -1,0 +1,84 @@
+Heart|Beat|Blood|Pump|Love|Chest|easy
+Brain|Think|Head|Mind|Skull|Intelligent|easy
+Lungs|Breathe|Air|Chest|Oxygen|Ribcage|easy
+Liver|Organ|Alcohol|Filter|Kidney|Body|medium
+Kidney|Organ|Bean|Pair|Transplant|Filter|medium
+Stomach|Food|Digest|Belly|Ache|Hungry|easy
+Skeleton|Bones|Halloween|Skull|Body|Spooky|easy
+Skull|Head|Bone|Brain|Pirate|Crossbones|easy
+Spine|Back|Bones|Vertebrae|Spinal Cord|Straight|medium
+Rib|Bone|Chest|Cage|Adam|Eve|medium
+Knee|Leg|Joint|Bend|Kneel|Cap|easy
+Elbow|Arm|Joint|Bend|Funny Bone|Grease|easy
+Ankle|Foot|Leg|Sprain|Joint|Sock|easy
+Tooth|Mouth|Dentist|Bite|White|Fairy|easy
+Tongue|Mouth|Taste|Lick|Pink|Talk|easy
+Eyebrow|Hair|Face|Raise|Above|Pluck|easy
+Fingernail|Hand|Bite|Polish|Clip|Grow|easy
+Muscle|Strong|Gym|Flex|Biceps|Body|easy
+Blood|Red|Veins|Cut|Donate|Vampire|easy
+Vein|Blood|Blue|Arm|Artery|Needle|medium
+Pulse|Heartbeat|Wrist|Check|Rate|Doctor|medium
+Skin|Body|Layer|Tan|Touch|Organ|easy
+Appendix|Organ|Useless|Surgery|Burst|Book|medium
+Tonsils|Throat|Removed|Ice Cream|Sore|Infection|medium
+Cold|Sneeze|Runny Nose|Virus|Tissue|Winter|easy
+Flu|Fever|Virus|Sick|Winter|Shot|easy
+Fever|Temperature|Hot|Sick|Thermometer|Sweat|easy
+Chickenpox|Spots|Itchy|Children|Virus|Scratch|medium
+Measles|Spots|Red|Vaccine|Children|Rash|medium
+Allergy|Sneeze|Pollen|Nuts|Reaction|Hay Fever|medium
+Hay Fever|Pollen|Sneeze|Summer|Allergy|Grass|medium
+Asthma|Breathe|Inhaler|Lungs|Attack|Wheeze|medium
+Diabetes|Sugar|Insulin|Blood|Pancreas|Injection|medium
+Headache|Pain|Paracetamol|Aspirin|Migraine|Hurt|easy
+Toothache|Pain|Dentist|Cavity|Throbbing|Hurt|easy
+Sunburn|Red|Skin|Beach|Peeling|Sore|easy
+Broken Leg|Cast|Crutches|Fracture|Ski|Hospital|easy
+Bruise|Blue|Purple|Bump|Skin|Hit|easy
+Blister|Skin|Bubble|Shoes|Rub|Foot|medium
+Scar|Mark|Wound|Skin|Healed|Harry Potter|medium
+Hospital|Doctor|Nurse|Sick|Ambulance|Bed|easy
+Ambulance|Siren|Emergency|Hospital|Paramedic|Vehicle|easy
+Doctor|Medicine|Sick|Hospital|Stethoscope|Patient|easy
+Nurse|Hospital|Doctor|Patient|Care|Uniform|easy
+Surgeon|Operation|Hospital|Scalpel|Doctor|Theatre|medium
+Dentist|Teeth|Drill|Chair|Floss|Cavity|easy
+Stethoscope|Doctor|Heart|Listen|Chest|Ears|medium
+Bandage|Wrap|Wound|Cut|First Aid|White|easy
+Plaster|Cut|Stick|Wound|Band-Aid|Small|easy
+Crutches|Broken Leg|Walk|Support|Armpits|Injury|medium
+Wheelchair|Wheels|Walk|Disabled|Sit|Push|easy
+Syringe|Needle|Injection|Vaccine|Doctor|Shot|medium
+Vaccine|Injection|Immune|Shot|Disease|Jab|medium
+Pill|Medicine|Swallow|Tablet|Small|Doctor|easy
+Antibiotic|Bacteria|Infection|Penicillin|Medicine|Course|medium
+Aspirin|Headache|Pain|Pill|Tablet|Relief|medium
+X-ray|Bones|Picture|Hospital|Broken|Radiation|easy
+First Aid Kit|Bandage|Emergency|Box|Plasters|Injury|medium
+Operation|Surgeon|Hospital|Anaesthetic|Knife|Theatre|medium
+Anaesthetic|Sleep|Numb|Surgery|Pain|Injection|hard
+Blood Pressure|Cuff|Arm|High|Heart|Measure|medium
+Heart Attack|Chest|Pain|Emergency|Cardiac|Ambulance|medium
+CPR|Chest|Compressions|Breathe|Heart|Save|hard
+Pharmacy|Medicine|Prescription|Shop|Pills|Chemist|medium
+Prescription|Doctor|Medicine|Pharmacy|Note|Pills|medium
+Waiting Room|Doctor|Magazines|Chairs|Patient|Appointment|medium
+Check-up|Doctor|Routine|Health|Visit|Annual|medium
+Germs|Bacteria|Wash Hands|Dirty|Sick|Small|easy
+Louis Pasteur|Milk|Vaccine|Rabies|French|Germs|medium
+Hippocrates|Oath|Greek|Doctor|Father|Medicine|hard
+Edward Jenner|Smallpox|Vaccine|Cowpox|English|Doctor|hard
+Penicillin|Fleming|Mould|Antibiotic|Bacteria|Discovery|hard
+Insulin|Diabetes|Sugar|Injection|Pancreas|Blood|hard
+Immune System|Defence|Germs|White Cells|Body|Antibodies|hard
+Physiotherapy|Exercise|Injury|Muscles|Recovery|Massage|hard
+Paramedic|Ambulance|Emergency|First Aid|Siren|Help|medium
+Pandemic|Disease|Worldwide|Spread|Virus|Epidemic|medium
+Quarantine|Isolate|Disease|Stay|Days|Infection|medium
+Hygiene|Clean|Wash|Soap|Germs|Teeth|medium
+Insomnia|Sleep|Awake|Night|Tired|Bed|hard
+Nightmare|Dream|Scary|Sleep|Wake|Monster|easy
+Eye Test|Optician|Letters|Chart|Glasses|See|medium
+Hearing Aid|Ear|Deaf|Listen|Sound|Device|medium
+Braces|Teeth|Metal|Straight|Orthodontist|Smile|medium

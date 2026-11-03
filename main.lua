@@ -17,7 +17,7 @@ require("i18n").extend(lrequire("i18n_fr"))
 
 local Taboo = PluginBase:extend{
     name      = "taboo",
-    menu_text = _("Taboo Party"),
+    menu_text = _("Forbidden Words"),
     menu_hint = "tools",
 }
 

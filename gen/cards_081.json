@@ -26,7 +26,7 @@
 {"word":"Bolivie","forbidden":["Titicaca","Sel","Altiplano","Andes","Llama"],"theme":"géographie","difficulty":"medium"},
 {"word":"Équateur","forbidden":["Ligne","Galápagos","Zéro","Amazonie","Quito"],"theme":"géographie","difficulty":"medium"},
 {"word":"Venezuela","forbidden":["Pétrole","Caracas","Chute","Ange","Tropical"],"theme":"géographie","difficulty":"medium"},
-{"word":"Cuba","forbidden":["Cigare","Rhum","Castro","Voitures","Vintage"],"theme":"géographie","difficulty":"easy"},
+{"word":"Cuba","forbidden":["Cigare","Rhum","Île","Voitures","Vintage"],"theme":"géographie","difficulty":"easy"},
 {"word":"Jamaïque","forbidden":["Reggae","Rum","Bob Marley","Jerk","Caraïbes"],"theme":"géographie","difficulty":"easy"},
 {"word":"Haïti","forbidden":["Voodoo","Créole","Port-au-Prince","Caraïbes","Pauvre"],"theme":"géographie","difficulty":"medium"},
 {"word":"Canada","forbidden":["Érable","Hockey","Bilingual","Ottawa","Vaste"],"theme":"géographie","difficulty":"easy"},

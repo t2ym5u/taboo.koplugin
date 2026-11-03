@@ -430,15 +430,17 @@ Montaigne Rimbaud Verlaine Baudelaire Apollinaire Prévert""".split()
 category(arts, ["Art","Culture","Œuvre","Créer","Artiste"])
 
 # --- History & politics ----------------------------------------------------
+# No dictators, mass murderers or their ideology as a card (Hitler, Staline,
+# Mao, Castro, Attila, Gengis Khan, nazisme...): test_family_spec.lua.
 histoire = """révolution empire monarchie république démocratie dictature totalitarisme
-fascisme nazisme communisme socialisme libéralisme conservatisme anarchisme féminisme
+fascisme communisme socialisme libéralisme conservatisme anarchisme féminisme
 colonialisme esclavage génocide traité alliance armistice siège bataille invasion
 résistance occupation libération indépendance unification partition coup d'état
 élection référendum constitution parlement assemblée sénat gouvernement cabinet
 empereur sultan calife pape évêque croisade inquisition réforme lumières colonisation
 décolonisation guerre froide mondialisation Charlemagne Jules César Alexandre le Grand
 Cléopâtre Marie-Antoinette Robespierre Danton Lincoln Churchill Roosevelt De Gaulle
-Staline Mao Lénine Gandhi Mandela Che Guevara Castro Jaurès Clemenceau""".split()
+Lénine Gandhi Mandela Che Guevara Jaurès Clemenceau""".split()
 category(histoire, ["Histoire","Passé","Politique","Pouvoir","Époque"])
 
 # --- Science & tech --------------------------------------------------------
@@ -460,7 +462,7 @@ gens = """Darwin Newton Galilée Copernic Kepler Pasteur Curie Fleming Freud Jun
 Pavlov Marx Weber Durkheim Tocqueville Montesquieu Aristote Platon Socrate Descartes
 Kant Hegel Nietzsche Locke Hobbes Erasme Machiavel Homère Virgile Dante Cervantes
 Dostoïevski Tolstoï Tchekhov Dickens Kafka Goethe Orwell Hemingway Twain Poe Melville
-Hannibal Attila Gengis Khan Saladin Jeanne d'Arc Henri IV Louis XVI Bismarck Victoria
+Hannibal Saladin Jeanne d'Arc Henri IV Louis XVI Bismarck Victoria
 Kennedy Obama Lincoln Washington Jefferson Reagan Thatcher Mitterrand Chirac Pompidou
 Armstrong Coltrane Miles Davis Sinatra Presley Bowie Dylan Hendrix Madonna""".split()
 category(gens, ["Personnage","Célèbre","Histoire","Connu","Personne"])

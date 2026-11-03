@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+"""Build the English Forbidden Words deck: gen/en/*.txt -> taboo_cards_en.lua.
+
+Usage (from taboo.koplugin/): python3 gen/build_en.py          (check + write)
+                              python3 gen/build_en.py --check  (check only)
+
+The English deck is written for English speakers, not translated from the
+French one; it shares the French theme ids (gen/themes.json) so the theme
+filter and a saved theme selection work the same in both languages.
+Each line: Word|forbidden1|forbidden2|forbidden3|forbidden4|forbidden5|easy|medium|hard
+Blank lines and lines starting with # are ignored. File name (minus .txt) = theme
+file key (see THEMES below).
+"""
+import os, re, sys, glob, collections
+
+THEMES = {  # file key -> theme id used by the deck (same ids as the French deck)
+    "fun": "fun", "action": "action", "alimentation": "alimentation",
+    "animaux": "animaux", "arts": "arts", "cinema": "cinéma",
+    "geographie": "géographie", "histoire": "histoire", "jeuxvideo": "jeuxvideo",
+    "maison": "maison", "medecine": "médecine", "metiers": "métiers",
+    "mode": "mode", "musique": "musique", "nature": "nature",
+    "sciences": "sciences", "societe": "société", "sports": "sports",
+    "technologies": "technologies", "transports": "transports",
+}
+
+BLOCKED = set("""
+poop poo pee piss fart farts crap shit fuck damn bitch bastard ass arse butt
+boob boobs breasts tits penis vagina testicle testicles nipple sex sexy sexual
+porn porno orgasm orgy erotic nude stripper condom viagra prostitute
+hooker brothel rape slut whore dick cock pussy bollocks bugger wank
+cocaine heroin cannabis marijuana weed meth lsd ecstasy stoned junkie
+suicide hell
+hitler nazi nazis stalin mussolini mao genghis capone
+gaddafi saddam idi amin franco
+""".split())
+
+STOP = set("a an the of and in on at to for de la le du des with by or".split())
+
+def toks(s):
+    return [t for t in re.findall(r"[a-z0-9]+", s.lower()) if t not in STOP]
+
+def stem(t):
+    if len(t) > 4 and t.endswith("ies"):
+        return t[:-3] + "y"
+    if len(t) > 3 and t.endswith("s") and not t.endswith("ss"):
+        return t[:-1]
+    return t
+
+def load(paths):
+    cards, errors = [], []
+    for path in paths:
+        key = os.path.basename(path)[:-4]
+        if key not in THEMES:
+            errors.append(f"{path}: unknown theme file key {key}")
+            continue
+        with open(path, encoding="utf-8") as f:
+            for n, line in enumerate(f, 1):
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                parts = [p.strip() for p in line.split("|")]
+                where = f"{key}:{n}"
+                if len(parts) != 7:
+                    errors.append(f"{where}: {len(parts)} fields: {line}")
+                    continue
+                word, forb, diff = parts[0], parts[1:6], parts[6]
+                cards.append(dict(word=word, forbidden=forb, difficulty=diff,
+                                  theme=THEMES[key], where=where))
+    return cards, errors
+
+def check(cards):
+    errors = []
+    seen = {}
+    for c in cards:
+        w, where = c["word"], c["where"]
+        if c["difficulty"] not in ("easy", "medium", "hard"):
+            errors.append(f"{where}: bad difficulty {c['difficulty']}")
+        if not w or any(not f for f in c["forbidden"]):
+            errors.append(f"{where}: empty field")
+        key = " ".join(toks(w)) or w.lower()
+        if key in seen:
+            errors.append(f"{where}: duplicate '{w}' (first at {seen[key]})")
+        else:
+            seen[key] = where
+        wt = {stem(t) for t in toks(w) if len(t) >= 3}
+        fl = [f.lower() for f in c["forbidden"]]
+        if len(set(fl)) != 5:
+            errors.append(f"{where}: repeated forbidden word in '{w}'")
+        for f in c["forbidden"]:
+            if f.lower() == w.lower():
+                errors.append(f"{where}: '{w}' forbids itself")
+            shared = wt & {stem(t) for t in toks(f) if len(t) >= 3}
+            if shared:
+                errors.append(f"{where}: '{w}' / '{f}' shares {sorted(shared)}")
+        for text in [w] + c["forbidden"]:
+            ts = toks(text)
+            for i, t in enumerate(ts):
+                if t in BLOCKED and not (t == "dick" and i > 0 and ts[i-1] == "moby"):
+                    errors.append(f"{where}: blocked word '{t}' in '{text}' (card {w})")
+            if any(p in " ".join(ts) for p in ("bin laden", "pol pot", "jack ripper", "idi amin")):
+                errors.append(f"{where}: blocked name in '{text}'")
+    return errors
+
+def lua_str(s):
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+def write_lua(cards, dst, order):
+    by = collections.OrderedDict((t, []) for t in order)
+    for c in cards:
+        by.setdefault(c["theme"], []).append(c)
+    with open(dst, "w", encoding="utf-8") as f:
+        f.write("-- Generated by gen/build_en.py from gen/en/*.txt -- do not edit by hand.\n")
+        f.write("return {\n")
+        for theme, lst in by.items():
+            if not lst:
+                continue
+            f.write(f"  [{lua_str(theme)}]={{\n")
+            for c in lst:
+                fb = ",".join(lua_str(w) for w in c["forbidden"])
+                f.write(f"    {{word={lua_str(c['word'])},forbidden={{{fb}}},difficulty={lua_str(c['difficulty'])}}},\n")
+            f.write("  },\n")
+        f.write("}\n")
+
+if __name__ == "__main__":
+    import json
+    here = os.path.dirname(os.path.abspath(__file__))
+    paths = sorted(glob.glob(os.path.join(here, "en", "*.txt")))
+    cards, errors = load(paths)
+    errors += check(cards)
+    for e in errors:
+        print("ERR", e)
+    cnt = collections.Counter(c["theme"] for c in cards)
+    with open(os.path.join(here, "themes.json"), encoding="utf-8") as f:
+        order = [t["id"] for t in json.load(f)]
+    for t in order:
+        print(f"  {t:<14}{cnt.get(t, 0):>5}")
+    print(f"total {len(cards)}  {dict(collections.Counter(c['difficulty'] for c in cards))}  errors {len(errors)}")
+    if errors:
+        sys.exit(1)
+    if "--check" not in sys.argv:
+        dst = os.path.join(here, "..", "taboo_cards_en.lua")
+        write_lua(cards, dst, order)
+        print("wrote", os.path.relpath(dst))

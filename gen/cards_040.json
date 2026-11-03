@@ -1,9 +1,5 @@
 [
-{"word":"Pet","forbidden":["Gaz","Postérieur","Odeur","Bruit","Corps"],"theme":"fun","difficulty":"easy"},
 {"word":"Rot","forbidden":["Estomac","Bruit","Bouche","Gaz","Corps"],"theme":"fun","difficulty":"easy"},
-{"word":"Pipi","forbidden":["Uriner","Toilettes","Jaune","Corps","Enfant"],"theme":"fun","difficulty":"easy"},
-{"word":"Caca","forbidden":["Selles","Toilettes","Marron","Corps","Enfant"],"theme":"fun","difficulty":"easy"},
-{"word":"Prout","forbidden":["Pet","Gaz","Fesses","Bruit","Odeur"],"theme":"fun","difficulty":"easy"},
 {"word":"Baver","forbidden":["Salive","Bouche","Bébé","Couler","Mouillé"],"theme":"fun","difficulty":"easy"},
 {"word":"Éternuer","forbidden":["Nez","Projection","Rhume","Atchoum","Violent"],"theme":"fun","difficulty":"easy"},
 {"word":"Ronfler","forbidden":["Nuit","Dormir","Bruit","Nez","Gêner"],"theme":"fun","difficulty":"easy"},

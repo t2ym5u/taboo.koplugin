@@ -1,0 +1,82 @@
+Mario|Plumber|Nintendo|Luigi|Mushroom|Princess Peach|easy
+Luigi|Mario|Green|Brother|Plumber|Nintendo|easy
+Princess Peach|Mario|Castle|Pink|Rescue|Mushroom Kingdom|medium
+Bowser|Mario|Villain|Turtle|Spikes|Koopa|medium
+Yoshi|Dinosaur|Green|Mario|Tongue|Egg|medium
+Donkey Kong|Gorilla|Barrels|Nintendo|Bananas|Ape|easy
+Pac-Man|Ghosts|Yellow|Dots|Maze|Eat|easy
+Tetris|Blocks|Falling|Lines|Russian|Shapes|easy
+Minecraft|Blocks|Creeper|Build|Steve|Pixel|easy
+The Legend of Zelda|Link|Hyrule|Triforce|Sword|Nintendo|medium
+Link|Zelda|Green Tunic|Sword|Hyrule|Elf|medium
+Sonic the Hedgehog|Blue|Fast|Rings|Sega|Tails|easy
+Pokemon|Pikachu|Catch|Ball|Trainer|Gotta Catch|easy
+Pokeball|Pokemon|Catch|Red|White|Throw|medium
+Space Invaders|Aliens|Arcade|Shoot|Rows|Retro|medium
+Asteroids|Arcade|Rocks|Spaceship|Shoot|Atari|hard
+Pong|Tennis|Paddles|Ball|Atari|First|medium
+Frogger|Hop|Road|Cross|Logs|Cars|hard
+Angry Birds|Slingshot|Pigs|Catapult|Phone|Red|easy
+Candy Crush|Match|Sweets|Phone|Levels|Three|easy
+Fortnite|Battle Royale|Build|Dance|Skins|Storm|easy
+Lara Croft|Tomb Raider|Archaeologist|Ponytail|Pistols|Adventurer|medium
+Street Fighter|Ryu|Hadouken|Arcade|Punch|Combo|medium
+The Sims|Life|Simulation|Build|House|Plumbob|medium
+Animal Crossing|Island|Villagers|Tom Nook|Nintendo|Fishing|medium
+Mario Kart|Racing|Banana|Shell|Nintendo|Rainbow Road|easy
+Super Smash Bros|Fighting|Nintendo|Characters|Knock Off|Platform|hard
+Kirby|Pink|Puff|Inhale|Nintendo|Round|hard
+Game Boy|Nintendo|Handheld|Tetris|Grey|Cartridge|hard
+PlayStation|Sony|Console|Controller|Games|PS|easy
+Xbox|Microsoft|Console|Controller|Games|Halo|easy
+Nintendo Switch|Console|Joy-Con|Handheld|Dock|Mario|medium
+Joystick|Arcade|Lever|Control|Button|Move|medium
+Controller|Buttons|Console|Hold|Joystick|Play|easy
+Arcade|Coins|Machines|Retro|High Score|Games|easy
+High Score|Points|Best|Record|Leaderboard|Beat|easy
+Game Over|Lose|End|Lives|Continue|Screen|easy
+Extra Life|One-up|Mushroom|Bonus|Heart|Continue|medium
+Final Boss|Last|Enemy|Level|Defeat|Hardest|medium
+Level Up|Experience|Points|Stronger|Next|Character|medium
+Save Point|Checkpoint|Progress|Continue|Restart|Game|medium
+Cheat Code|Secret|Buttons|Invincible|Unlock|Trick|medium
+Speedrun|Fast|Record|Timer|Glitch|Finish|hard
+Multiplayer|Online|Friends|Together|Players|Split Screen|medium
+Avatar|Character|Player|Profile|Online|Customize|medium
+Gamer|Player|Console|Controller|Online|Hours|easy
+Pixel Art|Squares|Retro|8-bit|Blocky|Sprites|hard
+Chess|Checkmate|King|Queen|Board|Pawn|easy
+Checkmate|Chess|King|Win|Trapped|Game Over|medium
+Monopoly|Board Game|Properties|Hotels|Jail|Money|easy
+Scrabble|Letters|Tiles|Words|Board|Points|easy
+Cluedo|Murder|Mystery|Colonel Mustard|Library|Candlestick|medium
+Snakes and Ladders|Board Game|Dice|Climb|Slide|Squares|easy
+Jenga|Blocks|Tower|Wood|Fall|Pull|easy
+Dominoes|Tiles|Dots|Fall|Line|Spots|easy
+Backgammon|Board|Dice|Checkers|Points|Ancient|hard
+Checkers|Board|Red|Black|Jump|King Me|easy
+Dice|Roll|Six|Cube|Dots|Luck|easy
+Jigsaw Puzzle|Pieces|Picture|Fit|Edges|Box|easy
+Rubik's Cube|Colors|Twist|Solve|Squares|Puzzle|easy
+Sudoku|Numbers|Grid|Nine|Puzzle|Newspaper|easy
+Crossword|Clues|Grid|Newspaper|Puzzle|Across|easy
+Solitaire|Cards|Alone|Patience|Computer|Stack|medium
+Poker Face|Cards|Expression|Bluff|Hide|Calm|medium
+Tic-Tac-Toe|Noughts|Crosses|Grid|Three|Line|easy
+Hangman|Letters|Guess|Word|Gallows|Drawing|medium
+Treasure Hunt|Clues|Map|Find|Prize|Search|easy
+Bingo|Numbers|Card|Call|Daub|Full House|easy
+Trivial Pursuit|Quiz|Wedges|Questions|Board Game|Pie|medium
+Uno|Cards|Colors|Draw Four|Reverse|Skip|easy
+Battleship|Grid|Sink|Ships|Hit|Miss|medium
+Connect Four|Discs|Row|Drop|Grid|Yellow|medium
+Pinball|Flippers|Score|Machine|Tilt|Arcade|medium
+Duck Hunt|Gun|Dog|Laugh|Nintendo|Shoot|medium
+Crash Bandicoot|PlayStation|Orange|Fox|Spin|Crates|hard
+Q*bert|Pyramid|Cubes|Hop|Orange|Arcade|hard
+Tamagotchi|Virtual Pet|Egg|Feed|Keychain|Beeping|medium
+Lemmings|Cliff|Green Hair|Rescue|Dig|Puzzle|hard
+Pictionary|Draw|Guess|Board Game|Timer|Sketch|medium
+Twister|Mat|Spots|Left Hand|Colors|Spinner|easy
+Marbles|Glass|Roll|Shoot|Children|Balls|easy
+Game Console|Play|Controller|TV|PlayStation|Nintendo|easy

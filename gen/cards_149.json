@@ -26,7 +26,7 @@
 {"word":"Le Vieil Homme et la Mer","forbidden":["Hemingway","Poisson","Cuba","Pêcheur","Vieux"],"theme":"arts","difficulty":"easy"},
 {"word":"George Orwell","forbidden":["1984","Animal Farm","Dystopie","Totalitaire","Anglais"],"theme":"arts","difficulty":"easy"},
 {"word":"1984 (roman)","forbidden":["Orwell","Big Brother","Télécran","Totalitaire","Dystopie"],"theme":"arts","difficulty":"easy"},
-{"word":"La Ferme des Animaux","forbidden":["Orwell","Cochons","Révolution","Allégorique","Staline"],"theme":"arts","difficulty":"easy"},
+{"word":"La Ferme des Animaux","forbidden":["Orwell","Cochons","Révolution","Allégorique","Napoléon"],"theme":"arts","difficulty":"easy"},
 {"word":"Aldous Huxley","forbidden":["Meilleur des Mondes","Dystopie","Anglais","Hallucinogènes","Futur"],"theme":"arts","difficulty":"medium"},
 {"word":"Le Meilleur des Mondes","forbidden":["Huxley","Eugénisme","Castes","Bonheur","Forcé"],"theme":"arts","difficulty":"easy"},
 {"word":"Gabriel García Márquez","forbidden":["Réalisme","Magique","Colombie","Cent Ans","Solitude"],"theme":"arts","difficulty":"medium"},

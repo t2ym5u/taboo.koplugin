@@ -23,7 +23,7 @@
 {"word":"Maurice Ravel","forbidden":["Boléro","Français","Orchestre","Répétition","Piano"],"theme":"arts","difficulty":"easy"},
 {"word":"Le Boléro","forbidden":["Ravel","Rythme","Répétition","Espagnol","Crescendo"],"theme":"arts","difficulty":"easy"},
 {"word":"Igor Stravinsky","forbidden":["Russe","Sacre du Printemps","Ballet","Néoclassique","Modernisme"],"theme":"arts","difficulty":"medium"},
-{"word":"Dmitri Chostakovitch","forbidden":["Russe","Symphonies","Staline","Soviétique","Tragique"],"theme":"arts","difficulty":"hard"},
+{"word":"Dmitri Chostakovitch","forbidden":["Russe","Symphonies","Compositeur","Soviétique","Tragique"],"theme":"arts","difficulty":"hard"},
 {"word":"Opéra","forbidden":["Chanter","Lyrique","Soprano","Ténor","Scène"],"theme":"arts","difficulty":"easy"},
 {"word":"Symphonie","forbidden":["Orchestre","Mouvement","Classique","Partition","Thème"],"theme":"arts","difficulty":"easy"},
 {"word":"Concerto","forbidden":["Soliste","Orchestre","Dialogue","Virtuose","Classique"],"theme":"arts","difficulty":"easy"},

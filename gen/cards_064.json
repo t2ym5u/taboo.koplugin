@@ -57,7 +57,7 @@
 {"word":"Patriarcat","forbidden":["Homme","Domination","Système","Femme","Pouvoir"],"theme":"société","difficulty":"hard"},
 {"word":"Égalité Salariale","forbidden":["Femme","Homme","Même","Travail","Salaire"],"theme":"société","difficulty":"medium"},
 {"word":"Plafond de Verre","forbidden":["Femme","Carrière","Obstacle","Invisible","Progresser"],"theme":"société","difficulty":"hard"},
-{"word":"MeToo","forbidden":["Femme","Harcèlement","Mouvement","Témoigner","Sexuel"],"theme":"société","difficulty":"medium"},
+{"word":"MeToo","forbidden":["Femme","Harcèlement","Mouvement","Témoigner","Hashtag"],"theme":"société","difficulty":"medium"},
 {"word":"Violence Conjugale","forbidden":["Couple","Frapper","Femme","Danger","Aide"],"theme":"société","difficulty":"medium"},
 {"word":"Parité","forbidden":["Femme","Homme","Même","Nombre","Représentation"],"theme":"société","difficulty":"medium"},
 {"word":"Intersectionnalité","forbidden":["Discrimination","Multiple","Identité","Cumuler","Étudier"],"theme":"société","difficulty":"hard"},

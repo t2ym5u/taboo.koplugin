@@ -40,7 +40,7 @@
 {"word":"Jean-Paul Belmondo","forbidden":["Acteur","À Bout de Souffle","Cascades","Bebel","Classique"],"theme":"société","difficulty":"easy"},
 {"word":"Brigitte Bardot","forbidden":["Actrice","BB","Saint-Tropez","Animaux","Icône"],"theme":"société","difficulty":"easy"},
 {"word":"Simone Veil","forbidden":["IVG","Femme","Politique","Académie","Résistante"],"theme":"société","difficulty":"easy"},
-{"word":"Simone de Beauvoir","forbidden":["Féministe","Sartre","Deuxième","Sexe","Philosophe"],"theme":"société","difficulty":"easy"},
+{"word":"Simone de Beauvoir","forbidden":["Féministe","Sartre","Deuxième","Existentialisme","Philosophe"],"theme":"société","difficulty":"easy"},
 {"word":"Yannick Noah","forbidden":["Roland-Garros","Tennis","Chanteur","Dreadlocks","Champion"],"theme":"société","difficulty":"easy"},
 {"word":"François Hollande","forbidden":["Président","Gauche","Flanby","Normal","Valérie"],"theme":"société","difficulty":"easy"},
 {"word":"Nicolas Sarkozy","forbidden":["Président","Droite","Carla","UMP","Hyperactif"],"theme":"société","difficulty":"easy"},

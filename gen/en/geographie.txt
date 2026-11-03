@@ -1,0 +1,153 @@
+Eiffel Tower|Paris|France|Iron|Tall|Landmark|easy
+Statue of Liberty|New York|Torch|Green|France|Gift|easy
+Big Ben|London|Clock|Bell|Parliament|Thames|easy
+Colosseum|Rome|Gladiators|Arena|Ancient|Italy|easy
+Taj Mahal|India|Marble|Agra|Tomb|Love|medium
+Great Wall of China|Long|Ancient|Visible|Space|Defence|easy
+Stonehenge|Stones|Circle|England|Druids|Salisbury|medium
+Grand Canyon|Arizona|Colorado River|Deep|Gorge|Rock|easy
+Mount Everest|Highest|Mountain|Himalayas|Nepal|Climb|easy
+Niagara Falls|Waterfall|Canada|Border|Barrel|Honeymoon|easy
+Leaning Tower of Pisa|Italy|Tilt|Bell|Crooked|Famous|easy
+Pyramids of Giza|Egypt|Pharaoh|Tomb|Sphinx|Desert|easy
+Golden Gate Bridge|San Francisco|Red|Suspension|Bay|Fog|easy
+Sydney Opera House|Australia|Sails|Harbour|Concert|White|easy
+Machu Picchu|Peru|Inca|Ruins|Andes|Mountain|medium
+Mount Rushmore|Presidents|Faces|Carved|South Dakota|Lincoln|medium
+Christ the Redeemer|Rio|Brazil|Statue|Arms|Jesus|medium
+Kremlin|Moscow|Russia|Red Square|Fortress|Government|medium
+Buckingham Palace|London|Queen|King|Royal|Guards|easy
+Tower of London|Crown Jewels|Ravens|Beefeaters|Prison|Thames|medium
+Times Square|New York|Lights|New Year|Broadway|Billboards|easy
+Hollywood Sign|Los Angeles|Hills|Letters|White|Movies|easy
+Petra|Jordan|Rock|Carved|Rose|Indiana Jones|hard
+Angkor Wat|Cambodia|Temple|Jungle|Khmer|Ruins|hard
+Acropolis|Athens|Greece|Parthenon|Hill|Ancient|medium
+Alhambra|Granada|Spain|Moorish|Palace|Fortress|hard
+Sagrada Familia|Barcelona|Gaudí|Church|Unfinished|Spain|medium
+Brandenburg Gate|Berlin|Germany|Columns|Wall|Arch|medium
+Easter Island|Statues|Heads|Moai|Pacific|Chile|medium
+Uluru|Ayers Rock|Australia|Red|Outback|Sacred|medium
+Mount Fuji|Japan|Volcano|Snow|Tokyo|Climb|easy
+Kilimanjaro|Tanzania|Africa|Highest|Snow|Climb|medium
+Sahara|Desert|Africa|Sand|Hot|Camel|easy
+Amazon|River|Rainforest|Brazil|Jungle|South America|easy
+Nile|River|Egypt|Longest|Africa|Cairo|easy
+Mississippi|River|Steamboat|Mark Twain|New Orleans|State|medium
+Thames|River|London|Bridge|Boat Race|England|easy
+Danube|River|Blue|Vienna|Budapest|Waltz|hard
+Alps|Mountains|Switzerland|Ski|Snow|Europe|easy
+Rocky Mountains|Colorado|Range|America|Denver|Peaks|medium
+Andes|Mountains|South America|Range|Peru|Llama|hard
+Himalayas|Mountains|Everest|Nepal|Tibet|Range|medium
+Dead Sea|Salt|Float|Israel|Jordan|Lowest|medium
+Great Barrier Reef|Coral|Australia|Fish|Diving|Ocean|easy
+Antarctica|South Pole|Ice|Penguins|Cold|Continent|easy
+Arctic|North Pole|Ice|Polar Bear|Cold|Santa|easy
+Pacific Ocean|Largest|Water|Hawaii|Waves|Sea|easy
+Atlantic Ocean|Water|Titanic|Cross|America|Europe|easy
+Mediterranean|Sea|Europe|Greece|Italy|Holiday|medium
+Bermuda Triangle|Disappear|Ships|Planes|Mystery|Ocean|medium
+Iceland|Volcano|Geysers|Reykjavik|Cold|Island|medium
+Greenland|Ice|Island|Denmark|Arctic|Big|medium
+Hawaii|Island|Aloha|Surfing|Volcano|Pacific|easy
+Alaska|Cold|Bears|Snow|State|Russia|easy
+Texas|Cowboy|Big|State|Lone Star|Houston|easy
+California|State|Hollywood|Beach|Sunshine|Los Angeles|easy
+Florida|State|Sunshine|Miami|Orlando|Oranges|easy
+New York|Big Apple|City|Manhattan|Statue|Times Square|easy
+Las Vegas|Casino|Nevada|Gambling|Desert|Strip|easy
+Chicago|Windy|Illinois|City|Lake Michigan|Deep Dish|medium
+San Francisco|Golden Gate|Cable Car|California|Fog|Alcatraz|medium
+Washington D.C.|Capital|White House|President|Monuments|Congress|medium
+New Orleans|Jazz|Louisiana|Mardi Gras|Cajun|Mississippi|medium
+Boston|Tea Party|Massachusetts|Harvard|Red Sox|City|medium
+Seattle|Rain|Coffee|Space Needle|Washington|City|medium
+Nashville|Country Music|Tennessee|Guitar|City|Grand Ole Opry|medium
+London|England|Capital|Thames|Big Ben|Queen|easy
+Paris|France|Capital|Eiffel|Love|City|easy
+Rome|Italy|Capital|Colosseum|Pope|Ancient|easy
+Venice|Gondola|Canals|Italy|Water|Carnival|easy
+Tokyo|Japan|Capital|City|Crowded|Sushi|easy
+Moscow|Russia|Capital|Kremlin|Red Square|Cold|medium
+Berlin|Germany|Capital|Wall|City|Brandenburg|medium
+Dublin|Ireland|Capital|Guinness|City|Irish|medium
+Edinburgh|Scotland|Capital|Castle|Festival|City|medium
+Amsterdam|Netherlands|Canals|Bikes|Tulips|Capital|medium
+Barcelona|Spain|Gaudí|Football|Catalonia|Beach|medium
+Athens|Greece|Capital|Acropolis|Olympics|Ancient|medium
+Cairo|Egypt|Capital|Pyramids|Nile|City|medium
+Jerusalem|Holy|City|Israel|Religion|Wall|medium
+Istanbul|Turkey|Constantinople|Bosphorus|City|Mosque|hard
+Dubai|Skyscraper|Desert|Emirates|Rich|Gold|medium
+Hong Kong|China|Island|Skyline|Harbour|City|medium
+Singapore|Island|Asia|City|Clean|Lion|medium
+Sydney|Australia|Opera House|Harbour|Bridge|City|easy
+Rio de Janeiro|Brazil|Carnival|Beach|Copacabana|Samba|medium
+Mexico City|Capital|Aztec|Huge|Tacos|Latin America|medium
+Toronto|Canada|CN Tower|Ontario|City|Maple Leafs|medium
+Vancouver|Canada|British Columbia|Pacific|City|Rain|hard
+Cape Town|South Africa|Table Mountain|City|Mandela|Penguins|hard
+Mumbai|India|Bollywood|City|Bombay|Crowded|medium
+Kathmandu|Nepal|Capital|Himalayas|Everest|Temples|hard
+Timbuktu|Mali|Far Away|Desert|Remote|Africa|hard
+Reykjavik|Iceland|Capital|Cold|Northern Lights|Geysers|hard
+Canada|Maple|Hockey|Moose|North|Cold|easy
+Mexico|Tacos|Sombrero|Spanish|Border|Mariachi|easy
+Brazil|Football|Samba|Carnival|Rio|Amazon|easy
+Argentina|Tango|Buenos Aires|Football|Steak|Andes|medium
+Peru|Llama|Inca|Machu Picchu|Andes|Lima|medium
+Chile|Long|Thin|Andes|Santiago|South America|hard
+Australia|Kangaroo|Down Under|Sydney|Outback|Koala|easy
+New Zealand|Kiwi|Hobbits|Maori|Sheep|Rugby|medium
+Japan|Tokyo|Sushi|Samurai|Island|Rising Sun|easy
+China|Great Wall|Beijing|Panda|Chopsticks|Dragon|easy
+India|Curry|Taj Mahal|Delhi|Cricket|Elephant|easy
+Russia|Moscow|Big|Cold|Siberia|Kremlin|easy
+Egypt|Pyramids|Pharaoh|Nile|Desert|Cairo|easy
+Kenya|Safari|Nairobi|Africa|Running|Lion|medium
+South Africa|Mandela|Cape Town|Safari|Rugby|Apartheid|medium
+Morocco|Marrakesh|Africa|Desert|Tagine|Casablanca|medium
+Ireland|Green|Leprechaun|Shamrock|Dublin|Irish|easy
+Scotland|Kilt|Bagpipes|Highlands|Edinburgh|Haggis|easy
+Wales|Dragon|Cardiff|Sheep|Welsh|Rugby|medium
+England|London|Tea|Queen|Britain|Rain|easy
+France|Paris|Wine|Cheese|Eiffel|Baguette|easy
+Italy|Pizza|Pasta|Rome|Boot|Venice|easy
+Spain|Madrid|Flamenco|Paella|Bullfight|Siesta|easy
+Germany|Berlin|Beer|Sausage|Oktoberfest|Autobahn|easy
+Switzerland|Alps|Cheese|Chocolate|Watches|Neutral|easy
+Netherlands|Holland|Tulips|Windmills|Clogs|Amsterdam|medium
+Greece|Athens|Islands|Olympics|Myths|Feta|easy
+Norway|Fjords|Vikings|Oslo|Scandinavia|Cold|medium
+Sweden|Stockholm|Scandinavia|Meatballs|Vikings|Nobel|medium
+Portugal|Lisbon|Port|Spain|Iberian|Fado|medium
+Turkey|Istanbul|Kebab|Asia|Europe|Ankara|medium
+Thailand|Bangkok|Asia|Elephants|Beaches|Pad Thai|medium
+Vietnam|Asia|Hanoi|Pho|War|Rice|medium
+North Pole|Arctic|Santa|Ice|Top|Explorer|easy
+Equator|Line|Middle|Hot|Hemisphere|Zero|medium
+Death Valley|Hot|California|Desert|Lowest|Nevada|hard
+Yellowstone|Park|Geysers|Old Faithful|Bears|Wyoming|medium
+Mount Vesuvius|Volcano|Pompeii|Italy|Naples|Eruption|medium
+Pompeii|Volcano|Ash|Buried|Roman|Vesuvius|medium
+Loch Ness|Scotland|Monster|Lake|Nessie|Water|easy
+Panama Canal|Ships|Atlantic|Pacific|Locks|Central America|hard
+Suez Canal|Egypt|Ships|Red Sea|Mediterranean|Shortcut|hard
+White Cliffs of Dover|England|Chalk|Channel|Coast|France|hard
+Hadrian's Wall|Roman|England|Scotland|Border|Emperor|hard
+Lake Victoria|Africa|Largest|Uganda|Nile|Water|hard
+Caribbean|Islands|Sea|Pirates|Jamaica|Beaches|easy
+Jamaica|Reggae|Caribbean|Island|Bob Marley|Bobsled|medium
+Cuba|Havana|Cigars|Caribbean|Island|Salsa|medium
+Siberia|Russia|Cold|Train|Frozen|Huge|hard
+Silicon Valley|California|Tech|Computers|Startups|Apple|medium
+Central Park|New York|Manhattan|Green|Trees|Jogging|easy
+Empire State Building|New York|Skyscraper|King Kong|Tall|Manhattan|easy
+Burj Khalifa|Dubai|Tallest|Building|Skyscraper|Emirates|medium
+Notre-Dame|Paris|Cathedral|Hunchback|Fire|Gothic|medium
+Mont Blanc|Alps|Highest|France|Italy|Mountain|hard
+Vatican|Pope|Rome|Smallest|Country|Sistine|medium
+Monaco|Monte Carlo|Casino|Grand Prix|Small|Rich|medium
+Arc de Triomphe|Paris|Arch|Champs-Élysées|Napoleon|Victory|medium
+Route 66|Road|Highway|America|Chicago|Los Angeles|medium

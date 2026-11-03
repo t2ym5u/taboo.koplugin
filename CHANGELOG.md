@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.7.0] - 2026-11-02
+
+### Added
+- An English deck: 2,445 cards written for English speakers (not translated
+  from French) across the same 20 theme ids as the French deck — Sherlock
+  Holmes, Big Ben, Fish and chips, Muhammad Ali, Pac-Man… English readers
+  used to get the French fallback deck. Theme names in the theme filter now
+  follow the deck language.
+- The deck language now defaults to KOReader's language (French → French
+  deck, anything else → English) until it is picked in Options → Language.
+
+### Changed
+- Renamed from "Taboo Party" to "Forbidden Words" (FR « Mots interdits »): it is listed under Tools → Games → Party & quiz, so "Party" said nothing, and the new name is not a trademark. The plugin id and settings are unchanged.
+- Family-friendly cards: dropped Pet, Pipi, Caca, Prout and Testicule from
+  the French deck, and tapette, branle, dyke, anus, rectum and bruant zizi
+  from the fallback deck (`taboo_cards.json`); swapped sexual forbidden
+  words (Freud, MeToo, Simone de Beauvoir, Beauvoir, Marilyn Monroe).
+- No dictators or mass murderers: removed the French cards Hitler, Adolf
+  Hitler, Staline, Mussolini, Mao Zedong, Mao Tsé-Toung, Franco, Francisco
+  Franco, Fidel Castro, Gengis Khan, Attila and Nazisme (and nazisme, Staline,
+  Mao, Castro, Attila, Gengis from the fallback deck). Where such a name was a
+  forbidden word (Hitler on Seconde Guerre mondiale, Staline on URSS and
+  Yalta, Kadhafi on Libye, Pinochet on Chili, Gengis on Mongolie…), it was
+  swapped for another natural clue; history topics keep their cards. A spec
+  keeps these names out of every deck, as a card or a clue.
+
 ## [1.6.1] - 2026-11-02
 
 ### Changed
