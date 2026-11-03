@@ -1,0 +1,154 @@
+Darth Vader|Star Wars|Mask|Breathing|Father|Lightsaber|easy
+Luke Skywalker|Star Wars|Jedi|Lightsaber|Father|Tatooine|easy
+Yoda|Jedi|Green|Small|Star Wars|Wise|easy
+Princess Leia|Star Wars|Buns|Hair|Rebel|Han Solo|easy
+Han Solo|Millennium Falcon|Chewbacca|Star Wars|Smuggler|Pilot|medium
+Chewbacca|Wookiee|Furry|Han Solo|Star Wars|Roar|medium
+R2-D2|Droid|Beeps|Star Wars|Robot|C-3PO|medium
+Star Wars|Jedi|Lightsaber|Galaxy|Darth Vader|Force|easy
+Mickey Mouse|Disney|Ears|Minnie|Cartoon|Gloves|easy
+Donald Duck|Disney|Sailor|Daisy|Quack|Nephews|easy
+Goofy|Disney|Dog|Clumsy|Mickey|Hat|easy
+Bugs Bunny|Rabbit|Carrot|What's Up Doc|Looney Tunes|Cartoon|easy
+Homer Simpson|Doh|Donuts|Bart|Springfield|Bald|easy
+Bart Simpson|Skateboard|Homer|Prank|Eat My Shorts|Springfield|easy
+The Simpsons|Homer|Bart|Springfield|Yellow|Cartoon|easy
+James Bond|007|Spy|Martini|Shaken|MI6|easy
+Indiana Jones|Whip|Hat|Archaeologist|Snakes|Treasure|easy
+Batman|Gotham|Bruce Wayne|Joker|Cape|Robin|easy
+Superman|Clark Kent|Krypton|Cape|Fly|Lois Lane|easy
+Spider-Man|Web|Peter Parker|New York|Mask|Marvel|easy
+Wonder Woman|Amazon|Lasso|Superhero|Diana|Tiara|medium
+The Hulk|Green|Angry|Smash|Bruce Banner|Marvel|easy
+Iron Man|Tony Stark|Suit|Marvel|Avengers|Armor|easy
+Captain America|Shield|Avengers|Marvel|Stars|Steve Rogers|medium
+The Joker|Batman|Clown|Villain|Smile|Gotham|easy
+Shrek|Ogre|Green|Donkey|Swamp|Fiona|easy
+Nemo|Clownfish|Dory|Ocean|Lost|Father|easy
+Buzz Lightyear|Toy Story|Infinity|Space Ranger|Woody|Wings|easy
+Woody|Toy Story|Cowboy|Sheriff|Buzz|Andy|medium
+Toy Story|Woody|Buzz|Pixar|Andy|Cowboy|easy
+The Lion King|Simba|Mufasa|Pride Rock|Hakuna Matata|Scar|easy
+Simba|Lion King|Cub|Mufasa|Pride Rock|Nala|easy
+Frozen|Elsa|Anna|Let It Go|Olaf|Ice|easy
+Elsa|Frozen|Ice|Queen|Let It Go|Anna|easy
+Olaf|Snowman|Frozen|Carrot|Summer|Warm Hugs|medium
+Pocahontas|Disney|John Smith|Native American|Colors of the Wind|Princess|medium
+Aladdin|Lamp|Genie|Jasmine|Carpet|Wishes|easy
+The Genie|Lamp|Wishes|Blue|Aladdin|Three|medium
+Dumbo|Elephant|Ears|Fly|Circus|Disney|easy
+Bambi|Deer|Disney|Thumper|Mother|Forest|easy
+Tarzan|Jungle|Apes|Vine|Jane|Yell|easy
+King Kong|Gorilla|Empire State Building|Giant|Ape|Skull Island|easy
+Godzilla|Monster|Japan|Lizard|Tokyo|Giant|easy
+E.T.|Alien|Phone Home|Bicycle|Spielberg|Finger|easy
+Jaws|Shark|Spielberg|Beach|Bigger Boat|Music|easy
+Jurassic Park|Dinosaurs|T. rex|Island|Spielberg|Amber|easy
+Gone with the Wind|Scarlett|Rhett|Civil War|Tara|Frankly|hard
+Casablanca|Bogart|Play It Again|Rick|Morocco|Here's Looking|hard
+The Godfather|Mafia|Offer|Corleone|Brando|Family|hard
+Back to the Future|DeLorean|Marty|Doc Brown|Time Travel|1985|easy
+Ghostbusters|Who You Gonna Call|Ghosts|Proton Pack|Slimer|Marshmallow|easy
+The Terminator|Robot|I'll Be Back|Schwarzenegger|Future|Cyborg|medium
+Rocky|Boxer|Stallone|Steps|Philadelphia|Adrian|medium
+Forrest Gump|Run|Box of Chocolates|Tom Hanks|Shrimp|Jenny|medium
+Home Alone|Kevin|Burglars|Christmas|Traps|Forgotten|easy
+Mrs. Doubtfire|Robin Williams|Nanny|Disguise|Divorce|Dad|medium
+The Matrix|Neo|Red Pill|Keanu|Simulation|Morpheus|medium
+The Lord of the Rings|Frodo|Tolkien|Mordor|Hobbits|Gandalf|medium
+Gandalf|Wizard|Grey|Staff|You Shall Not Pass|Hobbit|easy
+Frodo|Hobbit|Ring|Mordor|Sam|Shire|easy
+Gollum|Precious|Ring|Smeagol|Cave|Hobbit|easy
+Pirates of the Caribbean|Jack Sparrow|Black Pearl|Johnny Depp|Ship|Treasure|easy
+Jack Sparrow|Pirate|Captain|Black Pearl|Rum|Johnny Depp|easy
+The Muppets|Kermit|Miss Piggy|Puppets|Fozzie|Show|easy
+Kermit the Frog|Muppets|Green|Miss Piggy|Puppet|Being Green|easy
+Sesame Street|Big Bird|Elmo|Cookie Monster|Puppets|Alphabet|easy
+Cookie Monster|Blue|Sesame Street|Om Nom|Puppet|Crumbs|easy
+Big Bird|Yellow|Sesame Street|Tall|Feathers|Puppet|medium
+Scooby-Doo|Dog|Shaggy|Mystery Machine|Snacks|Ghosts|easy
+SpongeBob SquarePants|Pineapple|Sea|Patrick|Krusty Krab|Yellow|easy
+Pink Panther|Clouseau|Inspector|Cartoon|Theme Tune|Diamond|medium
+Tom and Jerry|Cat|Mouse|Chase|Cartoon|Hanna-Barbera|easy
+The Flintstones|Fred|Stone Age|Yabba Dabba Doo|Bedrock|Barney|medium
+Pikachu|Pokemon|Yellow|Electric|Ash|Pika|easy
+Doctor Who|TARDIS|Time Lord|Daleks|Police Box|BBC|easy
+Daleks|Exterminate|Doctor Who|Robot|Villain|Robot Voice|medium
+Mr. Bean|Rowan Atkinson|Teddy|Mini|Silent|Clumsy|easy
+Friends|Ross|Rachel|Central Perk|New York|Sitcom|easy
+Downton Abbey|Crawley|Servants|Butler|Aristocrats|Manor|hard
+Star Trek|Enterprise|Spock|Kirk|Beam Me Up|Final Frontier|easy
+Mr. Spock|Ears|Vulcan|Logical|Star Trek|Live Long and Prosper|medium
+Charlie Chaplin|Silent|Bowler Hat|Cane|Moustache|Tramp|easy
+Marilyn Monroe|Blonde|Actress|White Dress|Happy Birthday|Icon|easy
+Audrey Hepburn|Breakfast at Tiffany's|Actress|Little Black Dress|Elegant|Roman Holiday|hard
+Laurel and Hardy|Comedy Duo|Bowler Hats|Silent|Thin|Fat|medium
+Bruce Lee|Kung Fu|Martial Arts|Hong Kong|Dragon|Yellow Suit|hard
+John Wayne|Cowboy|Western|Duke|Actor|Horse|hard
+Robin Williams|Mrs. Doubtfire|Genie|Comedian|Dead Poets Society|Actor|medium
+Alfred Hitchcock|Psycho|Suspense|Birds|Director|Master|hard
+Walt Disney|Mickey|Animation|Theme Park|Cartoons|Founder|easy
+Hollywood|Los Angeles|Movies|Sign|Stars|Studios|easy
+Oscar|Award|Statue|Golden|Hollywood|Academy|easy
+Red Carpet|Celebrities|Premiere|Walk|Photographers|Glamour|easy
+Cinema|Movies|Screen|Popcorn|Ticket|Seats|easy
+Director|Film|Action|Cut|Chair|Movie|medium
+Stuntman|Danger|Double|Actor|Jump|Fall|medium
+Sequel|Second|Follow-up|Part Two|Movie|Continuation|medium
+Trailer|Preview|Coming Soon|Clip|Movie|Advert|medium
+Blockbuster|Hit|Summer|Box Office|Movie|Big Budget|medium
+Cartoon|Animation|Drawing|Kids|TV|Mickey|easy
+Sitcom|Comedy|Laughter|TV|Episode|Family|medium
+Soap Opera|TV|Drama|Episodes|Daily|Romance|medium
+Western|Cowboy|Saloon|Horse|Sheriff|Duel|easy
+Horror Film|Scary|Monster|Scream|Ghost|Blood|easy
+Silent Film|Black and White|No Sound|Chaplin|Piano|Old|medium
+Special Effects|CGI|Explosion|Computer|Fake|Movie|medium
+Subtitles|Text|Foreign|Read|Bottom|Translation|easy
+Clapperboard|Take|Scene|Action|Film|Black and White|hard
+Box Office|Tickets|Money|Earnings|Cinema|Hit|hard
+Cameo|Brief|Appearance|Famous|Stan Lee|Surprise|hard
+Plot Hole|Mistake|Story|Logic|Script|Gap|hard
+Spoiler|Ending|Reveal|Ruin|Surprise|Warning|medium
+Binge-watch|Series|Episodes|Netflix|Couch|Marathon|medium
+Hogwarts|Harry Potter|School|Wizards|Castle|Dumbledore|easy
+Dumbledore|Wizard|Beard|Headmaster|Hogwarts|Harry Potter|easy
+Voldemort|Harry Potter|Dark Lord|He Who Must Not Be Named|Nose|Wand|easy
+Hagrid|Giant|Hogwarts|Beard|Motorbike|Harry Potter|medium
+Cruella de Vil|Dalmatians|Fur Coat|Villain|Spots|Black and White|medium
+Maleficent|Horns|Sleeping Beauty|Villain|Curse|Witch|medium
+The Grinch|Christmas|Green|Steal|Whoville|Dr. Seuss|easy
+Rudolph|Reindeer|Red Nose|Santa|Christmas|Sleigh|easy
+The Addams Family|Wednesday|Gomez|Morticia|Spooky|Thing|medium
+Wallace and Gromit|Cheese|Dog|Claymation|Inventor|Aardman|medium
+Minions|Yellow|Banana|Goggles|Despicable Me|Gru|easy
+Kung Fu Panda|Po|Dragon Warrior|Bamboo|Jack Black|Master|medium
+Dory|Fish|Blue|Forgetful|Nemo|Just Keep Swimming|medium
+Up|Balloons|House|Pixar|Old Man|Carl|medium
+Cars|Lightning McQueen|Pixar|Racing|Mater|Ka-chow|medium
+The Incredibles|Superhero Family|Pixar|Dash|Elastigirl|Edna|medium
+Monsters, Inc.|Sully|Mike|Scream|Boo|Pixar|medium
+Ratatouille|Rat|Chef|Paris|Remy|Pixar|medium
+WALL-E|Robot|Pixar|Earth|Trash|EVE|medium
+Moana|Ocean|Maui|Polynesian|Disney|Island|medium
+Black Panther|Wakanda|Marvel|King|Vibranium|Superhero|medium
+Thor|Hammer|Asgard|Thunder|Marvel|Loki|easy
+The Avengers|Marvel|Iron Man|Thor|Hulk|Superheroes|easy
+Grease|Danny|Sandy|Travolta|High School|Musical|medium
+The Sound of Music|Julie Andrews|Austria|Von Trapp|Nuns|Do-Re-Mi|hard
+Singin' in the Rain|Gene Kelly|Umbrella|Musical|Lamp Post|Dance|hard
+Charlie Brown|Snoopy|Peanuts|Good Grief|Zigzag Shirt|Lucy|medium
+Snoopy|Beagle|Peanuts|Doghouse|Charlie Brown|Woodstock|easy
+Garfield|Cat|Lasagna|Orange|Mondays|Lazy|easy
+Tinker Bell|Fairy|Peter Pan|Pixie Dust|Green|Wings|easy
+Mr. Potato Head|Toy|Ears|Eyes|Plastic|Toy Story|medium
+Sherlock|Benedict Cumberbatch|BBC|Detective|Watson|Modern|medium
+Jack Skellington|Nightmare Before Christmas|Halloween Town|Skeleton|Pumpkin King|Tim Burton|medium
+Wednesday Addams|Pigtails|Gloomy|Black Dress|Gomez|Dance|medium
+The Muppet Show|Kermit|Theater|Puppets|Variety|Statler|hard
+Mulan|China|Warrior|Disguise|Disney|Dragon|medium
+Beauty and the Beast|Belle|Rose|Castle|Disney|Teapot|easy
+Stan Laurel|Thin|Oliver Hardy|Bowler|Comedy|Crying|hard
+Tim Burton|Director|Gothic|Johnny Depp|Edward Scissorhands|Dark|hard
+Movie Night|Couch|Film|Snacks|Friends|Watch|easy
+Opening Credits|Names|Beginning|Film|Titles|Cast|medium

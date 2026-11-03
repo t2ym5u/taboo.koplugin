@@ -1,0 +1,113 @@
+Piano|Keys|Black and White|Grand|Pianist|Instrument|easy
+Guitar|Strings|Strum|Electric|Acoustic|Rock|easy
+Violin|Bow|Strings|Fiddle|Chin|Orchestra|easy
+Drums|Sticks|Beat|Drummer|Cymbal|Bang|easy
+Trumpet|Brass|Blow|Jazz|Valves|Louis Armstrong|easy
+Saxophone|Jazz|Brass|Blow|Reed|Curved|medium
+Flute|Blow|Silver|Woodwind|Holes|Recorder|easy
+Cello|Strings|Bow|Between Knees|Big|Orchestra|medium
+Harp|Strings|Angel|Pluck|Golden|Large|easy
+Bagpipes|Scotland|Kilt|Blow|Drone|Highland|easy
+Accordion|Squeeze|Keys|Bellows|French|Folk|medium
+Harmonica|Blues|Mouth|Blow|Pocket|Harmony|medium
+Tambourine|Shake|Jingle|Hand|Percussion|Bells|medium
+Xylophone|Bars|Mallets|Wooden|Percussion|Notes|medium
+Ukulele|Hawaii|Small|Guitar|Strings|Four|medium
+Banjo|Country|Strings|Bluegrass|Twang|Pluck|medium
+Triangle|Ding|Metal|Percussion|Three Sides|Orchestra|medium
+Tuba|Brass|Big|Low|Marching Band|Oompah|hard
+Trombone|Slide|Brass|Jazz|Long|Blow|medium
+Clarinet|Woodwind|Reed|Black|Blow|Jazz|medium
+Recorder|School|Plastic|Blow|Holes|Children|medium
+Organ|Church|Pipes|Keys|Wedding|Loud|medium
+Microphone|Sing|Stage|Karaoke|Voice|Speaker|easy
+Orchestra|Conductor|Violins|Symphony|Musicians|Concert|easy
+Conductor|Baton|Orchestra|Wave|Tempo|Musicians|medium
+Choir|Sing|Church|Voices|Group|Robes|easy
+Concert|Live|Stage|Tickets|Crowd|Band|easy
+Rock and Roll|Elvis|Guitar|Fifties|Dance|Music|easy
+Jazz|Saxophone|New Orleans|Improvise|Swing|Louis Armstrong|easy
+Blues|Sad|Guitar|Mississippi|Chicago|B.B. King|medium
+Reggae|Jamaica|Bob Marley|Dreadlocks|Rasta|Beat|easy
+Country Music|Cowboy|Nashville|Guitar|Dolly Parton|Western|easy
+Hip Hop|Rap|Beats|Breakdance|DJ|Rhymes|easy
+Opera|Sing|Soprano|Italian|Fat Lady|Aria|medium
+Heavy Metal|Loud|Guitar|Headbanging|Long Hair|Black|medium
+Disco|Seventies|Dance|Mirror Ball|Bee Gees|Night|easy
+Punk|Mohawk|Rebel|Leather|Safety Pins|Loud|medium
+Classical Music|Mozart|Beethoven|Orchestra|Symphony|Composer|easy
+Lullaby|Baby|Sleep|Song|Soft|Night|easy
+National Anthem|Country|Song|Flag|Stand|Patriotic|easy
+Lyrics|Words|Song|Singer|Write|Verse|easy
+Chorus|Repeat|Song|Refrain|Sing|Verse|medium
+Melody|Tune|Notes|Song|Hum|Music|medium
+Rhythm|Beat|Tempo|Drums|Music|Pulse|medium
+Duet|Two|Sing|Together|Pair|Song|easy
+Encore|Again|Concert|More|Applause|Another|medium
+Busker|Street|Music|Coins|Hat|Perform|medium
+Boy Band|Singers|Teen|Dance|Group|Fans|medium
+Vinyl Record|LP|Turntable|Needle|Groove|Album|medium
+Jukebox|Diner|Coin|Songs|Machine|Fifties|medium
+Metronome|Tick|Tempo|Beat|Piano|Swing|hard
+Tuning Fork|Pitch|Note|Vibrate|Metal|Tune|hard
+Sheet Music|Notes|Staff|Read|Piano|Paper|medium
+Treble Clef|Music|Symbol|Staff|Notes|Swirl|hard
+Symphony|Orchestra|Beethoven|Movements|Classical|Composer|medium
+Wolfgang Amadeus Mozart|Composer|Austrian|Magic Flute|Child Prodigy|Classical|easy
+Ludwig van Beethoven|Deaf|Composer|Fifth Symphony|German|Moonlight Sonata|easy
+Johann Sebastian Bach|Composer|Baroque|Organ|German|Fugue|hard
+Frederic Chopin|Polish|Piano|Composer|Nocturnes|Romantic|hard
+Antonio Vivaldi|Four Seasons|Venice|Violin|Baroque|Composer|hard
+Tchaikovsky|Swan Lake|Nutcracker|Russian|Composer|Ballet|hard
+Elvis Presley|King|Rock and Roll|Graceland|Hips|Memphis|easy
+The Beatles|Liverpool|Paul|John Lennon|Ringo|Fab Four|easy
+John Lennon|Beatles|Imagine|Glasses|Yoko Ono|Liverpool|easy
+Freddie Mercury|Queen|Bohemian Rhapsody|Moustache|Singer|Champions|easy
+Michael Jackson|Moonwalk|Thriller|King of Pop|Glove|Billie Jean|easy
+Bob Marley|Reggae|Jamaica|Dreadlocks|No Woman No Cry|Wailers|easy
+David Bowie|Ziggy Stardust|Lightning Bolt|Space Oddity|Starman|Glam|medium
+Louis Armstrong|Trumpet|Jazz|Satchmo|Wonderful World|Gravelly|medium
+Frank Sinatra|My Way|Crooner|New York|Ol' Blue Eyes|Rat Pack|hard
+Johnny Cash|Man in Black|Country|Ring of Fire|Folsom|Guitar|hard
+Whitney Houston|I Will Always Love You|Bodyguard|Singer|Diva|Voice|medium
+Aretha Franklin|Respect|Queen of Soul|Singer|Gospel|Detroit|medium
+Prince|Purple Rain|Minneapolis|Singer|Symbol|Funky|hard
+Buddy Holly|Glasses|Rock and Roll|Peggy Sue|Plane Crash|Fifties|hard
+Ray Charles|Blind|Piano|Soul|Georgia|Sunglasses|hard
+Amy Winehouse|Valerie|Beehive|Back to Black|Soul|London|medium
+Kurt Cobain|Nirvana|Grunge|Seattle|Guitar|Teen Spirit|hard
+Jimi Hendrix|Guitar|Woodstock|Purple Haze|Left-handed|Psychedelic|medium
+Queen|Freddie Mercury|Band|Bohemian Rhapsody|Brian May|We Will Rock You|easy
+ABBA|Sweden|Dancing Queen|Mamma Mia|Eurovision|Waterloo|easy
+The Rolling Stones|Mick Jagger|Tongue|Satisfaction|Band|Keith Richards|medium
+Bee Gees|Disco|Brothers|Stayin' Alive|Falsetto|Saturday Night Fever|hard
+Bohemian Rhapsody|Queen|Galileo|Scaramouche|Freddie|Opera|medium
+Happy Birthday|Song|Cake|Candles|Party|Sing|easy
+Jingle Bells|Christmas|Sleigh|Song|Snow|Horse|easy
+Twinkle Twinkle Little Star|Nursery Rhyme|Wonder|Sky|Lullaby|Diamond|easy
+Yellow Submarine|Beatles|Song|Sea|Ringo|We All Live|medium
+Imagine|John Lennon|Peace|Song|No Countries|Dreamer|medium
+Thriller|Michael Jackson|Zombies|Dance|Video|Halloween|medium
+YMCA|Village People|Dance|Arms|Letters|Disco|easy
+Auld Lang Syne|New Year|Scotland|Song|Robert Burns|Midnight|hard
+Eurovision|Song Contest|Europe|Points|Douze|Countries|medium
+Woodstock|Festival|1969|Hippies|Mud|Peace|medium
+Glastonbury|Festival|Mud|Somerset|Tents|Pyramid Stage|hard
+Grammy|Award|Music|Gramophone|Golden|Ceremony|medium
+Rock Star|Guitar|Fame|Stage|Fans|Tour|easy
+Mosh Pit|Concert|Push|Crowd|Punk|Jump|hard
+Ballet|Dance|Tutu|Tiptoe|Swan Lake|Ballerina|easy
+Tango|Dance|Argentina|Rose|Partner|Passion|hard
+Waltz|Dance|Three|Vienna|Ballroom|Strauss|hard
+Breakdance|Spin|Floor|Hip Hop|Street|Head|medium
+Line Dancing|Country|Rows|Boots|Steps|Cowboy|medium
+Moonwalk|Michael Jackson|Backwards|Dance|Slide|Glide|medium
+Tap Dance|Shoes|Click|Fred Astaire|Feet|Metal|medium
+Gospel|Church|Choir|Soul|Sing|Praise|hard
+Musical|Broadway|Sing|Dance|Theater|Show|easy
+Broadway|New York|Theater|Musical|Show|Lights|medium
+The Phantom of the Opera|Mask|Lloyd Webber|Musical|Paris|Chandelier|medium
+Marching Band|Parade|Drums|Uniform|Brass|Football|medium
+Synthesizer|Keyboard|Electronic|Eighties|Sound|Moog|hard
+Cymbals|Crash|Drums|Brass|Clash|Pair|medium
+Bass Guitar|Four Strings|Low|Band|Electric|Groove|medium

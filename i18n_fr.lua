@@ -1,6 +1,6 @@
 return {
     ["Describe words without saying the forbidden ones — team buzzer party game."] = { fr = "Décrivez des mots sans dire les mots interdits — jeu de groupe en équipes avec buzzer.", es = "Describe palabras sin decir las prohibidas — juego de fiesta por equipos con timbre.", de = "Beschreibe Wörter, ohne die verbotenen zu nennen — Team-Partyspiel mit Buzzer." },
-    ["Taboo Party"] = { fr = "Taboo Party", es = "Taboo Party", de = "Taboo Party" },
+    ["Forbidden Words"] = { fr = "Mots interdits", es = "Palabras prohibidas", de = "Verbotene Wörter" },
     ["%1 teams"] = { fr = "%1 équipes", es = "%1 equipos", de = "%1 Teams" },
     ["%1 theme(s) selected · %2 cards"] = { fr = "%1 thème(s) sélectionné(s) · %2 cartes", es = "%1 tema(s) seleccionado(s) · %2 tarjetas", de = "%1 Thema/Themen ausgewählt · %2 Karten" },
     ["%1: %2"] = { fr = "%1 : %2", es = "%1: %2", de = "%1: %2" },

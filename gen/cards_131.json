@@ -57,7 +57,6 @@
 {"word":"Tacite","forbidden":["Historien","Annales","Empire","Germanie","Latin"],"theme":"histoire","difficulty":"hard"},
 {"word":"Constantin","forbidden":["Premier","Chrétien","Byzance","Édit","Milan"],"theme":"histoire","difficulty":"medium"},
 {"word":"Byzance","forbidden":["Constantinople","Empire","Romain","Orient","Chrétien"],"theme":"histoire","difficulty":"medium"},
-{"word":"Attila","forbidden":["Hun","Fléau","Dieu","Conquérant","Empire"],"theme":"histoire","difficulty":"easy"},
 {"word":"Invasion des Barbares","forbidden":["Germains","Visigoths","Rome","Saccager","Migrer"],"theme":"histoire","difficulty":"medium"},
 {"word":"Édit de Milan","forbidden":["313","Constantin","Christianisme","Tolérance","Officiel"],"theme":"histoire","difficulty":"hard"},
 {"word":"Théodoret","forbidden":["Concile","Christianisme","Théologique","Hérésie","Evêque"],"theme":"histoire","difficulty":"hard"},

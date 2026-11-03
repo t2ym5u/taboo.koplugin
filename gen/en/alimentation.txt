@@ -1,0 +1,215 @@
+Pizza|Italy|Cheese|Slice|Tomato|Pepperoni|easy
+Hamburger|Bun|Beef|Patty|Fast food|Cheese|easy
+Fish and chips|British|Fried|Batter|Vinegar|Cod|easy
+Thanksgiving turkey|November|Roast|Stuffing|Bird|Gravy|medium
+Spaghetti|Pasta|Italian|Noodles|Meatballs|Sauce|easy
+Sushi|Japan|Raw|Fish|Rice|Seaweed|easy
+Taco|Mexican|Shell|Tortilla|Beef|Salsa|easy
+Pancake|Breakfast|Flip|Syrup|Batter|Stack|easy
+Waffle|Breakfast|Grid|Syrup|Belgian|Iron|medium
+Popcorn|Cinema|Movie|Butter|Kernel|Salty|easy
+Chocolate|Cocoa|Sweet|Bar|Brown|Milk|easy
+Ice cream|Cold|Cone|Scoop|Vanilla|Dessert|easy
+Apple|Fruit|Red|Tree|Pie|Newton|easy
+Banana|Yellow|Peel|Monkey|Fruit|Bunch|easy
+Orange|Citrus|Juice|Peel|Fruit|Vitamin C|easy
+Strawberry|Red|Seeds|Fruit|Cream|Wimbledon|easy
+Watermelon|Green|Red|Seeds|Summer|Juicy|easy
+Pineapple|Tropical|Spiky|Hawaii|Yellow|Fruit|easy
+Lemon|Sour|Yellow|Citrus|Squeeze|Juice|easy
+Grape|Vine|Wine|Bunch|Purple|Raisin|medium
+Cherry|Red|Stone|Pie|Tree|Stalk|medium
+Carrot|Orange|Vegetable|Rabbit|Root|Eyes|easy
+Potato|Chips|Fries|Mash|Root|Vegetable|easy
+Tomato|Red|Ketchup|Salad|Fruit|Sauce|easy
+Onion|Cry|Layers|Tears|Chop|Peel|easy
+Broccoli|Green|Vegetable|Tree|Florets|Healthy|medium
+Bread|Loaf|Bake|Slice|Toast|Flour|easy
+Toast|Bread|Butter|Jam|Breakfast|Crispy|medium
+Cheese|Milk|Cheddar|Mouse|Dairy|Holes|easy
+Egg|Chicken|Yolk|Shell|Boil|Breakfast|easy
+Butter|Dairy|Spread|Toast|Yellow|Margarine|easy
+Milk|Cow|White|Dairy|Drink|Cereal|easy
+Coffee|Caffeine|Morning|Bean|Cup|Espresso|easy
+Tea|Cup|Leaves|British|Kettle|Milk|easy
+Hot chocolate|Cocoa|Marshmallow|Winter|Drink|Warm|medium
+Lemonade|Fizzy|Sugar|Stand|Summer|Drink|medium
+Cereal|Breakfast|Bowl|Milk|Cornflakes|Box|medium
+Sandwich|Bread|Lunch|Filling|Slices|Ham|easy
+Hot dog|Sausage|Bun|Mustard|Ketchup|Frankfurter|easy
+French fries|Potato|Chips|Ketchup|Fried|Salt|easy
+Doughnut|Hole|Sugar|Glazed|Fried|Homer Simpson|easy
+Cupcake|Frosting|Small|Icing|Muffin|Sprinkles|medium
+Birthday cake|Candles|Party|Blow|Wish|Slice|easy
+Cookie|Biscuit|Chocolate chips|Jar|Bake|Milk|easy
+Honey|Bee|Sweet|Sticky|Jar|Hive|easy
+Peanut butter|Jelly|Spread|Nuts|Sandwich|Jar|medium
+Salad|Lettuce|Green|Dressing|Healthy|Bowl|easy
+Soup|Bowl|Spoon|Hot|Broth|Tomato|easy
+Rice|Grain|White|China|Boil|Paddy|easy
+Steak|Beef|Rare|Grill|Meat|Medium|easy
+Sausage|Meat|Pork|Banger|Grill|Hot dog|medium
+Bacon|Pig|Pork|Rashers|Breakfast|Crispy|easy
+Roast dinner|Sunday|Gravy|Potatoes|Yorkshire pudding|Meat|medium
+Full English breakfast|Bacon|Eggs|Beans|Sausage|Fry-up|medium
+Baked beans|Tomato|Tin|Toast|Heinz|Haricot|medium
+Shepherd's pie|Lamb|Mince|Mashed potato|Oven|British|hard
+Bangers and mash|Sausages|Potato|Gravy|British|Onion|medium
+Yorkshire pudding|Batter|Roast|Gravy|Sunday|Rise|medium
+Scone|Clotted cream|Jam|Tea|Cornwall|Devon|medium
+Afternoon tea|Scones|Sandwiches|Cakes|Ritz|Cucumber|medium
+Crumpet|Holes|Butter|Toast|British|Griddle|hard
+Mince pie|Christmas|Pastry|Dried fruit|Festive|Small|medium
+Christmas pudding|Brandy|Flame|Dried fruit|Steamed|Holly|hard
+Haggis|Scotland|Sheep|Burns Night|Oats|Neeps|hard
+Cornish pasty|Cornwall|Pastry|Crimped|Beef|Miners|hard
+Apple pie|American|Pastry|Dessert|Cinnamon|Mom|medium
+Pumpkin pie|Thanksgiving|Orange|Spice|Autumn|Dessert|hard
+Mac and cheese|Baked|Pasta|Cheddar|Comfort food|Elbow|medium
+Corn dog|Sausage|Batter|Stick|Fair|Fried|medium
+Buffalo wings|Chicken|Spicy|Hot sauce|Blue cheese|Celery|hard
+Barbecue|Grill|Outdoor|Charcoal|Ribs|Summer|medium
+Cheesecake|Philadelphia|New York|Biscuit base|Dessert|Slice|medium
+Brownie|Chocolate|Square|Fudgy|Bake|Nuts|medium
+Pretzel|Twist|Salt|Knot|German|Baked|medium
+Bagel|Hole|Cream cheese|New York|Boiled|Salmon|medium
+Burrito|Mexican|Wrap|Tortilla|Beans|Rice|medium
+Nachos|Tortilla chips|Cheese|Mexican|Salsa|Jalapeños|medium
+Guacamole|Avocado|Mexican|Dip|Green|Lime|hard
+Chili con carne|Beans|Spicy|Mince|Mexican|Pepper|medium
+Croissant|French|Pastry|Butter|Breakfast|Crescent|medium
+Baguette|French|Bread|Long|Stick|Crust|medium
+Crêpe|Thin|Pancake|French|Nutella|Brittany|medium
+Fondue|Cheese|Swiss|Melted|Fork|Dip|medium
+Paella|Spain|Rice|Saffron|Seafood|Pan|medium
+Lasagne|Layers|Pasta|Garfield|Béchamel|Italian|easy
+Risotto|Rice|Creamy|Italian|Stir|Parmesan|hard
+Pesto|Basil|Pine nuts|Green|Genoa|Sauce|hard
+Tiramisu|Coffee|Mascarpone|Italian|Dessert|Ladyfingers|hard
+Gelato|Italian|Ice cream|Cone|Creamy|Scoop|hard
+Kebab|Skewer|Meat|Turkish|Grill|Pitta|medium
+Hummus|Chickpeas|Dip|Tahini|Pitta|Garlic|medium
+Falafel|Chickpeas|Fried|Balls|Pitta|Middle East|hard
+Curry|Spicy|India|Rice|Sauce|Naan|medium
+Chicken tikka masala|Curry|Creamy|Indian|Orange|Britain|hard
+Naan|Bread|Indian|Curry|Tandoor|Flat|hard
+Samosa|Triangle|Pastry|Indian|Fried|Spicy|hard
+Dim sum|Dumplings|Chinese|Steamed|Bamboo|Basket|hard
+Spring roll|Chinese|Fried|Crispy|Vegetables|Wrapped|medium
+Fortune cookie|Message|Chinese restaurant|Paper|Future|Crunchy|medium
+Noodles|Asian|Chopsticks|Ramen|Long|Slurp|medium
+Ramen|Japanese|Noodles|Broth|Bowl|Egg|hard
+Tofu|Soy|Bean curd|White|Vegan|Block|hard
+Soy sauce|Salty|Black|Sushi|Chinese|Dip|medium
+Wasabi|Green|Hot|Sushi|Japanese|Horseradish|hard
+Kimchi|Korean|Cabbage|Fermented|Spicy|Side dish|hard
+Pad thai|Noodles|Thailand|Peanuts|Stir-fry|Shrimp|hard
+Goulash|Hungary|Stew|Paprika|Beef|Soup|hard
+Borscht|Beetroot|Soup|Red|Russian|Sour cream|hard
+Caviar|Fish eggs|Sturgeon|Expensive|Black|Russia|hard
+Pierogi|Dumplings|Polish|Potato|Cheese|Boiled|hard
+Bratwurst|Sausage|German|Grill|Mustard|Pork|hard
+Sauerkraut|Cabbage|German|Sour|Fermented|Pickled|hard
+Strudel|Apple|Austrian|Pastry|Vienna|Flaky|hard
+Smorgasbord|Swedish|Buffet|Variety|Table|Spread|hard
+Baklava|Pastry|Honey|Nuts|Turkish|Layers|hard
+Couscous|Semolina|North Africa|Grain|Tagine|Morocco|hard
+Ceviche|Raw fish|Lime|Peru|Seafood|Marinated|hard
+Poutine|Canada|Fries|Gravy|Cheese curds|Quebec|hard
+Maple syrup|Canada|Pancakes|Tree|Sweet|Sticky|medium
+Jelly|Wobbly|Gelatine|Dessert|Mould|Jam|medium
+Custard|Yellow|Eggs|Dessert|Pour|Creamy|medium
+Trifle|Layers|Custard|Sponge|Sherry|Jelly|hard
+Marshmallow|Fluffy|Campfire|Pink|Toast|Sweet|medium
+Candy floss|Fair|Pink|Sugar|Stick|Fluffy|medium
+Lollipop|Stick|Sweet|Suck|Round|Candy|easy
+Chewing gum|Pop|Mint|Bubble|Sticky|Stick|medium
+Jelly beans|Sweets|Colourful|Chewy|Bag|Flavours|medium
+Toffee|Sticky|Caramel|Sweet|Chewy|Butter|medium
+Popsicle|Ice lolly|Stick|Frozen|Summer|Lick|medium
+Smoothie|Blend|Fruit|Drink|Thick|Yoghurt|medium
+Milkshake|Thick|Straw|Ice cream|Diner|Drink|medium
+Orange juice|Breakfast|Squeeze|Glass|Citrus|Pulp|easy
+Cola|Fizzy|Bubbles|Can|Brown|Soda|easy
+Water|Drink|Tap|Bottle|Thirst|Wet|easy
+Wine|Grapes|Red|White|Bottle|Cork|easy
+Champagne|Bubbles|France|Celebrate|Cork|Toast|medium
+Cider|Apples|Somerset|Fizzy|Pint|Orchard|hard
+Ketchup|Tomato|Red|Sauce|Bottle|Fries|easy
+Mustard|Yellow|Hot dog|Dijon|Seeds|Sauce|medium
+Mayonnaise|Eggs|White|Sauce|Oil|Sandwich|medium
+Vinegar|Sour|Chips|Acid|Bottle|Pickle|medium
+Salt|Pepper|White|Sea|Shaker|Season|easy
+Pepper|Black|Salt|Grinder|Sneeze|Spice|easy
+Garlic|Vampire|Clove|Breath|Bulb|Smell|easy
+Ginger|Root|Spicy|Bread|Tea|Asian|hard
+Cinnamon|Spice|Stick|Bark|Bun|Brown|medium
+Vanilla|Pod|Flavour|Ice cream|Bean|Plain|medium
+Popcorn chicken|Bites|Fried|Small|Crispy|Fast food|hard
+Fried chicken|Crispy|Kentucky|Drumstick|Batter|Bucket|medium
+Roast chicken|Oven|Sunday|Bird|Gravy|Golden|medium
+Meatballs|Spaghetti|Swedish|Mince|Round|Sauce|medium
+Omelette|Eggs|Pan|Fold|Cheese|Breakfast|easy
+Scrambled eggs|Breakfast|Pan|Whisk|Toast|Butter|medium
+Porridge|Oats|Breakfast|Goldilocks|Hot|Bowl|medium
+Muesli|Oats|Breakfast|Nuts|Dried fruit|Swiss|hard
+Yoghurt|Dairy|Greek|Spoon|Fruit|Live|medium
+Avocado|Green|Guacamole|Stone|Toast|Ripe|medium
+Coconut|Palm|Hairy|Milk|Tropical|Shell|easy
+Mango|Tropical|Orange|Juicy|Stone|India|medium
+Kiwi|Green|Fuzzy|Brown|New Zealand|Seeds|hard
+Peach|Fuzzy|Stone|Orange|Juicy|Georgia|medium
+Pear|Fruit|Green|Shape|Juicy|Tree|medium
+Plum|Purple|Stone|Prune|Fruit|Juicy|medium
+Blueberry|Purple|Muffin|Small|Fruit|Bush|medium
+Raspberry|Red|Pink|Jam|Seeds|Ripple|medium
+Pomegranate|Seeds|Red|Juice|Jewels|Fruit|hard
+Fig|Fruit|Leaf|Purple|Dried|Seeds|hard
+Date|Palm|Sweet|Dried|Desert|Stone|hard
+Olive|Oil|Green|Black|Mediterranean|Martini|medium
+Cucumber|Green|Salad|Long|Pickle|Cool|medium
+Lettuce|Salad|Green|Leaves|Iceberg|Rabbit|medium
+Spinach|Popeye|Green|Leaves|Iron|Strong|medium
+Cabbage|Leaves|Green|Coleslaw|Round|Red|medium
+Brussels sprouts|Christmas|Green|Small|Hate|Cabbage|medium
+Peas|Green|Pod|Round|Mushy|Small|medium
+Sweetcorn|Yellow|Cob|Kernels|Butter|Maize|medium
+Mushroom|Fungi|Cap|Forest|Button|Toadstool|medium
+Pumpkin|Halloween|Orange|Carve|Pie|Jack-o'-lantern|easy
+Aubergine|Purple|Vegetable|Eggplant|Moussaka|Shiny|hard
+Courgette|Green|Zucchini|Vegetable|Marrow|Long|hard
+Beetroot|Red|Purple|Salad|Stain|Vegetable|hard
+Asparagus|Green|Spears|Spring|Vegetable|Tips|hard
+Celery|Green|Sticks|Crunchy|Stalk|Soup|medium
+Chilli pepper|Hot|Spicy|Red|Burn|Mexican|medium
+Peanut|Allergy|Shell|Elephant|Butter|Monkey|medium
+Almond|Nut|Marzipan|Milk|Oval|Tree|hard
+Walnut|Brain|Wrinkly|Shell|Tree|Cracker|medium
+Pistachio|Nut|Green|Shell|Ice cream|Iran|hard
+Sugar|Sweet|White|Cube|Cane|Tea|easy
+Flour|Bake|White|Wheat|Dough|Bag|easy
+Jam|Fruit|Toast|Spread|Jar|Strawberry|easy
+Marmite|Love|Hate|Yeast|Spread|Toast|hard
+Nutella|Chocolate|Hazelnut|Spread|Jar|Crêpe|medium
+Pickle|Gherkin|Vinegar|Jar|Green|Sour|medium
+Crisps|Potato|Packet|Salt|Crunchy|Snack|medium
+Sponge cake|Light|Victoria|Jam|Layers|Bake|medium
+Carrot cake|Cream cheese|Vegetable|Walnuts|Frosting|Spice|hard
+Gingerbread man|Biscuit|Run|Christmas|Spice|Shrek|medium
+Shortbread|Scottish|Butter|Biscuit|Crumbly|Tartan|hard
+Éclair|Pastry|Chocolate|Cream|Long|French|hard
+Macaron|French|Colourful|Almond|Ladurée|Sandwich|hard
+Profiterole|Choux|Cream|Chocolate sauce|Pile|French|hard
+Banana split|Ice cream|Dessert|Sundae|Cherry|Boat|medium
+Sundae|Ice cream|Cherry|Sauce|Glass|Nuts|hard
+Crème brûlée|Custard|Burnt sugar|Torch|French|Crack|hard
+Pavlova|Meringue|Fruit|Cream|Australia|Ballerina|hard
+Meringue|Egg whites|Sugar|Crunchy|Whisk|Pavlova|hard
+Picnic|Basket|Blanket|Park|Sandwiches|Outdoor|easy
+Leftovers|Fridge|Yesterday|Reheat|Tub|Remains|medium
+Dessert|Sweet|After|Pudding|Course|Cake|medium
+Vegetarian|Meat|Vegetables|Diet|Tofu|Animals|medium
+Vegan|Dairy|Plant|Meat|Animal|Diet|medium
+Recipe|Ingredients|Cook|Book|Steps|Method|medium
+Menu|Restaurant|Order|List|Prices|Dishes|medium
+Breakfast in bed|Tray|Morning|Mother's Day|Surprise|Pillow|medium

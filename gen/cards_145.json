@@ -27,7 +27,7 @@
 {"word":"Dasein","forbidden":["Heidegger","Être Là","Existence","Humain","Monde"],"theme":"sciences","difficulty":"hard"},
 {"word":"Jean-Paul Sartre","forbidden":["Existence","Précède","Essence","Liberté","Nausée"],"theme":"sciences","difficulty":"easy"},
 {"word":"L'Existentialisme","forbidden":["Sartre","Liberté","Responsabilité","Humain","Choix"],"theme":"sciences","difficulty":"medium"},
-{"word":"Simone de Beauvoir","forbidden":["Féminisme","Deuxième Sexe","Sartre","Liberté","On Ne Naît Pas"],"theme":"sciences","difficulty":"easy"},
+{"word":"Simone de Beauvoir","forbidden":["Féminisme","Les Mandarins","Sartre","Liberté","On Ne Naît Pas"],"theme":"sciences","difficulty":"easy"},
 {"word":"Albert Camus","forbidden":["Absurde","Sisyphe","Mythe","Révolte","Algérie"],"theme":"sciences","difficulty":"easy"},
 {"word":"L'Absurde (Camus)","forbidden":["Camus","Sens","Manque","Sisyphe","Révolte"],"theme":"sciences","difficulty":"medium"},
 {"word":"Michel Foucault","forbidden":["Pouvoir","Savoir","Folie","Surveiller","Punir"],"theme":"sciences","difficulty":"hard"},

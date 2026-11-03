@@ -1,0 +1,119 @@
+Napoleon|French|Emperor|Short|Waterloo|Bonaparte|easy
+Cleopatra|Egypt|Queen|Pharaoh|Asp|Mark Antony|easy
+Julius Caesar|Roman|Emperor|Brutus|Rome|Ides of March|easy
+Joan of Arc|French|Saint|Orleans|Armor|Maid|medium
+Abraham Lincoln|President|Top Hat|Beard|Gettysburg|Slavery|easy
+George Washington|First President|American|Cherry Tree|Dollar Bill|Revolution|easy
+Queen Victoria|British|Empire|Albert|Widow|Era|easy
+Queen Elizabeth I|Tudor|Virgin|Armada|England|Shakespeare|medium
+Henry VIII|Six Wives|Tudor|King|England|Anne Boleyn|easy
+Martin Luther King|I Have a Dream|Civil Rights|Speech|Reverend|Memphis|easy
+Nelson Mandela|South Africa|Prison|Apartheid|President|Freedom|easy
+Mahatma Gandhi|India|Peace|Non-violence|Salt|Independence|easy
+Winston Churchill|Prime Minister|Cigar|British|War|Speeches|easy
+Christopher Columbus|America|Ships|1492|Explorer|Santa Maria|easy
+Marco Polo|Venice|China|Explorer|Silk Road|Travels|hard
+Neil Armstrong|Moon|Astronaut|First|Apollo|Small Step|easy
+Florence Nightingale|Nurse|Lamp|Crimean War|Hospital|Lady|medium
+Queen Boudica|Celtic|Warrior|Romans|Chariot|Iceni|hard
+Alexander the Great|Macedonia|Conqueror|Greek|Empire|Persia|hard
+King Tutankhamun|Pharaoh|Tomb|Mask|Egypt|Gold|medium
+Alfred the Great|Saxon|Cakes|Vikings|King|Wessex|hard
+William the Conqueror|1066|Norman|Hastings|England|Battle|medium
+Richard the Lionheart|Crusades|King|England|Knight|Robin Hood|medium
+King Louis XIV|Sun|Versailles|France|Wig|Palace|medium
+Marie Antoinette|Let Them Eat Cake|Queen|Guillotine|Versailles|France|medium
+Catherine the Great|Russia|Empress|Tsar|Saint Petersburg|Enlightenment|hard
+Peter the Great|Russia|Tsar|Saint Petersburg|Tall|Navy|hard
+Benjamin Franklin|Kite|Lightning|Founding Father|Electricity|Hundred Dollar|medium
+Thomas Jefferson|Declaration of Independence|President|Monticello|Founding Father|Virginia|medium
+John F. Kennedy|President|Dallas|White House|JFK|Moon|medium
+Rosa Parks|Bus|Seat|Civil Rights|Montgomery|Refused|medium
+Harriet Tubman|Underground Railroad|Slavery|Freedom|Escape|Conductor|hard
+Amelia Earhart|Pilot|Atlantic|Disappeared|Plane|Aviator|medium
+The Wright Brothers|First Flight|Plane|Kitty Hawk|Orville|Wilbur|medium
+Captain Cook|Explorer|Australia|Pacific|Endeavour|Navigator|hard
+Guy Fawkes|Gunpowder|Parliament|Bonfire Night|Fifth of November|Plot|medium
+Spartacus|Gladiator|Slave|Rebellion|Rome|I Am|hard
+Charlemagne|Franks|Emperor|Crowned|800|Holy Roman|hard
+Pharaoh|Egypt|King|Pyramid|Ancient|Tomb|easy
+Mummy|Egypt|Bandages|Tomb|Pharaoh|Wrapped|easy
+Hieroglyphs|Egypt|Writing|Symbols|Pictures|Rosetta Stone|medium
+Gladiator|Rome|Arena|Fight|Colosseum|Sword|easy
+Roman Empire|Caesar|Rome|Legions|Latin|Emperor|easy
+Ancient Greece|Athens|Olympics|Philosophers|Temples|Gods|easy
+Vikings|Horned Helmets|Longships|Scandinavia|Raid|Norse|easy
+The Aztecs|Mexico|Temples|Empire|Montezuma|Sun|medium
+The Incas|Peru|Machu Picchu|Andes|Empire|Gold|medium
+Samurai|Japan|Sword|Warrior|Honor|Armor|easy
+Ninja|Japan|Black|Stealth|Shuriken|Star|easy
+Knight|Armor|Horse|Sword|Castle|Sir|easy
+Castle|Moat|Towers|Drawbridge|King|Walls|easy
+Crusades|Holy Land|Knights|Jerusalem|Medieval|War|medium
+Middle Ages|Medieval|Knights|Castles|Plague|Feudal|medium
+The Black Death|Plague|Rats|Medieval|Fleas|Disease|medium
+Magna Carta|1215|King John|Charter|Rights|Barons|hard
+Battle of Hastings|1066|Arrow|Eye|Norman|Harold|medium
+Battle of Waterloo|Napoleon|Wellington|Belgium|1815|Defeat|medium
+French Revolution|Bastille|Guillotine|1789|Liberty|Marie Antoinette|medium
+American Revolution|Independence|1776|British|Colonies|Washington|medium
+Boston Tea Party|Drink|Harbor|Colonists|Taxes|Protest|medium
+Declaration of Independence|1776|Jefferson|Fourth of July|Signed|America|medium
+American Civil War|North|South|Lincoln|Slavery|Union|medium
+Gold Rush|California|Prospectors|Nuggets|Forty-niners|Pan|medium
+Wild West|Cowboys|Outlaws|Saloon|Sheriff|Frontier|easy
+World War I|Trenches|1914|Great|Poppies|Western Front|medium
+World War II|1939|Allies|D-Day|Blitz|Churchill|medium
+D-Day|Normandy|Beaches|1944|Landing|Allies|medium
+The Blitz|London|Bombing|Air Raid|Shelter|1940|hard
+Moon Landing|Apollo|1969|Armstrong|Astronaut|Small Step|easy
+Berlin Wall|Germany|Fall|1989|Cold War|East|medium
+Cold War|USA|Soviet Union|Nuclear|Iron Curtain|Spies|hard
+Industrial Revolution|Factories|Steam|Machines|Coal|Britain|hard
+Stone Age|Cavemen|Tools|Flint|Prehistoric|Fire|easy
+Caveman|Club|Fire|Prehistoric|Grunt|Stone Age|easy
+Bronze Age|Metal|Copper|Tin|Tools|Ancient|hard
+Iron Age|Metal|Celts|Tools|Weapons|Ancient|hard
+Printing Press|Gutenberg|Books|Ink|Invention|Paper|medium
+Trojan Horse|Troy|Wooden|Greeks|Trick|Soldiers|easy
+Olympic Games|Greece|Athens|Medals|Torch|Rings|easy
+Colonies|Empire|Settlers|Overseas|Rule|Territory|medium
+Empire|Emperor|Rule|Territories|Conquest|Power|medium
+Suffragettes|Votes|Women|Emmeline Pankhurst|Protest|Rights|medium
+Civil Rights Movement|Martin Luther King|Equality|Rosa Parks|Marches|Segregation|medium
+Abolition|Slavery|End|Freedom|Wilberforce|Law|hard
+Pilgrims|Mayflower|Thanksgiving|Plymouth|Settlers|1620|medium
+Mayflower|Pilgrims|Ship|1620|Plymouth|America|medium
+Pirates|Treasure|Parrot|Ship|Eye Patch|Plunder|easy
+Blackbeard|Pirate|Treasure|Caribbean|Queen Anne's Revenge|Captain|medium
+Highwayman|Robber|Stand and Deliver|Horse|Coach|Mask|hard
+Musketeer|Sword|Hat|King|France|Dumas|medium
+Jester|King|Fool|Joke|Hat|Bells|medium
+Court|King|Queen|Throne|Palace|Nobles|medium
+Throne|King|Chair|Queen|Royal|Crown|easy
+Crown Jewels|Tower of London|Diamonds|Royal|Coronation|Sceptre|medium
+Coronation|King|Crown|Ceremony|Westminster Abbey|Queen|medium
+Monarchy|King|Queen|Royal|Throne|Crown|medium
+Royal Family|Queen|King|Prince|Princess|Palace|easy
+Princess Diana|Lady Di|Charles|Kensington|Royal|Wales|medium
+Time Capsule|Bury|Future|Box|Open|Memories|medium
+Treaty|Peace|Signed|Agreement|Countries|War|medium
+Revolution|Overthrow|Change|Rebels|Government|Uprising|medium
+Morse Code|Dots|Dashes|Telegraph|SOS|Signal|medium
+Mary Queen of Scots|Scotland|Prison|Elizabeth|Stuart|Cousin|hard
+Robert the Bruce|Scotland|Spider|King|Bannockburn|Independence|hard
+Sir Francis Drake|Explorer|Armada|Bowls|Golden Hind|Circumnavigate|hard
+Ancient Egypt|Pyramids|Pharaohs|Nile|Mummies|Sphinx|easy
+Medieval Banquet|Feast|King|Goblets|Castle|Jester|hard
+Anne Boleyn|Henry VIII|Second Wife|Tudor|Tower of London|Queen|medium
+Sir Walter Raleigh|Cloak|Puddle|Explorer|Tobacco|Elizabeth|hard
+Theodore Roosevelt|Teddy Bear|President|Rough Riders|Mount Rushmore|Moustache|hard
+Emmeline Pankhurst|Suffragette|Votes|Women|Manchester|Protest|hard
+Rosetta Stone|Hieroglyphs|Egypt|Translate|British Museum|Champollion|hard
+Ellis Island|Immigrants|New York|Statue of Liberty|Arrival|Ferry|hard
+The Great Fire of London|1666|Pudding Lane|Bakery|Flames|Samuel Pepys|hard
+The Tudors|Henry VIII|Elizabeth|Royal Family|Rose|Dynasty|medium
+Sitting Bull|Sioux|Chief|Little Bighorn|Native American|Leader|hard
+Leif Erikson|Viking|Explorer|America|Norse|Longship|hard
+Queen Anne|Stuart|Great Britain|Union|Eighteenth Century|Monarch|hard
+Ancient Rome|Colosseum|Caesar|Gladiators|Empire|Latin|easy

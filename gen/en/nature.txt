@@ -1,0 +1,115 @@
+Rainbow|Colours|Seven|Sun|Arc|Leprechaun|easy
+Thunderstorm|Lightning|Rain|Loud|Clouds|Flash|medium
+Lightning|Flash|Thunder|Storm|Bolt|Strike|easy
+Snow|White|Cold|Winter|Flakes|Ski|easy
+Snowflake|Unique|Ice|Crystal|Six|Winter|hard
+Rain|Water|Umbrella|Wet|Clouds|Drops|easy
+Fog|Mist|Grey|See|Thick|Morning|medium
+Wind|Blow|Air|Breeze|Kite|Gust|easy
+Tornado|Twister|Spin|Wind|Kansas|Funnel|medium
+Hurricane|Storm|Wind|Caribbean|Name|Eye|medium
+Flood|Water|Rain|River|Overflow|Sandbags|medium
+Drought|Dry|Rain|Water|Thirst|Crops|hard
+Heatwave|Hot|Summer|Sun|Temperature|Sweat|medium
+Hailstorm|Ice|Balls|Stones|Weather|Falling|medium
+Frost|Ice|Cold|Morning|Window|White|medium
+Icicle|Freeze|Hanging|Drip|Pointy|Roof|hard
+Sunrise|Morning|East|Dawn|Early|Orange|medium
+Sunset|Evening|West|Orange|Dusk|Romantic|medium
+Moon|Night|Crescent|Full|Werewolf|Sky|easy
+Star|Night|Twinkle|Sky|Shine|Wish|easy
+Cloud|Sky|White|Fluffy|Rain|Grey|easy
+Volcano|Lava|Erupt|Mountain|Ash|Magma|easy
+Earthquake|Shake|Ground|Richter|Tremor|Fault|medium
+Tsunami|Wave|Earthquake|Ocean|Japan|Giant|medium
+Avalanche|Snow|Mountain|Slide|Ski|Danger|medium
+Mountain|High|Climb|Peak|Snow|Everest|easy
+Hill|Small|Mountain|Climb|Slope|Green|easy
+Valley|Mountains|Low|River|Between|Green|medium
+Cliff|Edge|Drop|Steep|Rock|Dover|medium
+Cave|Dark|Underground|Rock|Bats|Stalactite|medium
+Waterfall|Drop|Victoria|River|Niagara|Cascade|medium
+River|Water|Flow|Bank|Thames|Stream|easy
+Lake|Water|Fresh|Swim|Loch|Pond|medium
+Pond|Small|Water|Ducks|Frogs|Garden|medium
+Ocean|Sea|Water|Big|Atlantic|Salty|easy
+Beach|Sand|Sea|Waves|Holiday|Sun|easy
+Tide|Sea|Moon|High|Low|Coast|hard
+Island|Sea|Surrounded|Land|Castaway|Water|easy
+Desert|Sand|Hot|Dry|Camel|Sahara|easy
+Oasis|Desert|Water|Palm|Mirage|Green|hard
+Sand dune|Desert|Hill|Wind|Beach|Ripple|hard
+Jungle|Rainforest|Trees|Tarzan|Animals|Hot|medium
+Rainforest|Amazon|Trees|Wet|Tropical|Jungle|medium
+Forest|Trees|Woods|Green|Leaves|Animals|easy
+Swamp|Mud|Wet|Shrek|Bog|Alligator|hard
+Glacier|Ice|Melt|Slow|Mountain|River|hard
+Iceberg|Titanic|Glacier|Tip|Float|Arctic|medium
+Canyon|Grand|Deep|Arizona|Gorge|River|hard
+Meadow|Grass|Field|Flowers|Green|Open|medium
+Field|Grass|Farm|Green|Crops|Open|easy
+Puddle|Rain|Splash|Water|Wellies|Jump|medium
+Mud|Dirt|Wet|Pig|Brown|Dirty|easy
+Rock|Stone|Hard|Grey|Big|Throw|easy
+Pebble|Stone|Small|Beach|Smooth|Skim|medium
+Tree|Leaves|Trunk|Branches|Wood|Roots|easy
+Oak|Tree|Acorn|Strong|Wood|English|medium
+Palm tree|Coconut|Beach|Tropical|Leaves|Island|medium
+Pine tree|Christmas|Needles|Cone|Green|Forest|medium
+Willow|Tree|Weeping|River|Branches|Hanging|hard
+Christmas tree|Decorations|December|Pine|Lights|Star|easy
+Bonsai|Small|Tree|Japan|Miniature|Trim|hard
+Cactus|Desert|Spikes|Prickly|Water|Green|easy
+Rose|Red|Thorns|Flower|Love|Valentine|easy
+Sunflower|Yellow|Tall|Seeds|Petals|Van Gogh|easy
+Daisy|White|Flower|Yellow|Chain|Petals|medium
+Tulip|Flower|Holland|Spring|Bulb|Colourful|medium
+Lily|Flower|White|Pond|Pad|Scent|medium
+Daffodil|Yellow|Spring|Wales|Flower|Bulb|hard
+Poppy|Red|Remembrance|Flower|November|Field|medium
+Lavender|Purple|Smell|Provence|Bees|Flower|hard
+Orchid|Flower|Exotic|Expensive|Elegant|Tropical|hard
+Dandelion|Yellow|Wish|Blow|Seeds|Clock|medium
+Clover|Four-leaf|Lucky|Green|Ireland|Three|hard
+Ivy|Climb|Wall|Green|Poison|Plant|medium
+Moss|Green|Soft|Rock|Damp|Grow|hard
+Fern|Leaves|Green|Forest|Fronds|Ancient|hard
+Seaweed|Algae|Green|Slimy|Beach|Plant|medium
+Grass|Green|Lawn|Mow|Cut|Garden|easy
+Leaf|Tree|Green|Autumn|Fall|Branch|easy
+Acorn|Oak|Squirrel|Nut|Seed|Small|medium
+Pine cone|Tree|Christmas|Seeds|Brown|Forest|medium
+Seed|Plant|Grow|Small|Soil|Flower|medium
+Root|Underground|Tree|Plant|Soil|Water|hard
+Thorn|Rose|Sharp|Prick|Spike|Stem|hard
+Pollen|Bees|Flowers|Allergy|Hay fever|Yellow|hard
+Spring|Season|Flowers|March|Blossom|Easter|easy
+Summer|Season|Hot|Holiday|Sun|August|easy
+Autumn|Season|Leaves|Fall|October|Brown|easy
+Winter|Season|Cold|Snow|December|Christmas|easy
+Blossom|Pink|Tree|Spring|Cherry|Flowers|hard
+Harvest|Crops|Farm|Autumn|Gather|Wheat|medium
+Sunshine|Happy|Warm|Bright|Light|Day|easy
+Shadow|Dark|Sun|Light|Follow|Block|medium
+Eclipse|Sun|Moon|Dark|Block|Solar|hard
+Northern Lights|Aurora|Sky|Green|Arctic|Norway|hard
+Full moon|Werewolf|Round|Night|Month|Howl|medium
+Breeze|Wind|Light|Gentle|Cool|Sea|medium
+Dew|Morning|Grass|Wet|Drops|Water|hard
+Mist|Fog|Morning|Light|Damp|Haze|medium
+Coral reef|Great Barrier|Fish|Colourful|Ocean|Australia|medium
+Geyser|Hot water|Spout|Iceland|Yellowstone|Erupt|hard
+Hot spring|Warm|Water|Bath|Japan|Natural|hard
+Marsh|Wet|Land|Reeds|Birds|Bog|hard
+Peninsula|Land|Water|Three sides|Coast|Cornwall|hard
+Bay|Coast|Sea|Curve|Boats|Harbour|hard
+Stream|Small|River|Water|Brook|Flow|medium
+Bush|Plant|Small|Shrub|Hedge|Leaves|medium
+Hedge|Bush|Garden|Trim|Wall|Green|medium
+Vine|Grapes|Climb|Plant|Jungle|Tarzan|hard
+Earth|Planet|World|Soil|Ground|Home|medium
+Fossil|Dinosaur|Rock|Bones|Ancient|Dig|hard
+Crystal|Clear|Shine|Gem|Quartz|Rock|hard
+Weather forecast|Rain|Sun|Television|Predict|Tomorrow|hard
+Climate change|Warming|Planet|Carbon|Ice|Temperature|hard
+Weather vane|Wind|Roof|Rooster|Direction|Arrow|hard

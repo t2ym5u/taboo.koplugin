@@ -1,0 +1,117 @@
+Football|Striker|Goal|Kick|Pitch|Team|easy
+Soccer|Football|Goal|Kick|Ball|World Cup|easy
+American Football|Touchdown|Helmet|Quarterback|NFL|Super Bowl|easy
+Basketball|Hoop|Dribble|NBA|Court|Tall|easy
+Baseball|Bat|Pitcher|Home Run|Diamond|Glove|easy
+Tennis|Racket|Net|Court|Ball|Wimbledon|easy
+Golf|Club|Hole|Course|Tee|Putt|easy
+Cricket|Bat|Wicket|England|Bowler|Insect|easy
+Rugby|Ball|Scrum|Try|Oval|Tackle|easy
+Ice Hockey|Puck|Stick|Skates|Canada|Rink|easy
+Boxing|Gloves|Punch|Ring|Fight|Knockout|easy
+Swimming|Pool|Water|Stroke|Lane|Goggles|easy
+Cycling|Bike|Pedal|Tour de France|Helmet|Race|easy
+Marathon|Run|Long|Race|Miles|Athens|easy
+Skiing|Snow|Mountain|Slope|Poles|Winter|easy
+Snowboarding|Ski resort|Halfpipe|Mountain|Slope|Winter|easy
+Surfing|Waves|Board|Beach|Ocean|Hawaii|easy
+Skateboarding|Ollie|Wheels|Tricks|Ramp|Park|easy
+Gymnastics|Flip|Beam|Olympics|Flexible|Vault|medium
+Volleyball|Net|Beach|Spike|Serve|Team|easy
+Badminton|Shuttlecock|Racket|Net|Birdie|Court|medium
+Table Tennis|Ping-Pong|Paddle|Bat|Ball|Net|easy
+Archery|Bow|Arrow|Target|Bullseye|Robin Hood|easy
+Fencing|Sword|Mask|Duel|Foil|Touché|medium
+Wrestling|Mat|Pin|Fight|Grapple|Ring|medium
+Judo|Martial Art|Japan|Belt|Throw|Mat|medium
+Karate|Martial Art|Kick|Belt|Chop|Japan|easy
+Sumo|Japan|Wrestling|Heavy|Ring|Big|medium
+Rowing|Oars|Boat|Paddle|Team|Boat Race|medium
+Sailing|Boat|Wind|Mast|Sea|Yacht|easy
+Horse Racing|Jockey|Bet|Track|Derby|Gallop|medium
+Formula One|Racing|Cars|Grand Prix|Fast|Pit Stop|easy
+Darts|Board|Throw|Bullseye|Pub|180|easy
+Snooker|Cue|Table|Balls|Pocket|Red|medium
+Bowling|Pins|Strike|Ball|Alley|Spare|easy
+Pole Vault|Jump|High|Bar|Athletics|Bend|medium
+High Jump|Bar|Athletics|Leap|Over|Mat|medium
+Long Jump|Sand|Pit|Athletics|Run|Leap|medium
+Hurdles|Jump|Race|Track|Barrier|Athletics|medium
+Javelin|Throw|Spear|Athletics|Far|Olympics|medium
+Shot Put|Throw|Heavy|Ball|Athletics|Metal|hard
+Triathlon|Swim|Cycle|Run|Three|Endurance|medium
+Decathlon|Ten|Events|Athletics|Olympics|Track|hard
+Water Polo|Pool|Ball|Swim|Goal|Team|medium
+Lacrosse|Stick|Net|Ball|Canada|Team|hard
+Polo|Horse|Mallet|Ball|Rich|Shirt|medium
+Curling|Ice|Stone|Brooms|Sweep|Scotland|medium
+Bobsleigh|Ice|Sled|Jamaica|Track|Fast|medium
+Figure Skating|Ice|Spin|Jump|Dance|Olympics|medium
+Rock Climbing|Wall|Ropes|Harness|Mountain|Grip|medium
+Mountain Biking|Trail|Bike|Off-road|Dirt|Hills|medium
+Yoga|Stretch|Mat|Pose|Breathe|Relax|easy
+Jogging|Run|Slow|Park|Exercise|Morning|easy
+Weightlifting|Heavy|Barbell|Gym|Strong|Muscles|medium
+Olympics|Rings|Gold|Medal|Games|Every Four Years|easy
+Paralympics|Disabled|Athletes|Games|Olympics|Wheelchair|medium
+Wimbledon|Tennis|Grass|Strawberries|London|Championship|medium
+Super Bowl|American Football|Final|NFL|Halftime|Adverts|easy
+World Cup|Football|FIFA|Trophy|Every Four Years|Countries|easy
+Tour de France|Cycling|Yellow Jersey|Race|Paris|Stages|medium
+Grand Slam|Tennis|Four|Tournaments|Win|Baseball|hard
+Kentucky Derby|Horse|Race|Hats|Churchill Downs|Mint Julep|hard
+Boat Race|Oxford|Cambridge|Thames|Rowing|Annual|hard
+Goalkeeper|Football|Save|Net|Gloves|Hands|easy
+Penalty|Kick|Spot|Foul|Goal|Shootout|medium
+Offside|Football|Rule|Flag|Linesman|Line|hard
+Red Card|Referee|Sent Off|Football|Foul|Yellow|medium
+Hat-trick|Three|Goals|Football|Score|Same Game|medium
+Home Run|Baseball|Bat|Hit|Out|Bases|medium
+Touchdown|American Football|Score|End Zone|Points|Six|medium
+Slam Dunk|Basketball|Hoop|Jump|Score|Ball|medium
+Hole in One|Golf|Shot|Tee|Lucky|First|medium
+Knockout|Boxing|Punch|Down|Count|Win|medium
+Checkered Flag|Race|Finish|Black|White|Formula One|medium
+Trophy|Cup|Win|Prize|Gold|Champion|easy
+Gold Medal|Olympics|First|Winner|Podium|Champion|easy
+Podium|First|Second|Third|Medals|Stand|medium
+Stadium|Football|Crowd|Seats|Arena|Match|easy
+Cheerleader|Pom-poms|Dance|Team|Chant|Football|easy
+Mascot|Costume|Team|Animal|Luck|Fans|medium
+Skipping Rope|Jump|Children|Playground|Exercise|Swing|easy
+Treadmill|Run|Gym|Machine|Belt|Exercise|easy
+Dumbbell|Weights|Gym|Lift|Heavy|Arm|easy
+Stopwatch|Time|Race|Seconds|Coach|Record|easy
+Shin Pads|Football|Legs|Protect|Socks|Kick|medium
+Boxing Gloves|Punch|Red|Hands|Fight|Ring|easy
+Muhammad Ali|Boxer|Butterfly|Bee|Greatest|Cassius Clay|easy
+Pelé|Brazil|Football|World Cup|Legend|Number Ten|medium
+Babe Ruth|Baseball|Yankees|Home Run|Bambino|Legend|medium
+Jesse Owens|Sprinter|Berlin|1936|Olympics|Gold|hard
+Ayrton Senna|Formula One|Brazil|Driver|McLaren|Champion|hard
+Michael Jordan|Basketball|Bulls|NBA|Nike|Space Jam|easy
+Usain Bolt|Sprinter|Jamaica|Fastest|Lightning|100 Metres|easy
+Roger Federer|Tennis|Swiss|Wimbledon|Champion|Grand Slam|medium
+Serena Williams|Tennis|Sister|Venus|Champion|American|medium
+Kobe Bryant|Basketball|Lakers|NBA|Black Mamba|Los Angeles|medium
+Diego Maradona|Argentina|Football|Hand of God|Napoli|Number Ten|medium
+Bobby Moore|England|1966|Captain|World Cup|West Ham|hard
+Jackie Robinson|Baseball|Dodgers|First|Colour Barrier|42|hard
+Arnold Palmer|Golf|Iced Tea|Lemonade|Masters|Legend|hard
+Nadia Comaneci|Gymnastics|Perfect Ten|Romania|Olympics|1976|hard
+Mark Spitz|Swimmer|Seven|Gold|Munich|Moustache|hard
+Wayne Gretzky|Hockey|The Great One|Canada|NHL|Oilers|hard
+Joe DiMaggio|Baseball|Yankees|Streak|Marilyn|Joltin'|hard
+Lionel Messi|Argentina|Football|Barcelona|Little|World Cup|easy
+Cristiano Ronaldo|Portugal|Football|Real Madrid|CR7|Manchester United|easy
+Tiger Woods|Golf|Masters|Champion|Swing|American|easy
+Simone Biles|Gymnastics|American|Olympics|Flip|Gold|medium
+David Beckham|England|Football|Spice Girls|Free Kick|Manchester United|easy
+Martina Navratilova|Tennis|Wimbledon|Champion|Czech|Left-handed|hard
+Jim Thorpe|Olympics|Native American|Decathlon|Football|1912|hard
+Eddie the Eagle|Ski Jump|British|Olympics|Film|Calgary|hard
+Personal Best|Record|Time|Athlete|Beat|Own|medium
+Warm-up|Stretch|Before|Exercise|Muscles|Jog|easy
+Relay Race|Baton|Team|Four|Pass|Track|medium
+Hockey Stick|Puck|Ice|Hit|Curved|Wooden|medium
+Golf Caddie|Bag|Clubs|Carry|Course|Helper|hard

@@ -60,30 +60,57 @@ end
 local DEFAULT_DURATION = 60
 local DEFAULT_NB_TEAMS = 2
 
--- Display labels for each theme id (used in the theme-picker menu).
--- Canonical source: gen/themes.json — keep this table in sync by hand,
--- the shipped plugin doesn't load gen/ at runtime.
+-- Display labels for each theme id (used in the theme-picker menu), per deck
+-- language: the label follows the deck, not the KOReader UI, so an English
+-- deck lists "Food" even under a French interface. The ids are the same in
+-- both decks (taboo_cards_fr.lua / taboo_cards_en.lua), so a saved theme
+-- selection means the same thing in either. Canonical source: gen/themes.json
+-- -- keep this table in sync by hand, the shipped plugin doesn't load gen/.
 local THEME_LABELS = {
-    action         = "Action & Verbes",
-    alimentation   = "Alimentation",
-    animaux        = "Animaux",
-    arts           = "Arts & Littérature",
-    ["cinéma"]     = "Cinéma & Séries",
-    fun            = "Fun & Décalé",
-    ["géographie"] = "Géographie",
-    histoire       = "Histoire",
-    jeuxvideo      = "Jeux vidéo",
-    maison         = "Maison & Objets",
-    ["médecine"]   = "Médecine",
-    ["métiers"]    = "Métiers",
-    mode           = "Mode & Beauté",
-    musique        = "Musique",
-    nature         = "Nature",
-    sciences       = "Sciences",
-    ["société"]    = "Société",
-    sports         = "Sports",
-    technologies   = "Technologies",
-    transports     = "Transports",
+    fr = {
+        action         = "Action & Verbes",
+        alimentation   = "Alimentation",
+        animaux        = "Animaux",
+        arts           = "Arts & Littérature",
+        ["cinéma"]     = "Cinéma & Séries",
+        fun            = "Fun & Décalé",
+        ["géographie"] = "Géographie",
+        histoire       = "Histoire",
+        jeuxvideo      = "Jeux vidéo",
+        maison         = "Maison & Objets",
+        ["médecine"]   = "Médecine",
+        ["métiers"]    = "Métiers",
+        mode           = "Mode & Beauté",
+        musique        = "Musique",
+        nature         = "Nature",
+        sciences       = "Sciences",
+        ["société"]    = "Société",
+        sports         = "Sports",
+        technologies   = "Technologies",
+        transports     = "Transports",
+    },
+    en = {
+        action         = "Actions & Verbs",
+        alimentation   = "Food & Drink",
+        animaux        = "Animals",
+        arts           = "Arts & Literature",
+        ["cinéma"]     = "Film & TV",
+        fun            = "Fun & Quirky",
+        ["géographie"] = "Geography & Landmarks",
+        histoire       = "History",
+        jeuxvideo      = "Games",
+        maison         = "Home & Objects",
+        ["médecine"]   = "Health & Body",
+        ["métiers"]    = "Jobs",
+        mode           = "Fashion & Beauty",
+        musique        = "Music",
+        nature         = "Nature",
+        sciences       = "Science",
+        ["société"]    = "Society",
+        sports         = "Sports",
+        technologies   = "Technology",
+        transports     = "Transport",
+    },
 }
 
 -- Preferred display order in the theme menu
@@ -95,7 +122,7 @@ local THEME_ORDER = {
 }
 
 local GAME_RULES_EN = _([[
-Taboo Party — Rules
+Forbidden Words — Rules
 
 Two (or more) teams take turns. Each round, one player from the active team describes as many words as possible in the time limit — without saying any of the forbidden words listed below the main word.
 
@@ -107,7 +134,7 @@ The round ends when the timer runs out or the agreed card count is reached. Team
 ]])
 
 local GAME_RULES_FR = [[
-Taboo Party — Règles
+Mots interdits — Règles
 
 Deux équipes (ou plus) jouent à tour de rôle. Chaque manche, un joueur de l'équipe active fait deviner le maximum de mots dans le temps imparti — sans prononcer les mots interdits listés sous le mot principal.
 
@@ -138,7 +165,10 @@ end
 local TabooScreen = ScreenBase:extend{}
 
 function TabooScreen:init()
-    self.lang     = self.plugin:getSetting("lang", "fr")
+    -- Deck language. Until the player picks one in the menu it follows the
+    -- KOReader UI: French readers get the French deck, everyone else the
+    -- English one (there is no other bundled deck).
+    self.lang     = self.plugin:getSetting("lang", _.lang() == "fr" and "fr" or "en")
     self.duration = self.plugin:getSetting("duration", DEFAULT_DURATION)
     local nb      = self.plugin:getSetting("nb_teams", DEFAULT_NB_TEAMS)
     self.cards_path = self.plugin:getSetting("cards_path", "")
@@ -515,7 +545,8 @@ function TabooScreen:openThemeMenu()
                .. string.format("  (%d)", #self.cards),
     }
     for _, tid in ipairs(available) do
-        local label = THEME_LABELS[tid] or tid
+        local labels = THEME_LABELS[self.lang] or THEME_LABELS.en
+        local label = labels[tid] or tid
         local count = self.all_themes[tid] or 0
         local sel   = all_selected or (self.selected_themes[tid] == true)
         items[#items + 1] = {
@@ -635,7 +666,7 @@ function TabooScreen:buildLayout()
 end
 
 function TabooScreen:_titleBar()
-    return self:buildTitleBar(_("Taboo Party"), function()
+    return self:buildTitleBar(_("Forbidden Words"), function()
         return {
             { text = _("New game"), callback = function() self:onNewGame() end },
             { text = T(_("Language: %1"), self.lang:upper()), callback = function() self:openLangMenu() end },

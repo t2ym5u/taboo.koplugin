@@ -1,0 +1,131 @@
+William Shakespeare|Hamlet|Playwright|Romeo|Stratford|Globe|easy
+Charles Dickens|Oliver Twist|Christmas Carol|Victorian|Novelist|Scrooge|easy
+Jane Austen|Pride and Prejudice|Darcy|Novelist|Regency|Bennet|medium
+Mark Twain|Tom Sawyer|Huckleberry Finn|Mississippi|Humorist|Riverboat|medium
+Ernest Hemingway|Old Man and the Sea|Novelist|Cuba|Fishing|Bullfight|medium
+Agatha Christie|Poirot|Murder|Mystery|Miss Marple|Detective|easy
+J.R.R. Tolkien|Hobbit|Lord of the Rings|Middle-earth|Oxford|Elves|easy
+Edgar Allan Poe|Raven|Horror|Nevermore|Poet|Gothic|medium
+Oscar Wilde|Dorian Gray|Irish|Wit|Earnest|Playwright|medium
+George Orwell|1984|Animal Farm|Big Brother|Dystopia|Novelist|medium
+Roald Dahl|Charlie|Chocolate Factory|Matilda|BFG|Children|easy
+Dr. Seuss|Cat in the Hat|Grinch|Rhymes|Green Eggs|Children|easy
+Leonardo da Vinci|Mona Lisa|Renaissance|Inventor|Italian|Painter|easy
+Michelangelo|Sistine Chapel|David|Sculptor|Renaissance|Ceiling|easy
+Vincent van Gogh|Sunflowers|Ear|Starry Night|Dutch|Painter|easy
+Pablo Picasso|Cubism|Spanish|Guernica|Painter|Blue Period|easy
+Claude Monet|Water Lilies|Impressionism|French|Giverny|Painter|medium
+Rembrandt|Dutch|Night Watch|Self-portrait|Painter|Golden Age|medium
+Salvador Dali|Melting Clocks|Moustache|Surrealism|Spanish|Painter|easy
+Frida Kahlo|Mexican|Self-portrait|Eyebrows|Painter|Diego Rivera|medium
+Andy Warhol|Pop Art|Soup Cans|Marilyn|Factory|Fifteen Minutes|medium
+Mona Lisa|Leonardo|Smile|Louvre|Painting|Portrait|easy
+The Starry Night|Van Gogh|Swirls|Village|Painting|Cypress|medium
+Girl with a Pearl Earring|Vermeer|Painting|Dutch|Turban|Portrait|hard
+The Last Supper|Leonardo|Jesus|Apostles|Painting|Milan|medium
+The Thinker|Rodin|Statue|Bronze|Chin|Sculpture|medium
+Sherlock Holmes|Detective|Watson|Baker Street|Pipe|London|easy
+Harry Potter|Wizard|Hogwarts|Scar|Glasses|Voldemort|easy
+Hermione Granger|Hogwarts|Clever|Ron|Harry|Witch|easy
+Frankenstein|Monster|Mary Shelley|Doctor|Creature|Lightning|easy
+Dracula|Vampire|Transylvania|Count|Blood|Bram Stoker|easy
+Robin Hood|Sherwood|Outlaw|Arrow|Rich|Poor|easy
+Peter Pan|Neverland|Tinker Bell|Fly|Captain Hook|Grow Up|easy
+Alice in Wonderland|Rabbit Hole|Mad Hatter|Cheshire Cat|Lewis Carroll|Queen of Hearts|easy
+Winnie the Pooh|Bear|Honey|Piglet|Eeyore|Hundred Acre Wood|easy
+Paddington Bear|Marmalade|Peru|Duffle Coat|Station|Hat|easy
+Pinocchio|Puppet|Nose|Lie|Geppetto|Wood|easy
+Don Quixote|Windmills|Knight|Cervantes|Spanish|Sancho Panza|hard
+Moby Dick|Whale|Ahab|Melville|White|Captain|hard
+Romeo and Juliet|Shakespeare|Lovers|Balcony|Verona|Poison|easy
+Hamlet|Shakespeare|Prince|Denmark|To Be|Skull|medium
+Macbeth|Shakespeare|Scottish|Witches|King|Lady|medium
+Gulliver's Travels|Lilliput|Tiny|Swift|Giants|Voyage|hard
+Treasure Island|Pirates|Long John Silver|Map|Parrot|Stevenson|medium
+The Hobbit|Bilbo|Dragon|Tolkien|Smaug|Dwarves|easy
+Narnia|Wardrobe|Aslan|Lion|Witch|C.S. Lewis|easy
+Little Women|Alcott|Sisters|March|Jo|Novel|medium
+The Great Gatsby|Fitzgerald|Daisy|Jazz Age|Party|Green Light|hard
+To Kill a Mockingbird|Harper Lee|Atticus|Scout|Finch|Trial|hard
+Wuthering Heights|Bronte|Heathcliff|Moors|Cathy|Novel|hard
+Jane Eyre|Bronte|Rochester|Governess|Thornfield|Novel|hard
+Oliver Twist|Dickens|Orphan|More|Fagin|Workhouse|medium
+A Christmas Carol|Scrooge|Ghosts|Dickens|Humbug|Tiny Tim|easy
+Ebenezer Scrooge|Miser|Christmas|Humbug|Ghosts|Dickens|medium
+The Jungle Book|Mowgli|Baloo|Kipling|Tiger|Bagheera|easy
+Charlotte's Web|Pig|Spider|Wilbur|Barn|Farm|medium
+The Wizard of Oz|Dorothy|Yellow Brick Road|Toto|Tin Man|Scarecrow|easy
+Cinderella|Glass Slipper|Midnight|Pumpkin|Fairy Godmother|Prince|easy
+Snow White|Seven Dwarfs|Apple|Mirror|Queen|Prince|easy
+Little Red Riding Hood|Wolf|Grandmother|Basket|Forest|Big Teeth|easy
+Sleeping Beauty|Spindle|Kiss|Prince|Curse|Aurora|easy
+Hansel and Gretel|Witch|Gingerbread House|Breadcrumbs|Oven|Forest|easy
+Rapunzel|Hair|Tower|Let Down|Prince|Witch|easy
+The Little Mermaid|Ariel|Sea|Tail|Voice|Prince|easy
+Goldilocks|Three Bears|Porridge|Just Right|Bed|Chair|easy
+Humpty Dumpty|Egg|Wall|Fall|King's Horses|Nursery Rhyme|easy
+Mother Goose|Nursery Rhymes|Bird|Fairy Tales|Children|Old Woman|medium
+Aesop's Fables|Tortoise|Hare|Moral|Greek|Animals|medium
+Homer|Iliad|Odyssey|Greek|Poet|Blind|medium
+The Odyssey|Odysseus|Homer|Trojan|Voyage|Cyclops|medium
+King Arthur|Excalibur|Round Table|Camelot|Merlin|Knights|easy
+Merlin|Wizard|Arthur|Camelot|Beard|Magic|easy
+Beowulf|Grendel|Poem|Old English|Monster|Hero|hard
+Poetry|Rhyme|Poem|Verse|Stanza|Shakespeare|easy
+Haiku|Japanese|Syllables|Poem|Seventeen|Short|medium
+Limerick|Poem|Funny|Five Lines|Rhyme|Irish|hard
+Sonnet|Fourteen Lines|Shakespeare|Poem|Rhyme|Love|medium
+Novel|Book|Chapters|Fiction|Author|Story|easy
+Fairy Tale|Once Upon a Time|Princess|Happily Ever After|Story|Magic|easy
+Comic Book|Superhero|Panels|Speech Bubble|Marvel|Drawing|easy
+Library|Books|Borrow|Quiet|Librarian|Shelves|easy
+Bookmark|Page|Novel|Place|Reading|Ribbon|easy
+Author|Writer|Book|Novel|Pen|Publish|easy
+Bestseller|Popular|Book|Chart|List|Copies|medium
+Autobiography|Life|Myself|Book|Memoir|Story|medium
+Plot Twist|Surprise|Story|Ending|Unexpected|Turn|medium
+Happy Ending|Story|Fairy Tale|Smile|Finale|Ever After|medium
+Museum|Exhibition|Paintings|Gallery|Visit|Art|easy
+Louvre|Paris|Museum|Mona Lisa|Pyramid|Glass|easy
+Easel|Painter|Canvas|Stand|Studio|Wooden|hard
+Paintbrush|Bristles|Painting|Canvas|Colors|Artist|easy
+Palette|Colors|Mix|Painter|Thumb|Oil|medium
+Canvas|Painting|Fabric|Artist|Easel|Stretched|medium
+Sculpture|Statue|Marble|Stone|Carve|Clay|easy
+Watercolor|Paint|Wash|Brush|Paper|Transparent|medium
+Graffiti|Wall|Spray Paint|Street|Tag|Vandal|easy
+Portrait|Face|Painting|Photo|Person|Sit|easy
+Self-portrait|Artist|Painting|Face|Mirror|Own|medium
+Still Life|Fruit|Bowl|Painting|Vase|Objects|hard
+Landscape|Painting|Countryside|Mountains|View|Scenery|medium
+Mosaic|Tiles|Pieces|Roman|Floor|Pattern|hard
+Origami|Paper|Fold|Japanese|Crane|Craft|easy
+Pottery|Clay|Wheel|Vase|Kiln|Potter|easy
+Impressionism|Monet|Painting|Light|French|Movement|hard
+Cubism|Picasso|Shapes|Squares|Painting|Movement|hard
+Surrealism|Dali|Dreams|Melting|Strange|Movement|hard
+Pop Art|Warhol|Comic|Bright|Soup|Lichtenstein|hard
+Renaissance|Rebirth|Italy|Leonardo|Florence|Art|medium
+Gothic|Cathedral|Dark|Pointed Arches|Medieval|Gargoyle|hard
+Banksy|Graffiti|Anonymous|Street Art|Stencil|Bristol|medium
+Rodin|Thinker|Sculptor|French|Bronze|Kiss|hard
+Jackson Pollock|Drip|Splash|Abstract|American|Painter|hard
+Edvard Munch|Scream|Norwegian|Painter|Anxiety|Expressionism|hard
+Johannes Vermeer|Pearl Earring|Dutch|Painter|Light|Delft|hard
+Leo Tolstoy|War and Peace|Russian|Anna Karenina|Novelist|Long|hard
+Victor Hugo|Les Miserables|Hunchback|Notre-Dame|French|Novelist|medium
+Jules Verne|Twenty Thousand Leagues|Nautilus|Eighty Days|French|Adventure|medium
+Lewis Carroll|Alice|Wonderland|Looking Glass|Jabberwocky|Mad Hatter|medium
+Beatrix Potter|Peter Rabbit|Lake District|Children|Illustrator|Animals|hard
+Hans Christian Andersen|Little Mermaid|Danish|Fairy Tales|Ugly Duckling|Copenhagen|medium
+The Brothers Grimm|Fairy Tales|German|Snow White|Hansel|Jacob|medium
+Emily Dickinson|Poet|Amherst|Recluse|Dashes|American|hard
+Robert Burns|Scottish|Poet|Auld Lang Syne|Haggis|January|hard
+Mary Poppins|Nanny|Umbrella|Spoonful of Sugar|Chimney Sweep|Banks|easy
+Willy Wonka|Chocolate Factory|Golden Ticket|Oompa Loompas|Charlie|Candy|easy
+Captain Hook|Pirate|Hand|Peter Pan|Crocodile|Neverland|easy
+The Cat in the Hat|Dr. Seuss|Stripy|Thing One|Rhymes|Stripes|medium
+The Very Hungry Caterpillar|Butterfly|Eats|Fruit|Children|Holes|medium
+Tom Sawyer|Mark Twain|Fence|Huck Finn|Mississippi|Boy|medium
+The Three Musketeers|Dumas|D'Artagnan|All for One|Swords|French|medium
+Gustav Klimt|Gold Leaf|Kiss|Vienna|Painter|Art Nouveau|hard

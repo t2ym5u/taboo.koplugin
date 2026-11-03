@@ -1,0 +1,100 @@
+Christmas|December|Santa|Presents|Tree|Jesus|easy
+Thanksgiving|Turkey|November|America|Pilgrims|Grateful|easy
+Halloween|October|Costume|Pumpkin|Candy|Scary|easy
+Easter|Eggs|Bunny|Chocolate|Spring|Jesus|easy
+New Year's Eve|Midnight|Countdown|Fireworks|December|Party|easy
+Valentine's Day|Love|February|Hearts|Roses|Card|easy
+Bonfire Night|Guy Fawkes|November|Fireworks|Remember|England|medium
+St Patrick's Day|Ireland|Green|March|Shamrock|Parade|medium
+Fourth of July|Independence|America|Fireworks|Flag|Summer|easy
+Mother's Day|Mum|Flowers|May|Card|Breakfast|easy
+Father's Day|Dad|June|Tie|Card|Present|easy
+Birthday|Cake|Candles|Age|Party|Presents|easy
+Wedding|Bride|Groom|Ring|Church|Marry|easy
+Honeymoon|Wedding|Trip|Newlyweds|Holiday|Couple|medium
+Anniversary|Years|Wedding|Celebrate|Date|Married|medium
+Baby shower|Pregnant|Gifts|Party|Mother|Nursery|medium
+Retirement|Work|Pension|Old|Stop|Free time|medium
+Funeral|Death|Coffin|Black|Cemetery|Mourn|medium
+Grandmother|Granny|Grandchildren|Old|Family|Knitting|easy
+Twins|Two|Identical|Same|Born|Brother|medium
+Cousin|Aunt|Uncle|Family|Child|Relative|medium
+Mother-in-law|Spouse|Mum|Family|Wife|Husband|medium
+Stepmother|Father|Remarry|Cinderella|Wicked|Family|medium
+Only child|Siblings|No brothers|Spoiled|Alone|Parents|medium
+Godparent|Baptism|Child|Christening|Church|Guardian|hard
+Babysitter|Children|Parents|Evening|Look after|Pay|medium
+School|Teacher|Classroom|Pupils|Lessons|Learn|easy
+Homework|School|Evening|Teacher|Exercises|Dog ate|easy
+Exam|Test|School|Grades|Revise|Pass|easy
+Report card|Grades|School|Parents|Term|Teacher|medium
+Detention|School|Punishment|After|Stay|Naughty|medium
+Playground|School|Swings|Slide|Break|Children|medium
+Graduation|Diploma|Cap|Gown|University|Ceremony|medium
+University|College|Degree|Students|Campus|Lecture|easy
+Prom|Dance|High school|Dress|King|Queen|medium
+Field trip|School|Bus|Museum|Class|Day|medium
+Spelling bee|Letters|Words|Contest|School|Dictionary|medium
+Money|Cash|Coins|Notes|Rich|Pay|easy
+Credit card|Plastic|Pay|Bank|Debt|PIN|medium
+Tax|Government|Pay|Income|Money|Return|hard
+Mortgage|House|Bank|Loan|Pay|Years|hard
+Pocket money|Children|Weekly|Parents|Chores|Allowance|medium
+Tip|Waiter|Restaurant|Extra|Money|Service|medium
+Lottery|Ticket|Numbers|Win|Jackpot|Millions|easy
+Budget|Money|Plan|Spend|Save|Expenses|hard
+Bank|Money|Account|Save|Withdraw|Loan|easy
+Salary|Pay|Work|Month|Wage|Money|medium
+Inflation|Prices|Rise|Economy|Money|Cost|hard
+Stock market|Shares|Wall Street|Buy|Sell|Invest|hard
+Election|Vote|Candidate|Ballot|Win|Campaign|easy
+Democracy|Vote|People|Government|Freedom|Elect|hard
+Parliament|Government|Laws|Westminster|MPs|Debate|hard
+President|Country|White House|Elected|Leader|Republic|easy
+King|Crown|Queen|Throne|Royal|Castle|easy
+Queen Elizabeth II|Crown|Corgis|England|Royal|Long reign|medium
+Royal wedding|Prince|Princess|Westminster|Crown|Couple|medium
+Mayor|Town|City|Council|Elected|Chain|medium
+Passport|Travel|Photo|Country|Border|Stamp|easy
+Census|Population|Count|People|Survey|Government|hard
+Jury|Court|Trial|Twelve|Guilty|Verdict|hard
+Police|Officer|Crime|Arrest|Siren|Law|easy
+Prison|Jail|Bars|Cell|Crime|Guard|easy
+Charity|Give|Donate|Money|Help|Poor|medium
+Volunteer|Unpaid|Help|Charity|Free|Offer|medium
+Protest|March|Signs|Demonstrate|Crowd|Against|medium
+Petition|Sign|Signatures|Change|Ask|Online|hard
+Neighbour|Next door|House|Street|Fence|Live|medium
+Small talk|Weather|Chat|Polite|Strangers|Party|medium
+Queue|Line|Wait|Turn|British|Front|medium
+Handshake|Hello|Greet|Meet|Agreement|Deal|medium
+Good manners|Polite|Please|Thank you|Etiquette|Rude|medium
+Table manners|Elbows|Fork|Knife|Polite|Eat|medium
+Tea party|Cups|Cakes|Afternoon|Mad Hatter|Biscuits|easy
+Garage sale|Yard|Sell|Old|Cheap|Second-hand|medium
+Flea market|Second-hand|Stalls|Antiques|Cheap|Bargain|medium
+Black Friday|Sales|Shopping|November|Discount|Thanksgiving|medium
+Social media|Facebook|Instagram|Online|Posts|Followers|easy
+Influencer|Instagram|Followers|Sponsor|Online|Famous|medium
+Hashtag|Twitter|Symbol|Trend|Post|Instagram|medium
+Meme|Internet|Funny|Picture|Share|Viral|medium
+Viral|Internet|Share|Spread|Popular|Video|medium
+Emoji|Smiley|Face|Phone|Message|Icon|medium
+Like|Thumbs up|Facebook|Click|Heart|Post|medium
+Text message|Phone|SMS|Send|Type|Reply|medium
+Online dating|App|Match|Profile|Swipe|Love|medium
+Blind date|Meet|Stranger|Romance|Set up|Restaurant|medium
+Engagement ring|Diamond|Propose|Finger|Marry|Knee|medium
+Hen party|Bride|Before wedding|Friends|Night out|Girls|medium
+Stag do|Groom|Before wedding|Friends|Night out|Lads|medium
+Housewarming|New home|Party|Move|Gift|Guests|medium
+Reunion|Old friends|Meet again|School|Class|Years|hard
+Tradition|Custom|Old|Generations|Family|Habit|hard
+Gap year|Travel|Before university|Time off|Backpack|Break|medium
+Commute|Work|Train|Daily|Travel|Rush hour|medium
+Rush hour|Traffic|Busy|Morning|Commute|Crowded|medium
+Weekend|Saturday|Sunday|Rest|Friday|Off|medium
+Bank holiday|Day off|Monday|Public|Britain|Long weekend|hard
+Pension|Retirement|Old age|Money|Save|Work|hard
+Unemployment|Job|Work|Without|Benefits|Search|hard
+Mother Teresa|Nun|Calcutta|Poor|Charity|Saint|medium

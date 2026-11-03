@@ -1,0 +1,154 @@
+Bed|Sleep|Mattress|Pillow|Sheets|Duvet|easy
+Pillow|Head|Bed|Soft|Sleep|Fight|easy
+Sofa|Couch|Sit|Living room|Cushions|Settee|easy
+Chair|Sit|Legs|Table|Seat|Back|easy
+Table|Legs|Eat|Dinner|Wood|Chairs|easy
+Wardrobe|Clothes|Narnia|Hang|Bedroom|Doors|medium
+Mirror|Reflection|Glass|Look|Bathroom|Seven years|easy
+Lamp|Light|Bulb|Shade|Switch|Desk|easy
+Light bulb|Edison|Idea|Lamp|Glass|Watt|easy
+Candle|Wax|Wick|Flame|Light|Birthday|easy
+Clock|Time|Hands|Tick|Wall|Alarm|easy
+Alarm clock|Wake|Morning|Ring|Snooze|Bedside|easy
+Door|Open|Close|Handle|Knock|Key|easy
+Window|Glass|Open|Curtains|Look|Pane|easy
+Curtains|Window|Close|Fabric|Draw|Rail|medium
+Carpet|Floor|Rug|Soft|Vacuum|Fluffy|medium
+Stairs|Up|Down|Steps|Climb|Floor|easy
+Roof|Top|House|Tiles|Rain|Chimney|easy
+Chimney|Smoke|Santa|Roof|Fire|Sweep|easy
+Fireplace|Flames|Logs|Warm|Chimney|Mantelpiece|medium
+Kitchen|Cook|Oven|Room|Sink|Fridge|easy
+Bathroom|Toilet|Shower|Mirror|Sink|Wash|easy
+Bedroom|Sleep|Pyjamas|Pillow|Upstairs|Wardrobe|easy
+Living room|Sofa|Television|Lounge|Relax|Family|easy
+Attic|Roof|Top|Dusty|Loft|Storage|medium
+Basement|Underground|Cellar|Stairs|Dark|Below|medium
+Garage|Car|Park|Door|Tools|House|medium
+Garden|Flowers|Grass|Plants|Outside|Shed|easy
+Shed|Garden|Tools|Wooden|Hut|Lawnmower|medium
+Fence|Garden|Wooden|Border|Neighbour|Post|medium
+Fridge|Cold|Food|Kitchen|Freezer|Milk|easy
+Freezer|Cold|Ice|Frozen|Food|Fridge|medium
+Oven|Bake|Hot|Kitchen|Cook|Roast|easy
+Microwave|Heat|Ping|Popcorn|Kitchen|Minutes|easy
+Toaster|Bread|Pop|Breakfast|Slots|Burn|easy
+Kettle|Boil|Water|Tea|Steam|Whistle|easy
+Dishwasher|Plates|Clean|Kitchen|Machine|Load|medium
+Washing machine|Clothes|Laundry|Spin|Powder|Clean|easy
+Tumble dryer|Clothes|Laundry|Warm|Spin|Lint|medium
+Iron|Clothes|Creases|Hot|Board|Shirt|medium
+Vacuum cleaner|Hoover|Dust|Suck|Carpet|Noisy|easy
+Broom|Sweep|Witch|Brush|Floor|Handle|easy
+Mop|Floor|Bucket|Wet|Clean|Wash|medium
+Bucket|Water|Handle|Mop|Spade|Carry|easy
+Sponge|Wash|Squeeze|Holes|Yellow|Soak|easy
+Dustbin|Rubbish|Trash|Throw|Lid|Wheelie|easy
+Plate|Dish|Eat|Food|Round|Dinner|easy
+Fork|Prongs|Eat|Knife|Spoon|Cutlery|easy
+Spoon|Soup|Cutlery|Stir|Eat|Fork|easy
+Knife|Cut|Sharp|Blade|Fork|Butter|easy
+Chopsticks|China|Two|Noodles|Eat|Rice|medium
+Cup|Drink|Tea|Handle|Mug|Saucer|easy
+Teapot|Kettle|Spout|Pour|Lid|Little|medium
+Frying pan|Cook|Eggs|Handle|Omelette|Hob|medium
+Saucepan|Boil|Handle|Lid|Cook|Hob|medium
+Rolling pin|Dough|Pastry|Flat|Bake|Wood|medium
+Whisk|Beat|Eggs|Cream|Mix|Wire|medium
+Cheese grater|Cheddar|Holes|Parmesan|Sharp|Kitchen|medium
+Corkscrew|Wine|Bottle|Open|Twist|Sommelier|hard
+Tin opener|Can|Beans|Kitchen|Tool|Lid|hard
+Colander|Holes|Pasta|Drain|Water|Bowl|hard
+Apron|Cook|Kitchen|Tie|Clean|Wear|medium
+Oven gloves|Hot|Hands|Mitts|Protect|Kitchen|medium
+Tablecloth|Picnic|Cover|Fabric|Dinner|Spill|medium
+Napkin|Mouth|Wipe|Paper|Dinner|Lap|medium
+Towel|Dry|Bath|Shower|Beach|Fluffy|easy
+Toothbrush|Dentist|Electric|Paste|Bristles|Morning|easy
+Toothpaste|Colgate|Tube|Brush|Mint|Squeeze|medium
+Soap|Wash|Bubbles|Hands|Clean|Bar|easy
+Shampoo|Hair|Wash|Bottle|Shower|Lather|medium
+Bathtub|Rubber duck|Water|Soak|Bubbles|Taps|medium
+Shower|Water|Wash|Bathroom|Head|Curtain|easy
+Toilet|Flush|Seat|Bathroom|Loo|Paper|easy
+Toilet roll|Paper|Bathroom|Tissue|Soft|Wipe|medium
+Hairdryer|Salon|Hot|Air|Blow|Wet|medium
+Comb|Hair|Teeth|Brush|Parting|Plastic|medium
+Radiator|Heat|Warm|Wall|Central heating|Pipes|hard
+Doorbell|Ring|Ding-dong|Press|Visitor|Button|medium
+Doormat|Welcome|Wipe|Feet|Entrance|Muddy|medium
+Letterbox|Post|Door|Flap|Mail|Slot|medium
+Key|Lock|Door|Open|Metal|Unlock|easy
+Padlock|Shackle|Key|Combination|Gate|Metal|medium
+Light switch|On|Off|Wall|Flick|Button|easy
+Plug|Socket|Electric|Pins|Wall|Bath|medium
+Remote control|Television|Channel|Buttons|Sofa|Batteries|easy
+Television|Watch|Screen|Channels|Remote|Programmes|easy
+Bookshelf|Novels|Read|Wall|Library|Wood|medium
+Picture frame|Photo|Wall|Hang|Glass|Border|medium
+Vase|Flowers|Water|Glass|China|Ming|medium
+Cushion|Sofa|Soft|Pillow|Sit|Fluffy|medium
+Blanket|Warm|Bed|Cover|Wool|Snuggle|medium
+Duvet|Bed|Cover|Warm|Feathers|Quilt|medium
+Hot water bottle|Warm|Bed|Rubber|Winter|Cuddle|medium
+Rocking chair|Grandma|Porch|Wooden|Back and forth|Knitting|medium
+Armchair|Sit|Comfy|Cosy|Living room|Single|medium
+Bunk bed|Two|Ladder|Top|Bottom|Children|medium
+Cot|Baby|Bed|Bars|Sleep|Nursery|medium
+Cradle|Baby|Rock|Bed|Lullaby|Small|hard
+Hammock|Swing|Trees|Relax|Garden|Rope|medium
+Coat hanger|Clothes|Wardrobe|Hook|Wire|Rail|medium
+Chest of drawers|Bedroom|Clothes|Wooden|Furniture|Pull|hard
+Ladder|Climb|Steps|Rungs|High|Paint|easy
+Hammer|Nail|Hit|Tool|Bang|DIY|easy
+Screwdriver|Toolbox|Turn|Tool|Phillips|Flathead|medium
+Drill|Holes|Wall|Bit|Tool|Noise|medium
+Saw|Cut|Wood|Teeth|Tool|Blade|medium
+Spanner|Bolt|Tool|Nut|Turn|Wrench|hard
+Pliers|Grip|Tool|Wire|Squeeze|Jaws|hard
+Tape measure|Length|Ruler|Metal|Inches|Roll|medium
+Wallpaper|Glue|Paste|Roll|Pattern|Decorate|medium
+Toolbox|Screwdriver|Hammer|Spanner|Handle|DIY|medium
+Torch|Light|Batteries|Dark|Beam|Flashlight|easy
+Smoke alarm|Fire|Beep|Ceiling|Battery|Detector|medium
+Fire extinguisher|Flames|Red|Spray|Foam|Emergency|medium
+Lawnmower|Grass|Cut|Garden|Blades|Noisy|medium
+Watering can|Pour|Plants|Garden|Spout|Flowers|medium
+Wheelbarrow|Garden|Gardener|Push|Carry|Soil|hard
+Spade|Dig|Garden|Soil|Shovel|Handle|medium
+Rake|Leaves|Garden|Prongs|Autumn|Gather|medium
+Hose|Water|Garden|Spray|Long|Tap|medium
+Greenhouse|Glass|Plants|Grow|Warm|Tomatoes|medium
+Garden gnome|Statue|Beard|Hat|Small|Lawn|medium
+Bird feeder|Seeds|Garden|Hang|Robins|Nuts|medium
+Swing|Garden|Push|Playground|Chains|Seat|easy
+Trampoline|Bounce|Jump|Garden|Springs|Net|easy
+Paddling pool|Inflatable|Water|Garden|Children|Splash|medium
+Umbrella stand|Hall|Walking sticks|Door|Rain|Holder|hard
+Coat rack|Hall|Jackets|Hooks|Hang|Door|medium
+Keyring|House|Loop|Metal|Pocket|Chain|medium
+Board game|Dice|Monopoly|Family|Play|Counters|medium
+Dollhouse|Toy|Small|Miniature|Rooms|Furniture|medium
+Teddy bear|Toy|Soft|Cuddle|Bed|Fluffy|easy
+Piggy bank|Money|Coins|Save|Pink|Slot|medium
+Thermostat|Temperature|Heating|Wall|Dial|Degrees|hard
+Lightshade|Lamp|Bulb|Cover|Ceiling|Fabric|hard
+Ceiling fan|Blades|Spin|Cool|Air|Above|medium
+Air conditioner|Cool|Summer|Cold|Unit|Hot|medium
+Sewing machine|Thread|Needle|Fabric|Stitch|Bobbin|hard
+Needle and thread|Sew|Eye|Button|Stitch|Pin|medium
+Knitting needles|Wool|Scarf|Grandma|Purl|Stitch|medium
+Safety pin|Clip|Fasten|Nappy|Sharp|Close|hard
+Paperclip|Staple|Metal|Hold|Bend|Office|medium
+Calendar|Days|Months|Date|Wall|Year|easy
+Rubbish bag|Black|Plastic|Tie|Dustbin|Trash|hard
+Clothes peg|Washing line|Hang|Clip|Laundry|Wooden|hard
+Washing line|Clothes|Hang|Garden|Dry|Pegs|medium
+Laundry basket|Dirty|Clothes|Wash|Wicker|Pile|medium
+Ironing board|Steam|Flat|Clothes|Fold|Creases|medium
+Dustpan and brush|Sweep|Floor|Crumbs|Dirt|Clean|medium
+Feather duster|Ostrich|Clean|Shelf|Maid|Light|hard
+Fruit bowl|Apples|Bananas|Table|Kitchen|Centre|hard
+Cookie jar|Biscuits|Lid|Kitchen|Hand|Caught|medium
+Spice rack|Herbs|Jars|Kitchen|Shelf|Pepper|hard
+Lunchbox|School|Sandwich|Pack|Plastic|Children|medium

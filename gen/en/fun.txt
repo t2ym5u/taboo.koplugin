@@ -1,0 +1,124 @@
+Piece of cake|Easy|Simple|Dessert|Slice|Expression|easy
+Tickle|Laugh|Feet|Fingers|Giggle|Armpit|easy
+Whoopee cushion|Prank|Noise|Sit|Joke|Rubber|medium
+Pillow fight|Feathers|Bed|Sleepover|Hit|Soft|easy
+Sleepover|Friends|Night|Pyjamas|Sleeping bag|Party|easy
+Hiccups|Breath|Water|Scare|Sudden|Stop|medium
+Brain freeze|Ice cream|Cold|Headache|Fast|Slushie|medium
+Tooth Fairy|Pillow|Coin|Night|Lost|Child|easy
+Santa Claus|Christmas|Beard|Presents|Reindeer|Chimney|easy
+Easter Bunny|Eggs|Chocolate|Rabbit|Basket|Spring|easy
+Leprechaun|Ireland|Gold|Rainbow|Green|Little man|medium
+Black cat|Bad luck|Superstition|Cross|Path|Witch|medium
+Broken mirror|Seven years|Bad luck|Glass|Superstition|Reflection|medium
+Four-leaf clover|Lucky|Green|Plant|Rare|Ireland|medium
+Friday the 13th|Unlucky|Date|Superstition|Horror|Bad luck|medium
+Knock on wood|Luck|Table|Superstition|Tap|Jinx|medium
+Wishbone|Chicken|Pull|Break|Snap|Thanksgiving|hard
+Shooting star|Wish|Sky|Night|Meteor|Fall|easy
+Magic 8 Ball|Question|Answer|Shake|Toy|Black|medium
+Ouija board|Spirits|Letters|Ghost|Seance|Planchette|hard
+Haunted house|Ghost|Scary|Halloween|Spooky|Creaky|medium
+Trick or treat|Halloween|Candy|Costume|Door|Knock|easy
+Pumpkin carving|Halloween|Knife|Face|Candle|Orange|medium
+April Fools' Day|Prank|Joke|First|Trick|Hoax|medium
+Prank call|Phone|Joke|Hang up|Trick|Anonymous|medium
+Banana peel|Slip|Fall|Cartoon|Yellow|Skin|easy
+Cream pie in the face|Clown|Slapstick|Throw|Custard|Splat|medium
+Clown|Circus|Red nose|Makeup|Funny|Juggler|easy
+Mime|Invisible|Wall|Silent|Gestures|Face paint|medium
+Rubber chicken|Joke|Squeak|Toy|Prank|Yellow|medium
+Joy buzzer|Handshake|Shock|Prank|Hand|Joke shop|hard
+Knock-knock joke|Who's there|Door|Funny|Pun|Answer|easy
+Pun|Joke|Word|Groan|Play|Dad|medium
+Dad joke|Father|Pun|Groan|Corny|Cheesy|easy
+Tongue twister|Say|Fast|Sally|Seashells|Difficult|medium
+Riddle|Question|Answer|Puzzle|Sphinx|Guess|medium
+Selfie|Phone|Picture|Myself|Arm|Camera|medium
+Photobomb|Picture|Background|Jump|Funny face|Ruin|medium
+Bad hair day|Messy|Morning|Comb|Grumpy|Frizzy|medium
+Monday morning|Week|Work|Alarm|Coffee|Tired|medium
+Snooze button|Alarm|Morning|Five minutes|Clock|Press|medium
+Couch potato|Lazy|Sofa|Television|Sit|Snacks|medium
+Night owl|Late|Sleep|Bird|Awake|Early|medium
+Early bird|Worm|Morning|Wake|Catches|Owl|medium
+Butterflies in your stomach|Nervous|Belly|Feeling|Love|Fluttering|medium
+Cold feet|Nervous|Wedding|Back out|Doubt|Toes|hard
+Spill the beans|Secret|Tell|Reveal|Gossip|Confess|hard
+Break a leg|Good luck|Theatre|Actor|Stage|Show|medium
+Raining cats and dogs|Heavy|Downpour|Pouring|Weather|Pets|hard
+Once in a blue moon|Rare|Seldom|Sky|Night|Never|hard
+When pigs fly|Never|Impossible|Wings|Farm|Sarcasm|medium
+Bite the bullet|Endure|Pain|Brave|Do it|Hard|hard
+Hit the sack|Bed|Sleep|Tired|Night|Go|medium
+Elephant in the room|Obvious|Ignore|Problem|Big|Avoid|hard
+Cat got your tongue|Speechless|Silent|Quiet|Answer|Mouth|hard
+Let the cat out of the bag|Secret|Reveal|Tell|Accident|Spoil|hard
+Kick the bucket|Die|Pass away|Expression|Pail|Death|hard
+Under the weather|Sick|Ill|Unwell|Cold|Feeling|hard
+Over the moon|Happy|Thrilled|Delighted|Joy|Ecstatic|hard
+Couldn't care less|Indifferent|Shrug|Bother|Whatever|Interest|hard
+Cost an arm and a leg|Expensive|Price|Money|Pay|Dear|medium
+Pull someone's leg|Joke|Tease|Kid|Trick|Fool|hard
+Beat around the bush|Avoid|Point|Direct|Hesitate|Waffle|hard
+Hold your horses|Wait|Patience|Slow down|Calm|Stop|hard
+Head over heels|In love|Crazy|Romance|Tumble|Fall|hard
+Sour grapes|Jealous|Bitter|Fox|Fable|Envy|hard
+Wild goose chase|Pointless|Search|Hunt|Waste|Futile|hard
+The bee's knees|Excellent|Great|Best|Cool|Old-fashioned|hard
+Red herring|Clue|Mystery|Distraction|Mislead|Fish|hard
+Elbow grease|Effort|Scrub|Clean|Work|Hard|hard
+Bucket list|Before you die|Goals|Dreams|Things to do|Wishes|medium
+Jinx|Same time|Say|Owe|Soda|Curse|medium
+Rock paper scissors|Hand|Game|Shoot|Choose|Beats|easy
+Hide and seek|Count|Find|Game|Children|Hiding|medium
+Tag|You're it|Chase|Run|Touch|Game|medium
+Musical chairs|Last one|Sit|Stop|Party|Game|easy
+Pin the tail on the donkey|Blindfold|Party|Game|Birthday|Spin|medium
+Piñata|Candy|Stick|Blindfold|Hit|Party|easy
+Musical statues|Freeze|Still|Stop|Dance|Party|medium
+Charades|Mime|Guess|Movie|Silent|Act|medium
+Truth or dare|Game|Question|Secret|Brave|Party|easy
+Sack race|Jump|Bag|Hop|Sports day|Fall|medium
+Egg and spoon race|Balance|Run|Drop|Sports day|Carry|medium
+Three-legged race|Tie|Partner|Run|Rope|Fall|medium
+Conga line|Dance|Party|Hips|Chain|Follow|medium
+Karaoke|Sing|Microphone|Lyrics|Screen|Bar|easy
+Air guitar|Pretend|Rock|Play|Invisible|Strum|medium
+Snowball fight|Winter|Throw|Cold|Ice|Play|medium
+Snowman|Carrot|Nose|Winter|Coal|Build|easy
+Sandcastle|Beach|Bucket|Spade|Tide|Build|medium
+Bubble wrap|Pop|Packaging|Plastic|Fragile|Squeeze|medium
+Rubber duck|Bath|Yellow|Toy|Squeak|Float|medium
+Belly laugh|Loud|Funny|Stomach|Hilarious|Roar|medium
+Noogie|Head|Knuckles|Rub|Brother|Hair|hard
+Funny bone|Elbow|Hit|Tingle|Ouch|Nerve|medium
+Pins and needles|Leg|Asleep|Tingle|Numb|Prickly|hard
+Goosebumps|Cold|Skin|Fear|Shiver|Chill|medium
+Yawn|Tired|Mouth|Sleepy|Bored|Contagious|easy
+Bigfoot|Hairy|Forest|Footprint|Legend|Ape|medium
+Yeti|Snow|Himalayas|Abominable|Hairy|Legend|medium
+Mermaid|Tail|Sea|Fish|Ariel|Swim|easy
+Fairy godmother|Wand|Cinderella|Wish|Magic|Pumpkin|medium
+Wishing well|Coin|Throw|Water|Penny|Bucket|medium
+Jack and the Beanstalk|Giant|Climb|Cow|Fee-fi-fo-fum|Golden goose|medium
+The Three Little Pigs|Wolf|Huff|Puff|Bricks|Straw|medium
+Bogeyman|Scary|Closet|Under the bed|Monster|Children|hard
+Imaginary friend|Pretend|Child|Invisible|Play|Talk|medium
+Lucky charm|Rabbit's foot|Horseshoe|Four-leaf clover|Pocket|Amulet|medium
+Horseshoe|Luck|Iron|Hoof|Nail|Door|medium
+Crossed fingers|Hope|Luck|Hand|Lie|Wish|medium
+Mood ring|Color|Finger|Feelings|Change|Jewellery|hard
+Lava lamp|Blobs|Wax|Seventies|Light|Groovy|hard
+Slinky|Spring|Stairs|Toy|Metal|Walk|medium
+Yo-yo|String|Up|Down|Toy|Spin|medium
+Silly putty|Bounce|Stretch|Egg|Pink|Toy|hard
+Jack-in-the-box|Pop|Crank|Toy|Clown|Surprise|hard
+Practical joke|Prank|Trick|Laugh|Fool|Victim|medium
+Stink bomb|Smell|Prank|Throw|Rotten eggs|Nasty|medium
+Tongue stuck to a pole|Winter|Frozen|Lick|Cold|Metal|hard
+Thumb war|Fingers|Wrestle|One two three|Hand|Pin|medium
+Staring contest|Blink|Eyes|Look|Lose|First|medium
+Arm wrestling|Table|Strength|Elbow|Hand|Push|medium
+Sleepwalking|Night|Bed|Asleep|Wander|Dream|medium
+Food fight|Throw|Cafeteria|Mess|Pie|School|medium

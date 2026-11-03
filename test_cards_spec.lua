@@ -18,11 +18,12 @@ local function strip_accents(s)
     end))
 end
 
-describe("taboo card deck", function()
+local function deck_spec(module)
+describe("taboo card deck " .. module, function()
     local deck
 
     setup(function()
-        deck = require("taboo_cards_fr")
+        deck = require(module)
     end)
 
     it("is a theme-keyed dict, the shape _filterByTheme expects", function()
@@ -143,6 +144,92 @@ describe("taboo card deck", function()
     it("leaves no theme empty", function()
         for theme, cards in pairs(deck) do
             assert.is_true(#cards > 0, "theme " .. theme .. " is empty")
+        end
+    end)
+end)
+end
+
+deck_spec("taboo_cards_fr")
+deck_spec("taboo_cards_en")
+
+-- The English deck is written from scratch (gen/en/*.txt -> gen/build_en.py),
+-- so it is held to a few rules the older French deck predates.
+describe("English deck", function()
+    local deck
+    local THEMES = {
+        "fun", "action", "alimentation", "animaux", "arts", "cinéma",
+        "géographie", "histoire", "jeuxvideo", "maison", "médecine", "métiers",
+        "mode", "musique", "nature", "sciences", "société", "sports",
+        "technologies", "transports",
+    }
+
+    setup(function()
+        deck = require("taboo_cards_en")
+    end)
+
+    it("covers every theme id of the French deck, and only those", function()
+        -- Same ids in both decks: the theme filter and the saved selection
+        -- ("selected_themes_<lang>") are keyed by them.
+        local known = {}
+        for _, t in ipairs(THEMES) do known[t] = true end
+        for theme in pairs(deck) do
+            assert.is_true(known[theme] == true, "unknown theme id " .. theme)
+        end
+        for _, t in ipairs(THEMES) do
+            assert.is_table(deck[t], "missing theme " .. t)
+            assert.is_true(#deck[t] >= 70, t .. " has only " .. #deck[t] .. " cards")
+        end
+    end)
+
+    it("has 2,000+ cards", function()
+        local n = 0
+        for _, cards in pairs(deck) do n = n + #cards end
+        assert.is_true(n >= 2000, n .. " cards")
+    end)
+
+    it("gives every card exactly five forbidden words", function()
+        for theme, cards in pairs(deck) do
+            for _, card in ipairs(cards) do
+                assert.are.equal(5, #card.forbidden, theme .. ": " .. card.word)
+            end
+        end
+    end)
+
+    it("never forbids a word that is part of the guess word", function()
+        -- "Hot dog" forbidding "Dogs" wastes a slot: saying part of the
+        -- word is against the rules anyway. Plural-insensitive.
+        local STOP = { a=1, an=1, the=1, of=1, ["and"]=1, ["in"]=1, on=1, at=1,
+            to=1, ["for"]=1, de=1, la=1, le=1, du=1, des=1, with=1, by=1, ["or"]=1 }
+        local function stems(s)
+            local out = {}
+            for tok in s:lower():gmatch("[%a%d]+") do
+                local t = tok
+                if #t >= 3 and not STOP[t] then
+                    if #t > 4 and t:sub(-3) == "ies" then t = t:sub(1, -4) .. "y"
+                    elseif #t > 3 and t:sub(-1) == "s" and t:sub(-2) ~= "ss" then t = t:sub(1, -2) end
+                    out[t] = true
+                end
+            end
+            return out
+        end
+        for theme, cards in pairs(deck) do
+            for _, card in ipairs(cards) do
+                local w = stems(card.word)
+                for _, f in ipairs(card.forbidden) do
+                    for t in pairs(stems(f)) do
+                        assert.is_nil(w[t], theme .. ": " .. card.word .. " / " .. f)
+                    end
+                end
+            end
+        end
+    end)
+
+    it("is plain ASCII-or-UTF-8 text with no stray separators", function()
+        for theme, cards in pairs(deck) do
+            for _, card in ipairs(cards) do
+                assert.is_nil(card.word:find("[|\n]"), theme .. ": " .. card.word)
+                assert.are.equal(card.word, card.word:match("^%s*(.-)%s*$"))
+            end
         end
     end)
 end)

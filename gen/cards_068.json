@@ -46,7 +46,6 @@
 {"word":"Cyrus","forbidden":["Fondateur","Perse","Empire","Libérateur","Roi"],"theme":"histoire","difficulty":"hard"},
 {"word":"Confucius","forbidden":["Sage","Chine","Philosophie","Respect","Ancêtres"],"theme":"histoire","difficulty":"medium"},
 {"word":"Sun Tzu","forbidden":["Art","Guerre","Chine","Stratégie","Général"],"theme":"histoire","difficulty":"medium"},
-{"word":"Attila","forbidden":["Hun","Barbares","Envahir","Rome","Destruction"],"theme":"histoire","difficulty":"medium"},
 {"word":"Charlemagne","forbidden":["Roi","Francs","Couronné","Noël","Empire"],"theme":"histoire","difficulty":"medium"},
 {"word":"Guillaume le Conquérant","forbidden":["Normandie","Angleterre","Envahir","Conquête","1066"],"theme":"histoire","difficulty":"medium"},
 {"word":"Aliénor d'Aquitaine","forbidden": ["Reine", "France", "Angleterre", "Duchesse", "Croisade"],"theme":"histoire","difficulty":"medium"},
@@ -61,9 +60,6 @@
 {"word":"Victoria","forbidden":["Reine","Angleterre","Empire","Époque","Longue"],"theme":"histoire","difficulty":"medium"},
 {"word":"Nicolas II","forbidden":["Tsar","Russie","Révolution","Exécuté","Romanov"],"theme":"histoire","difficulty":"medium"},
 {"word":"Lénine","forbidden":["Révolution","Russe","Bolchevique","URSS","Communisme"],"theme":"histoire","difficulty":"medium"},
-{"word":"Staline","forbidden":["URSS","Dictateur","Purges","Communisme","Guerre"],"theme":"histoire","difficulty":"medium"},
-{"word":"Hitler","forbidden":["Nazi","Guerre","Génocide","Führer","Bunker"],"theme":"histoire","difficulty":"easy"},
 {"word":"Gandhi","forbidden":["Inde","Non-Violence","Indépendance","Sel","Résistance"],"theme":"histoire","difficulty":"easy"},
-{"word":"Mao Tsé-Toung","forbidden":["Chine","Communisme","Grande","Révolution","Mur"],"theme":"histoire","difficulty":"medium"},
 {"word":"Mandela","forbidden":["Apartheid","Afrique","Prison","Liberté","ANC"],"theme":"histoire","difficulty":"easy"}
 ]

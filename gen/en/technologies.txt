@@ -1,0 +1,77 @@
+Computer|Screen|Keyboard|Mouse|Laptop|Internet|easy
+Laptop|Computer|Portable|Screen|Keyboard|Battery|easy
+Smartphone|Screen|Apps|Touchscreen|Call|Mobile|easy
+Tablet|iPad|Screen|Touch|Apps|Portable|easy
+Keyboard|Keys|Type|Computer|Letters|QWERTY|easy
+Printer|Paper|Ink|Cartridge|Copy|Jam|easy
+Internet|Web|Online|Browser|Wi-Fi|Connect|easy
+Wi-Fi|Wireless|Internet|Password|Router|Signal|easy
+Email|Message|Inbox|Send|Address|Spam|easy
+Website|Internet|Page|Browser|Link|Online|easy
+Password|Secret|Login|Security|Code|Forget|easy
+Search Engine|Google|Internet|Find|Results|Query|medium
+Download|Internet|File|Save|Upload|Progress|easy
+Hacker|Computer|Break In|Code|Virus|Security|medium
+Computer Virus|Infect|Malware|Infected|Spread|Hacker|medium
+Robot|Machine|Metal|Artificial|Android|Automatic|easy
+Artificial Intelligence|AI|Computer|Machine|Robot|Learn|medium
+Video Call|Camera|Zoom|Screen|Meeting|Online|easy
+Bluetooth|Wireless|Headphones|Pair|Connect|Speaker|medium
+USB Stick|Memory|Plug|Port|Files|Small|medium
+Charger|Battery|Phone|Plug|Cable|Power|easy
+Headphones|Ears|Music|Listen|Wireless|Sound|easy
+Radio|Station|Music|Listen|DJ|FM|easy
+Camera|Photo|Picture|Lens|Snap|Flash|easy
+Drone|Fly|Remote|Camera|Propellers|Aerial|medium
+Virtual Reality|Headset|Goggles|3D|Game|Immersive|medium
+GPS|Navigation|Satellite|Map|Directions|Location|medium
+Satellite|Orbit|Space|Signal|Dish|Earth|medium
+Microchip|Silicon|Computer|Small|Processor|Circuit|hard
+App|Phone|Download|Store|Icon|Program|easy
+Software|Program|Computer|Code|Install|Application|medium
+Coding|Program|Computer|Language|Developer|Bug|medium
+Bug|Error|Code|Fix|Software|Glitch|medium
+Spreadsheet|Excel|Cells|Rows|Columns|Numbers|medium
+Pixel|Screen|Dot|Image|Resolution|Small|medium
+Byte|Data|Bit|Eight|Memory|Kilo|hard
+Algorithm|Steps|Instructions|Computer|Problem|Code|hard
+Firewall|Security|Network|Block|Computer|Protect|hard
+Server|Computer|Data|Network|Host|Website|hard
+Barcode|Lines|Scan|Shop|Price|Checkout|medium
+QR Code|Square|Scan|Phone|Black|White|medium
+ATM|Cash|Bank|Card|PIN|Machine|easy
+Telephone|Call|Ring|Bell|Dial|Receiver|easy
+Steam Engine|Watt|Train|Industrial Revolution|Coal|Boiler|medium
+Wheel|Round|Invention|Car|Roll|Axle|easy
+Compass|North|Direction|Needle|Magnetic|Navigation|easy
+Typewriter|Keys|Paper|Ink|Ribbon|Old|medium
+Thomas Edison|Light Bulb|Inventor|Phonograph|American|Menlo Park|medium
+Alan Turing|Enigma|Codebreaker|Computer|Bletchley Park|Machine|medium
+Alexander Graham Bell|Telephone|Inventor|Scottish|Call|Deaf|medium
+Tim Berners-Lee|World Wide Web|Internet|Inventor|British|CERN|hard
+Steve Jobs|Apple|iPhone|Mac|Turtleneck|Founder|easy
+Bill Gates|Microsoft|Windows|Rich|Founder|Computer|easy
+Johannes Gutenberg|Printing Press|Bible|German|Books|Movable Type|hard
+James Watt|Steam Engine|Scottish|Inventor|Unit|Power|hard
+Guglielmo Marconi|Radio|Italian|Wireless|Inventor|Nobel|hard
+Charles Babbage|Computer|Difference Engine|Inventor|Lovelace|Victorian|hard
+Samuel Morse|Code|Telegraph|Dots|Dashes|Inventor|hard
+Telegraph|Wire|Morse|Message|Old|Signal|hard
+Hologram|3D|Light|Image|Projection|Star Wars|hard
+3D Printer|Plastic|Layers|Model|Filament|Object|medium
+Smartwatch|Wrist|Time|Steps|Phone|Screen|medium
+Electric Car|Battery|Charge|Tesla|Plug|Green|medium
+Solar Panel|Sun|Energy|Roof|Electricity|Power|medium
+Wind Turbine|Blades|Energy|Electricity|Spin|Farm|medium
+Nuclear Power|Atom|Energy|Reactor|Uranium|Plant|hard
+Laser|Light|Beam|Red|Pointer|Cut|medium
+Smart Speaker|Alexa|Voice|Music|Assistant|Home|medium
+Touchscreen|Finger|Tap|Swipe|Phone|Display|medium
+Webcam|Camera|Computer|Video|Call|Laptop|medium
+Floppy Disk|Save|Icon|Old|Computer|Square|medium
+Screenshot|Capture|Picture|Image|Phone|Save|medium
+Autocorrect|Typing|Phone|Wrong|Spelling|Change|medium
+Captcha|Robot|Prove|Letters|Images|Website|hard
+Podcast|Listen|Episode|Audio|Show|Subscribe|medium
+Streaming|Netflix|Watch|Online|Video|Music|medium
+Loading Bar|Wait|Progress|Percent|Slow|Download|medium

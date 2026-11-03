@@ -1,0 +1,170 @@
+Dog|Bark|Puppy|Pet|Bone|Leash|easy
+Cat|Meow|Kitten|Purr|Whiskers|Mouse|easy
+Elephant|Trunk|Tusks|Grey|Africa|Big|easy
+Lion|King|Mane|Roar|Africa|Jungle|easy
+Tiger|Stripes|Orange|Big cat|India|Roar|easy
+Giraffe|Neck|Tall|Spots|Africa|Leaves|easy
+Zebra|Stripes|Black|White|Horse|Africa|easy
+Monkey|Banana|Tree|Swing|Ape|Tail|easy
+Gorilla|Ape|Silverback|Chest|Jungle|King Kong|easy
+Chimpanzee|Ape|Jane Goodall|Monkey|Intelligent|Banana|medium
+Panda|Bamboo|China|Black|White|Bear|easy
+Polar bear|Arctic|White|Ice|Seal|Cold|easy
+Koala|Australia|Eucalyptus|Tree|Marsupial|Sleep|easy
+Kangaroo|Australia|Jump|Pouch|Joey|Hop|easy
+Penguin|Antarctica|Ice|Waddle|Black|Fly|easy
+Dolphin|Sea|Intelligent|Flipper|Clicks|Mammal|easy
+Whale|Ocean|Big|Blue|Mammal|Blowhole|easy
+Shark|Teeth|Jaws|Fin|Ocean|Bite|easy
+Octopus|Tentacles|Eight|Ink|Sea|Arms|easy
+Jellyfish|Sting|Transparent|Sea|Tentacles|Beach|medium
+Crab|Claws|Sideways|Shell|Beach|Pinch|easy
+Lobster|Claws|Red|Seafood|Boil|Expensive|medium
+Starfish|Five|Arms|Beach|Sea|Rock pool|medium
+Seahorse|Male|Pregnant|Coral|Curly|Tail|hard
+Turtle|Shell|Slow|Sea|Reptile|Tortoise|easy
+Tortoise|Shell|Slow|Hare|Old|Reptile|medium
+Snake|Slither|Hiss|Venom|Reptile|Scales|easy
+Crocodile|Teeth|River|Reptile|Alligator|Snap|easy
+Frog|Jump|Green|Pond|Tadpole|Croak|easy
+Rabbit|Ears|Carrot|Hop|Bunny|Burrow|easy
+Hamster|Wheel|Cage|Cheeks|Rodent|Pet|easy
+Guinea pig|Rodent|Pet|Cage|Squeak|Hutch|medium
+Mouse|Cheese|Squeak|Small|Rodent|Trap|easy
+Squirrel|Nuts|Tree|Tail|Bushy|Acorns|easy
+Hedgehog|Spikes|Prickles|Ball|Garden|Sonic|medium
+Fox|Red|Sly|Tail|Cunning|Den|easy
+Wolf|Howl|Pack|Moon|Grey|Big Bad|easy
+Bear|Honey|Hibernate|Grizzly|Teddy|Paw|easy
+Deer|Antlers|Bambi|Forest|Stag|Doe|medium
+Reindeer|Santa|Rudolph|Antlers|Sleigh|Lapland|medium
+Moose|Antlers|Canada|Big|Elk|Forest|medium
+Horse|Ride|Saddle|Gallop|Mane|Neigh|easy
+Donkey|Ears|Bray|Stubborn|Mule|Shrek|medium
+Cow|Milk|Moo|Farm|Udder|Beef|easy
+Pig|Pink|Oink|Mud|Farm|Bacon|easy
+Sheep|Wool|Baa|Lamb|Flock|Shepherd|easy
+Goat|Horns|Beard|Milk|Kid|Climb|medium
+Chicken|Egg|Hen|Cluck|Farm|Feathers|easy
+Rooster|Morning|Crow|Dawn|Farm|Comb|medium
+Duck|Quack|Pond|Waddle|Bill|Feathers|easy
+Swan|White|Neck|Lake|Graceful|Ugly duckling|medium
+Goose|Honk|Feathers|Gaggle|Christmas|Bird|medium
+Owl|Night|Hoot|Wise|Eyes|Hedwig|easy
+Eagle|Bird|Prey|Bald|Talons|Soar|medium
+Parrot|Talk|Colourful|Pirate|Feathers|Repeat|easy
+Flamingo|Pink|Leg|Bird|Stand|Shrimp|medium
+Peacock|Feathers|Tail|Blue|Display|Proud|medium
+Pigeon|City|Grey|Coo|Statue|Square|medium
+Robin|Red|Winter|Christmas|Bird|Garden|medium
+Crow|Black|Bird|Caw|Clever|Scarecrow|medium
+Woodpecker|Tree|Drum|Beak|Knock|Woody|medium
+Hummingbird|Tiny|Wings|Hover|Nectar|Fast|medium
+Ostrich|Big|Bird|Run|Sand|Egg|medium
+Bat|Night|Fly|Cave|Vampire|Upside down|easy
+Butterfly|Wings|Caterpillar|Colourful|Flower|Flutter|easy
+Caterpillar|Butterfly|Leaf|Cocoon|Hungry|Crawl|medium
+Bee|Honey|Sting|Buzz|Hive|Yellow|easy
+Wasp|Sting|Yellow|Black|Picnic|Nest|medium
+Ant|Small|Colony|Queen|Hill|Insect|easy
+Spider|Web|Eight|Legs|Spin|Silk|easy
+Ladybird|Red|Spots|Black|Insect|Lucky|medium
+Mosquito|Bite|Itch|Buzz|Blood|Malaria|medium
+Fly|Buzz|Swat|Wings|Insect|Window|easy
+Grasshopper|Jump|Green|Chirp|Legs|Insect|medium
+Snail|Shell|Slow|Slime|Garden|Trail|medium
+Worm|Soil|Wriggle|Bird|Earth|Fishing|medium
+Goldfish|Bowl|Orange|Memory|Pet|Swim|medium
+Salmon|Pink|River|Swim|Upstream|Fish|medium
+Camel|Hump|Desert|Water|Sahara|Ride|medium
+Hippopotamus|River|Big|Mouth|Africa|Grey|medium
+Rhinoceros|Horn|Africa|Grey|Thick|Charge|medium
+Cheetah|Fast|Spots|Run|Africa|Cat|medium
+Leopard|Spots|Big cat|Tree|Africa|Change|medium
+Jaguar|Spots|Big cat|Car|Amazon|Jungle|medium
+Hyena|Laugh|Scavenger|Africa|Spots|Lion King|medium
+Meerkat|Stand|Lookout|Desert|Timon|Burrow|medium
+Sloth|Slow|Tree|Hang|Lazy|Rainforest|medium
+Armadillo|Shell|Armour|Ball|Texas|Roll|hard
+Platypus|Duck|Bill|Eggs|Australia|Mammal|hard
+Kiwi bird|New Zealand|Flightless|Brown|Night|Beak|hard
+Raccoon|Mask|Bins|Stripes|Tail|Night|medium
+Skunk|Smell|Stripe|Black|White|Spray|medium
+Beaver|Dam|Teeth|River|Wood|Canada|medium
+Otter|River|Swim|Hold hands|Playful|Fish|medium
+Seal|Ocean|Flippers|Clap|Ice|Fish|medium
+Walrus|Tusks|Moustache|Arctic|Blubber|Ice|medium
+Sea lion|Bark|Flippers|Circus|Ball|Seal|medium
+Orca|Killer whale|Black|White|Free Willy|Ocean|medium
+Narwhal|Tusk|Unicorn|Arctic|Whale|Horn|hard
+Llama|Spit|Peru|Wool|Andes|Alpaca|medium
+Alpaca|Wool|Peru|Fluffy|Llama|Andes|hard
+Chameleon|Colour|Change|Tongue|Lizard|Camouflage|medium
+Iguana|Lizard|Green|Reptile|Spikes|Pet|hard
+Gecko|Lizard|Wall|Sticky|Feet|Small|hard
+Komodo dragon|Lizard|Indonesia|Big|Venom|Island|hard
+Cobra|Snake|Hood|Venom|India|Charmer|medium
+Python|Snake|Squeeze|Big|Constrictor|Kaa|medium
+Rattlesnake|Hiss|Tail|Shake|Venom|Desert|medium
+Scorpion|Sting|Tail|Desert|Pincers|Poison|medium
+Tarantula|Spider|Hairy|Big|Pet|Legs|medium
+Bumblebee|Fuzzy|Buzz|Flower|Yellow|Black|medium
+Dragonfly|Wings|Pond|Insect|Fast|Hover|hard
+Firefly|Light|Glow|Night|Insect|Summer|hard
+Cockroach|Insect|Kitchen|Survive|Brown|Dirty|medium
+Flea|Dog|Itch|Jump|Tiny|Bite|hard
+Tadpole|Frog|Pond|Tail|Baby|Swim|medium
+Toad|Frog|Warts|Brown|Pond|Hop|hard
+Salamander|Amphibian|Lizard|Fire|Newt|Wet|hard
+Axolotl|Mexico|Pink|Smile|Amphibian|Regrow|hard
+Puffer fish|Spikes|Inflate|Poison|Ball|Fugu|medium
+Clownfish|Nemo|Orange|Stripes|Anemone|Reef|medium
+Stingray|Flat|Tail|Barb|Sea|Sand|medium
+Eel|Slippery|Long|Electric|Snake|Water|hard
+Squid|Tentacles|Ink|Calamari|Sea|Giant|medium
+Coral|Reef|Sea|Colourful|Great Barrier|Bleaching|medium
+Sea urchin|Spiky|Rock|Ocean|Ball|Sting|hard
+Oyster|Pearl|Shell|Seafood|Raw|Open|hard
+Prawn|Shrimp|Pink|Seafood|Cocktail|Shell|medium
+T. rex|Dinosaur|Arms|Teeth|Jurassic|Big|easy
+Triceratops|Dinosaur|Three|Horns|Frill|Plant-eater|medium
+Stegosaurus|Dinosaur|Plates|Spikes|Tail|Back|hard
+Velociraptor|Dinosaur|Jurassic Park|Claw|Fast|Pack|hard
+Brontosaurus|Dinosaur|Neck|Long|Big|Plant-eater|hard
+Pterodactyl|Fly|Wings|Dinosaur|Reptile|Prehistoric|hard
+Mammoth|Woolly|Ice Age|Tusks|Elephant|Extinct|medium
+Dodo|Extinct|Mauritius|Bird|Flightless|Dead|hard
+Sabre-toothed tiger|Fangs|Ice Age|Extinct|Big cat|Diego|hard
+Unicorn|Horn|Horse|Magic|Rainbow|Myth|easy
+Dragon|Fire|Wings|Scales|Breathe|Knight|easy
+Loch Ness Monster|Scotland|Nessie|Lake|Myth|Neck|medium
+Puppy|Dog|Young|Cute|Baby|Lick|easy
+Kitten|Cat|Baby|Young|Meow|Cute|easy
+Lamb|Sheep|Baby|Spring|Wool|Mary|easy
+Bulldog|Bulky|British|Wrinkly|Face|Churchill|medium
+Poodle|Dog|Curly|French|Fluffy|Haircut|medium
+Dalmatian|Dog|Spots|Black|White|101|medium
+Labrador|Dog|Retriever|Golden|Guide|Friendly|medium
+Chihuahua|Dog|Tiny|Mexico|Handbag|Shake|medium
+Sheepdog|Farm|Herd|Collie|Whistle|Flock|medium
+Pony|Small|Horse|Ride|Child|Shetland|easy
+Mule|Donkey|Horse|Stubborn|Carry|Cross|hard
+Badger|Stripes|Black|White|Sett|Night|hard
+Mole|Underground|Dig|Blind|Tunnel|Hill|hard
+Vulture|Bird|Bald|Dead|Circle|Desert|hard
+Pelican|Beak|Pouch|Fish|Bird|Big|medium
+Toucan|Beak|Colourful|Bird|Rainforest|Big|medium
+Seagull|Beach|Chips|Bird|Steal|White|medium
+Albatross|Bird|Wings|Ocean|Sailors|Big|hard
+Kingfisher|Bird|Blue|River|Dive|Orange|hard
+Puffin|Bird|Orange|Beak|Cliff|Iceland|hard
+Herd|Group|Cows|Elephants|Many|Together|hard
+Hibernation|Winter|Sleep|Bear|Cold|Cave|hard
+Migration|Birds|Travel|South|Winter|Journey|hard
+Nest|Bird|Twigs|Eggs|Tree|Build|medium
+Paw|Foot|Cat|Dog|Print|Claws|medium
+Feather|Bird|Light|Quill|Pillow|Wing|medium
+Vet|Animal|Doctor|Pet|Sick|Clinic|medium
+Zoo|Animals|Cages|Visit|Keeper|Lions|easy
+Safari|Africa|Jeep|Animals|Lions|Kenya|medium
+Aquarium|Fish|Tank|Glass|Water|Sea life|medium
