@@ -97,3 +97,10 @@ Bowler hat|Round|Black|English|Charlie Chaplin|Gentleman|hard
 Beret|French|Flat|Cap|Wool|Artist|hard
 Sombrero|Mexico|Wide|Hat|Brim|Straw|hard
 Fancy dress|Costume|Party|Pretend|Disguise|Theme|medium
+Dungarees|Straps|Denim|Trousers|Bib|Farmer|medium
+Bandana|Scarf|Head|Cowboy|Square|Neck|medium
+Headband|Hair|Forehead|Sweat|Tennis|Elastic|easy
+Blazer|Jacket|School|Buttons|Smart|Navy|medium
+Clogs|Wooden|Shoes|Dutch|Holland|Feet|medium
+Earmuffs|Ears|Cold|Warm|Winter|Fluffy|easy
+Turtleneck|Jumper|Neck|High|Roll|Polo|hard

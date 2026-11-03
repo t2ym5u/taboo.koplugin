@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.8.0] - 2026-11-03
+
+### Added
+- 100 new English cards, for the themes that had the fewest: Games
+  (82 → 108), Medicine (84 → 105), Technology (77 → 100), Transport
+  (88 → 111) and Fashion (99 → 106). The English deck now has 2,545 cards.
+
+### Changed
+- Cards no longer come back from one evening to the next: the game remembers
+  the last 3,000 cards played (per deck language) and deals the ones not seen
+  yet first. A card returns only once every card of the chosen themes has
+  been played (with the whole 8,402-card French deck, cards older than the
+  last 3,000 may come back a little earlier). This also works with your own
+  deck file.
+- Needs game-common 1.11.0.
+
 ## [1.7.0] - 2026-11-02
 
 ### Added

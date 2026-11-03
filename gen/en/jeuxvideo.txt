@@ -80,3 +80,29 @@ Pictionary|Draw|Guess|Board Game|Timer|Sketch|medium
 Twister|Mat|Spots|Left Hand|Colors|Spinner|easy
 Marbles|Glass|Roll|Shoot|Children|Balls|easy
 Game Console|Play|Controller|TV|PlayStation|Nintendo|easy
+Video Game|Console|Play|Screen|Controller|Level|easy
+Playing Cards|Deck|Shuffle|Hearts|Spades|Deal|easy
+Hopscotch|Chalk|Squares|Hop|Playground|Jump|easy
+Mahjong|Tiles|Chinese|Four|Players|Dragon|hard
+Spinning Top|Toy|Turn|Whirl|Floor|Wobble|medium
+Escape Room|Locked|Clues|Puzzle|Team|Key|medium
+Power-up|Mushroom|Bonus|Stronger|Collect|Star|medium
+Leaderboard|Ranking|Top|Scores|Players|Best|medium
+Side Quest|Mission|Optional|Story|Reward|Adventure|hard
+Open World|Explore|Map|Free|Roam|Adventure|hard
+Handheld Console|Portable|Screen|Buttons|Travel|Play|medium
+Respawn|Die|Again|Back|Life|Restart|hard
+Tutorial|Learn|First|Level|How|Beginner|medium
+Water Pistol|Squirt|Summer|Wet|Toy|Shoot|easy
+Kaleidoscope|Colours|Patterns|Tube|Mirrors|Turn|medium
+Treasure Map|Pirate|X|Island|Gold|Dig|easy
+Snap|Cards|Same|Pair|Shout|Pile|easy
+Go Fish|Cards|Ask|Pairs|Pond|Children|medium
+Pass the Parcel|Music|Layers|Paper|Party|Present|easy
+Game Show|Television|Host|Prize|Contestant|Quiz|medium
+Checkpoint|Save|Level|Restart|Flag|Progress|hard
+Split Screen|Two|Players|Halves|Sofa|Multiplayer|hard
+Cartridge|Slot|Console|Insert|Blow|Old|medium
+Cutscene|Film|Story|Skip|Watch|Between|hard
+Marble Run|Track|Roll|Build|Glass|Toy|medium
+Dungeon|Monsters|Underground|Dragon|Treasure|Castle|medium
