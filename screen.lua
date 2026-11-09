@@ -166,10 +166,10 @@ end
 local TabooScreen = ScreenBase:extend{}
 
 function TabooScreen:init()
-    -- Deck language. Until the player picks one in the menu it follows the
-    -- KOReader UI: French readers get the French deck, everyone else the
-    -- English one (there is no other bundled deck).
-    self.lang     = self.plugin:getSetting("lang", _.lang() == "fr" and "fr" or "en")
+    -- Deck language: KOReader's (French readers get the French deck, everyone
+    -- else the English one -- there is no other bundled deck), unless the
+    -- player picked one in the menu under KOReader's current language.
+    self.lang     = self.plugin:getLang({ "fr", "en" })
     self.duration = self.plugin:getSetting("duration", DEFAULT_DURATION)
     local nb      = self.plugin:getSetting("nb_teams", DEFAULT_NB_TEAMS)
     self.cards_path = self.plugin:getSetting("cards_path", "")
@@ -505,7 +505,10 @@ function TabooScreen:openLangMenu()
         parent     = self,
         on_select  = function(lang)
             self.lang = lang
-            self.plugin:saveSetting("lang", lang)
+            self.plugin:setLang(lang)
+            -- _loadCards keeps the path of the deck it loaded: forget it,
+            -- or the old language's deck would load again.
+            self.cards_path = self.plugin:getSetting("cards_path", "")
             self.selected_themes = self:_loadThemeSelection()
             self.seen = TabooHistory.open(self.plugin, lang)
             self:_loadCards()

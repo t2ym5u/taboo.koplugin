@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.8.3] - 2026-11-09
+
+### Fixed
+- A language tried once in the game no longer sticks for good: the game
+  now starts in KOReader's language (French when KOReader is in French),
+  and a language picked in the game holds until KOReader's language changes.
+- Changing the deck language in the menu now deals the new language's cards
+  straight away, instead of the previous deck until the game was reopened.
+
 ## [1.8.2] - 2026-11-04
 
 ### Fixed
