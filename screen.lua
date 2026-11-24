@@ -392,7 +392,7 @@ end
 function TabooScreen:_startCountdown()
     self._tick_gen = (self._tick_gen or 0) + 1
     local gen = self._tick_gen
-    UIManager:scheduleIn(1, function() self:_onTick(gen) end)
+    self:schedule(1, function() self:_onTick(gen) end)
 end
 
 function TabooScreen:_stopCountdown()
@@ -409,7 +409,7 @@ function TabooScreen:_onTick(gen)
     if self.time_remaining <= 0 then
         self:_onTimerEnd()
     else
-        UIManager:scheduleIn(1, function() self:_onTick(gen) end)
+        self:schedule(1, function() self:_onTick(gen) end)
     end
 end
 
@@ -655,6 +655,7 @@ end
 
 -- New game: scores back to zero, first team to play.
 function TabooScreen:onNewGame()
+    self:cancelScheduled()
     self:_stopCountdown()
     for _i, t in ipairs(self.teams) do t.score = 0 end
     self.current_team = 1
